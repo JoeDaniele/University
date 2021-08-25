@@ -23,24 +23,30 @@ public class Exam1 {
 			nextNumber = geometric();
 			break;
 		case 3:
-
+			nextNumber = recurrence();
 			break;
 		case 4:
-
+			nextNumber = fibonacci();
 			break;
 		}
 
-		System.out.println("Enter the next value in the series:");
+		System.out.println("\nEnter the next value in the series:");
 		int userAnswer = input.nextInt();
 		if (userAnswer == nextNumber) {
 			System.out.println("Well done!");
 		} else {
-			System.out.println("Try again!");
+			System.out.println("\nNOPE.");
+			System.out.println("\nNext time try: " + nextNumber);
 		}
 
 		input.close();
+		
+		System.out.println("\n\nSince the recurrence method is basically identical to the arithmetic, "
+				+ "I decided to include one of the pillars of OOJ,\nironically called recursion.\n");
+		recursion(5);
+		
 	}
-	
+
 	public static int chooseRule() {
 		return (int) (Math.random() * 4 + 1);
 	}
@@ -63,6 +69,7 @@ public class Exam1 {
 
 		int startingNumber = (int) (Math.random() * 100 + 1);
 		int ratio = (int) (Math.random() * 5 + 1);
+		System.out.println("Ratio: " + ratio);
 		for (int i = 0; i < 4; i++) {
 			System.out.print("Item:" + (i + 1) + ", ");
 			System.out.println("Term: " + (startingNumber + Math.pow(ratio, i)));
@@ -77,29 +84,52 @@ public class Exam1 {
 	public static int recurrence() {
 		System.out.println("\nRecurrence\n");
 
-		return 0;
+		System.out.println("\nArithmetic\n");
+		int startingNumber = (int) (Math.random() * 100 + 1);
+		int difference = (int) (Math.random() * 10 + 1);
+
+		for (int i = 0; i < 4; i++) {
+			System.out.print("Item:" + (i + 1) + ", ");
+			System.out.println("Term: " + (startingNumber + difference * i));
+		}
+		return (startingNumber + difference * 4);
 
 	}
 
 	public static int fibonacci() {
 		System.out.println("\nFibonacci\n");
+		int startingNumber = (int) (Math.random() * 10 + 1);
 
-		return 0;
-
+		for (int i = 0; i < 5; i++) {
+			System.out.print("Item:" + (i) + ", ");
+			System.out.println("Term: " + fib(startingNumber + i));
+		}
+		return (int) fib(startingNumber + 5);
 	}
 
+	public static long fib(long n) {
+		if ((n == 0) || (n == 1))
+			return n;
+		else
+			return fib(n - 1) + fib(n - 2);
+		//recursive fibonacci sequence imported 
+	}
 
+	public static int recursion(int n) {
+
+		if (n == 0) { 					
+			System.out.println("Recursion is Done.");
+		} else {						
+			System.out.println("Recursion has started and is going."); 
+			n--; 						
+			recursion(n); 					
+		}
+		return n;
+	}
 }
 
+
 /*
- * I took a minute to review the video posted to fully understand the question.
- * At this current moment I already know how to create several methods, four of
- * which will hold the rules, one of which will select the rule at random. I'll
- * be sparsely looking while writing the code to ensure I'm doing this
- * correctly.
- * 
- * 
- * 
  * Rule 1:Geometric Progression A rule geometric progression is sequence of the
  * form a, ar, ar^2, ar^n where the initial term a and the common ration r are
  * real numbers.
