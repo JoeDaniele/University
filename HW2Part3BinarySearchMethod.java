@@ -1,5 +1,6 @@
 package COMSC2;
 
+//PROGRAM DESCRIPTION LINE 90
 public class HW2Part3BinarySearchMethod {
 	public static void main(String[] args) {
 		int[] array = new int[100000];
@@ -86,7 +87,10 @@ public class HW2Part3BinarySearchMethod {
 
 	}
 }
-// * #3 (Execution time) Write a program that randomly generates an array of
-// 100,000 numbers and a key. Estimate the execution time of invoking the linear
-// Search method. Sort the array and estimate the execution time of invoking the
-// binary Search method.
+
+/* Since I got a math exam tomorrow I'll make a video for this sometime Friday and turn it in either late or just on time.
+ * 
+ * 
+ * 
+ * 
+*/

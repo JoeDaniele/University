@@ -11,11 +11,9 @@ import java.util.Scanner;
 
 public class HW2Part1MethodOverloading {
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
 
 		average();
-	
-		input.close();
+
 	}
 
 	public static void average() {
@@ -41,22 +39,25 @@ public class HW2Part1MethodOverloading {
 
 	public void average(int userInputForArrayValues) {
 		System.out.println();
-		//unused method attempt at overloading -- found solution online, difficult without a guide
+
 	}
-	/* Function average is created on line 21 and called up to the main to be ran
-	 * create the scanner to request user input, labeled k for keyboard
-	 * create an array of integers titled array, parameterized by 5
-	 * loop created to store the values in the array, up to 5 values 
-	 * create new variable total set to 0 as it will be incremented in the next loop
-	 * next loop is a for each, for each index in the array, increase the total by users input 
-	 * print the total for visibility 
+	/*
+	 * line 42b unused method attempt at overloading -- found solution online,
+	 * difficult without a guide
+	 * 
+	 * Function average is created on line 21 and called up to the main to be ran
+	 * create the scanner to request user input, labeled k for keyboard create an
+	 * array of integers titled array, parameterized by 5 loop created to store the
+	 * values in the array, up to 5 values create new variable total set to 0 as it
+	 * will be incremented in the next loop next loop is a for each, for each index
+	 * in the array, increase the total by users input print the total for
+	 * visibility
 	 * 
 	 * create variable average to hold the answer and print
 	 * 
-	 * changed it to 5 cause when you're testing it, 10 is redundant 
+	 * changed it to 5 cause when you're testing it, 10 is redundant
 	 * 
 	 * 
 	 */
-	
-}
 
+}
