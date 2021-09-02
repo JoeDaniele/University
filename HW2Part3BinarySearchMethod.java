@@ -1,7 +1,6 @@
 package COMSC2;
 
-public class CopyPaste3 {
-
+public class HW2Part3BinarySearchMethod {
 	public static void main(String[] args) {
 		int[] array = new int[100000];
 		for (int i = 0; i < array.length; i++) {
@@ -86,5 +85,8 @@ public class CopyPaste3 {
 		return -low - 1; // Now high < low
 
 	}
-
 }
+// * #3 (Execution time) Write a program that randomly generates an array of
+// 100,000 numbers and a key. Estimate the execution time of invoking the linear
+// Search method. Sort the array and estimate the execution time of invoking the
+// binary Search method.

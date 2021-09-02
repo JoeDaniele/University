@@ -9,7 +9,7 @@ import java.util.Scanner;
 // Write a test program that prompts the user to enter ten values, invokes this
 // method, and displays the average value.
 
-public class HW2Part1 {
+public class HW2Part1MethodOverloading {
 	public static void main(String[] args) {
 		average();
 

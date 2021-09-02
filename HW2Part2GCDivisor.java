@@ -7,7 +7,7 @@ package COMSC2;
  */
 import java.util.Scanner;
 
-public class HW2Part2 {
+public class HW2Part2GCDivisor {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int[] numbers = new int[5]; 
