@@ -1,6 +1,6 @@
 package COMSC2;
 
-import java.util.Arrays;
+//import java.util.Arrays;
 import java.util.Scanner;
 
 //problem: using overloaded method -- i cannot pull the value stored in 1 method, to the other method. 
@@ -11,8 +11,11 @@ import java.util.Scanner;
 
 public class HW2Part1MethodOverloading {
 	public static void main(String[] args) {
-		average();
+		Scanner input = new Scanner(System.in);
 
+		average();
+	
+		input.close();
 	}
 
 	public static void average() {
@@ -38,7 +41,9 @@ public class HW2Part1MethodOverloading {
 
 	public void average(int userInputForArrayValues) {
 		System.out.println();
-
+		//unused method attempt at overloading -- found solution online, difficult without a guide
 	}
+	
+	
 }
 
