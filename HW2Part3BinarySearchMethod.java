@@ -41,7 +41,6 @@ public class HW2Part3BinarySearchMethod {
 
 	public static void selectionSort(int[] list) {
 		for (int i = 0; i < list.length - 1; i++) {
-			// Find the minimum in the list[i..list.length-1]
 			int currentMin = list[i];
 			int currentMinIndex = i;
 
@@ -52,7 +51,6 @@ public class HW2Part3BinarySearchMethod {
 				}
 			}
 
-			// Swap list[i] with list[currentMinIndex] if necessary
 			if (currentMinIndex != i) {
 				list[currentMinIndex] = list[i];
 				list[i] = currentMin;
@@ -68,7 +66,7 @@ public class HW2Part3BinarySearchMethod {
 		return -1;
 	}
 
-	/** Use binary search to find the key in the list */
+	
 	public static int binarySearch(int[] list, int key) {
 		int low = 0;
 		int high = list.length - 1;
@@ -83,14 +81,16 @@ public class HW2Part3BinarySearchMethod {
 				low = mid + 1;
 		}
 
-		return -low - 1; // Now high < low
+		return -low - 1; 
 
 	}
 }
 
-/* Since I got a math exam tomorrow I'll make a video for this sometime Friday and turn it in either late or just on time.
+/*
+ * Since I got a math exam tomorrow I'll make a video for this sometime Friday
+ * and turn it in either late or just on time.
  * 
  * 
  * 
  * 
-*/
+ */
