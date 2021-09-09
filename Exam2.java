@@ -1,7 +1,6 @@
 package DiscreteStructures;
 
 import java.util.Scanner;
-
 /*Programming Exam: Use the cashier's algorithm. Develop a program that randomly selects a total charge. 
  * Then randomly select a payment in dollars and cents that exceeds that charge. 
  * Then have the program calculate the change in pennies, nickels, dimes, quarters, ones, fives, and twenties. 
@@ -11,27 +10,29 @@ public class Exam2 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
-		int pennies, nickels, dimes, quarters;
-		float dollars;
+		double charge, payment;
+		// double pennies, nickels, dimes, quarters, ones, fives, twenties;
+		double change;
 
-		System.out.print("Pennies: ");
-		pennies = input.nextInt();
+		charge = (int) (Math.random() * 100);
+		System.out.println("Customers order totals to: $" + charge);
 
-		System.out.print("Nickels: ");
-		nickels = input.nextInt();
+		do {
+			payment = (int) (Math.random() * 100);
 
-		System.out.print("Dimes: ");
-		dimes = input.nextInt();
+		} while (payment <= charge);
 
-		System.out.print("Quarters: ");
-		quarters = input.nextInt();
+		System.out.println("Customer gives you: $" + payment);
 
-		dollars = (float) ((0.01 * pennies) + (0.05 * nickels) + (0.10 * dimes) + (0.25 * quarters));
+		change = (payment - charge);
 
-		System.out.println();
-		System.out.print("The total in dollars is $" + dollars);
-		System.out.println();
+		System.out.println("You give the customer: $" + change + " in change.");
+
+		// dollars = ((0.01 / pennies) + (0.05 / nickels) + (0.10 / dimes) + (0.25 /
+		// quarters));
+		// System.out.println();
+		// sSystem.out.print("The total in dollars is $" + dollars);
+		// System.out.println();
 		input.close();
 	}
-
 }
