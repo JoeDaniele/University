@@ -1,22 +1,31 @@
-package CompSci2;
+package COMSC2;
 
 public class HW4Part3 {
 
-	public int rollingForPair(GVdie d1, GVdie d2, int val) {
+	public static void main(String[] args) {
+		HW4Part3 instantiate = new HW4Part3();
+		Dice d1 = new Dice();
+		Dice d2 = new Dice();
+		int rolls = instantiate.rollingForPair(d1, d2, 1);
+		System.out.println("The number of times to get a pair with two die: " + rolls);
 
-		int rollCount = 0, val1 = 0, val2 = 0, temp = 0;
+	}
 
+	public int rollingForPair(Dice d1, Dice d2, int val) {
+
+		int rollCount = 0, firstDie = 0, secondDie = 0, temp = 0;
+		// putting vars like this for readability
 		do {
 			d1.roll();
 			d2.roll();
 
-			val1 = d1.getValue();
-			val2 = d2.getValue();
+			firstDie = d1.getValue();
+			secondDie = d2.getValue();
 
 			rollCount++;
 
-			if (val1 == val2) {
-				if (val1 == val) {
+			if (firstDie == secondDie) {
+				if (firstDie == val) {
 					temp = val;
 				} else {
 					temp = 0;
@@ -26,15 +35,6 @@ public class HW4Part3 {
 			}
 		} while (temp != val);
 		return rollCount;
-	}
-
-	public static void main(String[] args) {
-		HW4Part3 game = new HW4Part3();
-		GVdie d1 = new GVdie();
-		GVdie d2 = new GVdie();
-		int rolls = game.rollingForPair(d1, d2, 2);
-		System.out.println("The number of times to get a pair with two die: " + rolls);
-
 	}
 
 }
