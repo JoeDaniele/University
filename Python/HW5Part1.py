@@ -1,11 +1,8 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-# split input into 2 parts : name and age
 parts = input().split()
 name = parts[0]
-names = []  # adding these two lists to save names and ages
+names = []
 ages = []
-
+# arrays storing names/ages
 while name != '-1':
 
     try:
@@ -15,12 +12,9 @@ while name != '-1':
 
         age = 0
 
-    # appending name and age to these lists ,  after the while block ends we will print them
-
+    # appending name and age to arrays, prints when loop ends
     names.append(name)
     ages.append(age)
-
-    # get next line
 
     parts = input().split()
     name = parts[0]
