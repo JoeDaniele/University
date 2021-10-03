@@ -10,13 +10,14 @@ class GVDie:
     def roll(self):
         self.my_value = self.rand.randint(1, 6)
 
-    # set the random number generator seed for testing
+        # set the random number generator seed for testing
+
     def set_seed(self, seed):
         self.rand.seed(seed)
 
     # allows dice to be compared if necessary
     def compare_to(self, other):
-        return self.my_value - d.my_value
+        return self.my_value - die.my_value
 
 
 def roll_total(die, total):
@@ -30,10 +31,9 @@ def roll_total(die, total):
 
 
 if __name__ == "__main__":
-    die = GVDie()   # Create a GVDie object
-    die.set_seed(15)   # Set the GVDie object with seed value 15
-    print('in this program, one die is created.\nthis die is rolled a certain number of times to reach the expected end result. \nenter the number you want to roll to:')
+    die = GVDie()  # Create a GVDie object
+    die.set_seed(15)  # Set the GVDie object with seed value 15
+
     total = int(input())
-    # Should return the number of rolls to reach total.
-    rolls = roll_total(die, total)
+    rolls = roll_total(die, total)  # Should return the number of rolls to reach total.
     print('Number of rolls to reach at least {}: {}'.format(total, rolls))

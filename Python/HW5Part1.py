@@ -2,7 +2,6 @@ parts = input().split()
 name = parts[0]
 names = []
 ages = []
-# arrays storing names/ages
 while name != '-1':
 
     try:
