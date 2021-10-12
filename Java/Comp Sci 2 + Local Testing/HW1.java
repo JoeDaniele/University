@@ -1,19 +1,11 @@
 package COMSC2;
 
-//import java.util.ArrayList;
-//import java.util.Iterator;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class HW1 {
 	public static void main(String[] args) {
-
-		algebraAPR();
-
-		System.out.println();
-
-		squareRoot();
-
-		System.out.println();
 
 		primeFunction1();
 
@@ -21,8 +13,7 @@ public class HW1 {
 
 	public static void algebraAPR() {
 		System.out.println("This is a simple interest calculation."
-				+ "\nThe principal value is $10,000, the interest rate is 3.875," + 
-				"\nand it will accrue for 30 years."
+				+ "\nThe principal value is $10,000, the interest rate is 3.875," + "\nand it will accrue for 30 years."
 				+ "\nA=P(1+rt)");
 		double p = 10000;
 		double r = .03875;
@@ -51,14 +42,17 @@ public class HW1 {
 		int number = 0;
 		String primeNumbers = "";
 
-		for (number = 1; number <= 1000; number++) {
-			int factors = getFactorCount(number);
-			if (factors == 2) {
+		for (number = 1; number <= 100; number++) {
+			int factorCount = getFactorCount(number);
+			if (factorCount == 2) {
 
 				primeNumbers = primeNumbers + number + " ";
 			}
 		}
 		System.out.println("Prime numbers from 1 to 100 are: " + primeNumbers);
+
+		System.out.println(primeNumbers.length());
+
 	}
 
 	public static int getFactorCount(int number) {
@@ -73,9 +67,29 @@ public class HW1 {
 		return factorCount;
 	}
 
+	static void booleanPrime() {
+
+		List<Integer> primeNumbers = new ArrayList<>();
+
+		for (int i = 2; i <= 100; i++) {
+			boolean isPrime = true;
+			for (int factor = 2; factor <= i / 2; factor++) {
+				if (i % factor == 0) {
+					isPrime = false;
+					break;
+				}
+			}
+			if (isPrime) {
+				primeNumbers.add(i);
+				System.out.println("Prime numbers from 1 to 100 are: " + primeNumbers);
+
+			}
+		}
+
+	}
 	/*
 	 * In my opinion the only solution requiring documentation are the two
-	 * methods/functions on lines 33 + 48, so here it is.
+	 * methods/functions on lines 49 + 64, so here it is.
 	 *
 	 * For loops are built upon an initialization statement, operational condition
 	 * and an update statement. In this scenario, the two variables, "int number"
@@ -88,25 +102,26 @@ public class HW1 {
 	 * I then create a variable titled factors, which holds the value calculated in
 	 * the next method, another loop.
 	 *
-	 * Entering that method on line 48, we see that the method is declared to hold
+	 * Entering that method on line 64, we see that the method is declared to hold
 	 * an integer I begin by creating a new counter, factorCount, setting it to 0 --
 	 * inevitably to be updated.
 	 *
 	 * The 2nd for loop begins, which creates an index at 1, imports the 'number'
 	 * from primeFunction1, and increments AFTER it has been ran through the loop.
 	 *
-	 * The loop itself takes that imported number from primeFunction1 and divides it
-	 * by 1 if the number has a modulo equal to 0, it is prime because it has no
+	 * The loop itself takes that imported number from primeFunction1, says how many
+	 * times the index(i) goes into the number, determines if its prime as it has no
 	 * factors outside of itself and 1
 	 *
 	 * that knowledge is stored to factorCount, which increments and the method,
 	 * upon validating this, will return a new value to factor count.
 	 *
-	 * to keep it consistent, I called that factorCount on line 57, "factors" on
-	 * line for visual consistency if the modulo calculated is equal to 2, meaning
-	 * literally it has 2 factors (1 and itself) then we add that to the list only
-	 * until the operational condition in the for loop is met.
-	 * 
+	 * I called that factorCount on line 55, "factors" on line for visual
+	 * consistency if the modulo calculated is equal to 2, meaning literally it has
+	 * 2 factors (1 and itself) then we add that to the list only until the
+	 * operational condition in the for loop is met.
+	 *
+	 * and divides it by i if the number has a modulo (remainder) equal to 0
 	 */
 
 }

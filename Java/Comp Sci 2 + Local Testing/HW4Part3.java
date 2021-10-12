@@ -15,6 +15,7 @@ public class HW4Part3 {
 
 		int rollCount = 0, firstDie = 0, secondDie = 0, temp = 0;
 		// putting vars like this for readability
+
 		do {
 			d1.roll();
 			d2.roll();
