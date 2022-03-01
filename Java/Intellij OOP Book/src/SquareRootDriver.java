@@ -16,5 +16,9 @@ public class SquareRootDriver {
                 System.out.println(sqrt.getRoot());
             }
         } while (n > 0);
+
+        System.out.println("Simple square root function, enter a number: ");
+        int userNumber = k.nextInt();
+        System.out.println(Math.sqrt(userNumber));
     }
 }
