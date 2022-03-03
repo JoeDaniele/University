@@ -3,7 +3,11 @@ import java.io.FileNotFoundException;
 import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Scanner;
+/*I think this goal is simple -- I'd want the user to enter a Pokémon by name or number
+and return its type(s) like a pokedex would.
 
+
+ */
 public class PokedexMain {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner s = new Scanner(new File("C:\\Misc\\GithubMain\\Java\\Pokedex\\Starters.txt"));
