@@ -3,10 +3,21 @@ import java.io.FileNotFoundException;
 import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Scanner;
-/*I think this goal is simple -- I'd want the user to enter a Pokémon by name or number
-and return its type(s) like a pokedex would.
+/*Goal is to allow the user to enter a Pokémon by name or number
+and return its type(s) like a Pokédex would. Experimenting with data structures.
 
+Question: Which data structure or series of structures will allow me to configure this
+more freely e.g. user input name || type || number || -> user receives everything associated with those 3.
 
+Can this be any of this done with an imported file?
+
+If I want to add more parameters to the Pokémon e.g. description, height, weight, abilities;
+can that I import multiple files to set that up?
+
+Example: Charmander, #004, "It has a preference for hot things.", 2'0", 18.7lbs, Abilities: Blaze.
+
+Goal: Figure this out then create a Pokédex in JS.
+Gotta catch em all.
  */
 public class PokedexMain {
     public static void main(String[] args) throws FileNotFoundException {
@@ -25,8 +36,6 @@ public class PokedexMain {
         }
         System.out.println("Let's get the size of our new ArrayList: " + original.size());
         System.out.print(original);
-
-
 
 
     }
