@@ -9,10 +9,10 @@ Wartortle	#008	Water
 Blastoise	#009	Water	 
 Caterpie	#010	Bug	 
 Metapod		#011	Bug	 
-Butterfree	#012	Bug	Flying
-Weedle		#013	Bug	Poison
-Kakuna		#014	Bug	Poison
-Beedrill	#015	Bug	Poison
+Butterfree	#012	Bug 	Flying
+Weedle		#013	Bug 	Poison
+Kakuna		#014	Bug 	Poison
+Beedrill	#015	Bug 	Poison
 Pidgey		#016	Normal	Flying
 Pidgeotto	#017	Normal	Flying
 Pidgeot		#018	Normal	Flying
@@ -43,10 +43,10 @@ Golbat		#042	Poison	Flying
 Oddish		#043	Grass	Poison
 Gloom		#044	Grass	Poison
 Vileplume	#045	Grass	Poison
-Paras		#046	Bug	Grass
-Parasect	#047	Bug	Grass
-Venonat		#048	Bug	Poison
-Venomoth	#049	Bug	Poison
+Paras		#046	Bug     Grass
+Parasect	#047	Bug	    Grass
+Venonat		#048	Bug	    Poison
+Venomoth	#049	Bug	    Poison
 Diglett		#050	Ground	 
 Dugtrio		#051	Ground	 
 Meowth		#052	Normal	 
@@ -78,7 +78,7 @@ Ponyta		#077	Fire
 Rapidash	#078	Fire	 
 Slowpoke	#079	Water	Psychic
 Slowbro		#080	Water	Psychic
-Magnemite	#081	Electric	Steel
+Magnemite	#081	Electric    Steel
 Magneton	#082	Electric	Steel
 Farfetch'd	#083	Normal	Flying
 Doduo		#084	Normal	Flying
@@ -120,8 +120,8 @@ Seaking		#119	Water
 Staryu		#120	Water	 
 Starmie		#121	Water	Psychic
 Mr. Mime	#122	Psychic	Fairy
-Scyther		#123	Bug	Flying
-Jynx		#124	Ice	Psychic
+Scyther		#123	Bug	    Flying
+Jynx		#124	Ice	    Psychic
 Electabuzz	#125	Electric	 
 Magmar		#126	Fire	 
 Pinsir		#127	Bug	 
@@ -141,7 +141,7 @@ Kabuto		#140	Rock	Water
 Kabutops	#141	Rock	Water
 Aerodactyl	#142	Rock	Flying
 Snorlax		#143	Normal	 
-Articuno	#144	Ice	Flying
+Articuno	#144	Ice	    Flying
 Zapdos		#145	Electric	Flying
 Moltres		#146	Fire	Flying
 Dratini		#147	Dragon	 

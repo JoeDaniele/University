@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="389b6b02-1892-43ae-b07b-5c3a8e34eecf" name="Changes" comment="" />
+    <list default="true" id="389b6b02-1892-43ae-b07b-5c3a8e34eecf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starters.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Starters.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokedex Data Structures/PokedexMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pokedex Data Structures/PokedexMain.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +61,17 @@
       <updated>1646336257574</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
