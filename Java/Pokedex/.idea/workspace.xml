@@ -32,6 +32,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Intellij OOP Book" />
   </component>
   <component name="RunManager">
     <configuration name="PokedexMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
