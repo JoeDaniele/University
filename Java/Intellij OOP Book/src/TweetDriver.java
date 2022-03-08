@@ -6,8 +6,13 @@ public class TweetDriver {
 
         System.out.println(t);
         System.out.println("\n----------------------\n");
-        System.out.println(t);
 
+        Tweet b = new Tweet("Tues Mar 8 1:38:00 +0000 2022",
+                20, true, 123456789L, 200, true,
+                "Testing this part out now idk anymore");
+        System.out.println(b);
 
     }
+
+
 }

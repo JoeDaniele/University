@@ -15,6 +15,8 @@ public class Tweet {
         this.retweet_count = retweet_count;
         this.retweeted = retweeted;
         this.text = text;
+
+
     }
      /*
     constructor "Tweet" with 7 parameters.
@@ -28,8 +30,8 @@ public class Tweet {
         if (retweet_count > 0) {
             out += "Retweets: " + retweet_count + " ";
         }
-        if (this.favorite_count > 0) {
-            out += "Favorites: " + this.favorite_count + "\n";
+        if (favorite_count > 0) {
+            out += "Favorites: " + favorite_count + "\n";
         } else {
             out += "\n";
         }
@@ -37,7 +39,7 @@ public class Tweet {
         if (this.retweeted) {
             out += "[^v]";
         } else {
-            out += "[ ]";
+            out += "[*]";
         }
         if (favorited) {
             out += "[ ]";
