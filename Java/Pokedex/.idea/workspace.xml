@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="389b6b02-1892-43ae-b07b-5c3a8e34eecf" name="Changes" comment="" />
+    <list default="true" id="389b6b02-1892-43ae-b07b-5c3a8e34eecf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Intellij OOP Book/out/production/Intellij OOP Book/Tweet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intellij OOP Book/out/production/Intellij OOP Book/TweetDriver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intellij OOP Book/src/Tweet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intellij OOP Book/src/TweetDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intellij OOP Book/out/production/Intellij OOP Book/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Intellij OOP Book/out/production/Intellij OOP Book/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intellij OOP Book/out/production/Intellij OOP Book/RectangleDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Intellij OOP Book/out/production/Intellij OOP Book/RectangleDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/PokedexMain.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
