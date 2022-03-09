@@ -4,16 +4,16 @@ public class NoughtsCrossesObject { //TicTacToe Game oof
     private int turns;
 
     //constructor
-    public NoughtsCrossesObject() {
+    public NoughtsCrossesObject() { //creates the 3x3 board w/ 0 turns
         board = new String[3][3];
         turns = 0;
 
-        for (int r = 0; r < 3; r++)
+        for (int r = 0; r < 3; r++)  //loops thru the board setting all values to an empty string.
             for (int c = 0; c < 3; c++)
                 board[r][c] = " ";
     }
 
-    public boolean isWinner(String p) {
+    public boolean isWinner(String p) { //returns true if player p has won -- using HELPER method
         //top row
         if (winCheck(p, 0, 0, 0, 1, 0, 2)) return true;
         if (winCheck(p, 1, 0, 1, 1, 1, 2)) return true;
@@ -25,7 +25,7 @@ public class NoughtsCrossesObject { //TicTacToe Game oof
         return winCheck(p, 2, 0, 1, 1, 0, 2);
     }
 
-    private boolean winCheck(String p, int a, int b, int c, int d, int e, int f) {
+    private boolean winCheck(String p, int a, int b, int c, int d, int e, int f) { //private HELPER method
         return board[a][b].equals(board[c][d])
                 && board[a][b].equals(board[e][f]);
     }
