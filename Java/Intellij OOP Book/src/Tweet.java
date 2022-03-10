@@ -8,7 +8,7 @@ public class Tweet {
     private final String text;
 
     public Tweet(String created_at, int favorite_count, boolean favorited, long id, int retweet_count, boolean retweeted, String text) {
-        this.created_at = created_at;           //"means to store a copy of the value in the parameter, into the instance variable"
+        this.created_at = created_at;           //this."means to store a copy of the value in the parameter, into the instance variable"
         this.favorite_count = favorite_count;
         this.favorited = favorited;
         this.id = id;
