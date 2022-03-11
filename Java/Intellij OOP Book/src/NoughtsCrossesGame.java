@@ -15,7 +15,7 @@ public class NoughtsCrossesGame {
             c = k.nextInt();
 
             while (!ttt.isValid(r, c) || ttt.isTaken(r, c)) {
-                if (ttt.isValid(r, c) == false)
+                if (!ttt.isValid(r, c))
                     System.out.println("Not a valid location. Try again.");
                 else if (ttt.isTaken(r, c))
                     System.out.println("Location already full. Try again.");
