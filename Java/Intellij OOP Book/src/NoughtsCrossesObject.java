@@ -26,8 +26,7 @@ public class NoughtsCrossesObject { //TicTacToe Game oof
     }
 
     private boolean winCheck(String p, int a, int b, int c, int d, int e, int f) { //private HELPER method
-        return board[a][b].equals(board[c][d])
-                && board[a][b].equals(board[e][f]);
+        return board[a][b].equals(p + board[c][d]) && board[a][b].equals(p + board[e][f]);
     }
 
     public boolean isFull() {

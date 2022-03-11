@@ -13,6 +13,33 @@ public class ArrayListIntro {
         System.out.println("ArrayList has size(): " + arr.size());
         System.out.println("Current contents: " + arr);
         showList(arr);
+
+        arr.add(3, "Jarvis"); //inserts into slot 3, others slide right
+        showList(arr);
+
+        int i = arr.indexOf("Hulk");
+        System.out.println(arr.get(i) + " is located in slot " + i);
+        arr.remove(i); //removes value in that slot, others slide left
+        showList(arr);
+
+        arr.add(1, "Captain America"); //Original slot 1, others slide right
+        showList(arr);
+
+        arr.set(1, "Cap"); //replaces the value in slot 1
+        showList(arr);
+
+        arr.remove(5); //removing backwards lets us avoid sliding
+        arr.remove(4);
+        arr.remove(2);
+        arr.remove(0);
+        showList(arr);
+
+        arr.add("Hawkeye");
+        arr.add("Quicksilver");
+        arr.add("Scarlet Witch");
+        showList(arr);
+
+
     }
 
     private static void showList(ArrayList<String> arr) {
