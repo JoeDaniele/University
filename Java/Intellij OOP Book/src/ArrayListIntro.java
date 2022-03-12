@@ -39,6 +39,13 @@ public class ArrayListIntro {
         arr.add("Scarlet Witch");
         showList(arr);
 
+        i = arr.indexOf("Hawkeye");
+        String removed = arr.remove(i);
+        arr.add(i - 1, removed);
+        showList(arr);
+
+        System.out.println("Current contents: " + arr);
+
 
     }
 

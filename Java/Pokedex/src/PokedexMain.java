@@ -24,7 +24,7 @@ public class PokedexMain {
         Scanner s = new Scanner(new File("C:\\Misc\\GithubMain\\Java\\Pokedex\\Starters.txt"));
         File f = new File("C:\\Misc\\GithubMain\\Java\\Pokedex\\Starters.txt");
 
-
+        System.out.println("File Location:"+ f.getAbsoluteFile());
         System.out.println("This will print the length of the file: " + f.length());
         //System.out.println("This will print the path: ");
         //System.out.println(f.toString() +"\n" + f.getPath() +"\n" + f.getAbsolutePath() );
