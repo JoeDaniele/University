@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bbb2a62f-0fd3-46e7-9c18-0235c45d03e1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/groovy_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-ant-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-ant-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-astbuilder-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-astbuilder-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-cli-commons-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-cli-commons-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-cli-picocli-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-cli-picocli-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-console-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-console-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-contracts-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-contracts-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-datetime-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-datetime-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-dateutil-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-dateutil-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-docgenerator-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-docgenerator-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-ginq-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-ginq-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-groovydoc-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-groovydoc-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-groovysh-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-groovysh-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-jmx-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-jmx-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-json-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-json-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-jsr223-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-jsr223-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-macro-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-macro-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-macro-library-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-macro-library-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-nio-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-nio-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-servlet-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-servlet-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-sql-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-sql-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-swing-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-swing-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-templates-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-templates-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-test-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-test-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-test-junit5-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-test-junit5-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-testng-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-testng-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-toml-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-toml-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-typecheckers-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-typecheckers-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-xml-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/groovy-xml-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CountPrimes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pokedex/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pokedex/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26JlxgKqHhZzJ4fMbDAfVwAIqaz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="CountPrimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountPrimes" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CountPrimes" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbb2a62f-0fd3-46e7-9c18-0235c45d03e1" name="Changes" comment="" />
+      <created>1647149818897</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647149818897</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
