@@ -5,7 +5,6 @@ public class CountPrimes {
         Scanner k = new Scanner(System.in);
         System.out.println("Enter a number: ");
         int u = k.nextInt();
-
         countPrimes(u);
     }
 
