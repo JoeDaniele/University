@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class CountPrimes {
     public static void main(String[] args) {
         Scanner k = new Scanner(System.in);
-        System.out.println("Enter a number: ");
-        int u = k.nextInt();
-        countPrimes(u);
+        System.out.println("Enter a number to get the total primes: ");
+        int n = k.nextInt();
+        countPrimes(n);
     }
 
-    public static int countPrimes(int n) {
+    public static void countPrimes(int n) {
         boolean[] notPrime = new boolean[n];
         int count = 0;
         for (int i = 2; i < n; i++) {
@@ -20,6 +20,5 @@ public class CountPrimes {
             }
         }
         System.out.println(count);
-        return count;
     }
 }
