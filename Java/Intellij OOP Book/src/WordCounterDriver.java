@@ -7,7 +7,5 @@ public class WordCounterDriver {
         System.out.println(wc.getCount("The"));
         System.out.println(wc.getCount("I"));
         System.out.println(wc.getCount("a"));
-
-
     }
 }
