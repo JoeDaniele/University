@@ -47,16 +47,30 @@ public class ArrayListIntro {
         System.out.println("Current contents: " + arr);
     }
 
-    private static void showList(ArrayList<String> arr) {
+    public static void showList(ArrayList<String> arr) {
         System.out.println("size() is " + arr.size());
         for (int i = 0; i < arr.size(); i++) {
             int len = arr.get(i).length() + 4; //two quotes two spaces
             System.out.println("|" + centerPad("" + i, len));
         }
         System.out.println("|");
-        for (String s : a) {
+        for (String s : arr)
             System.out.println("| \"" + s + "\" ");
-            System.out.println("|\n");
-        }
+        System.out.println("|\n");
     }
+
+    public static String centerPad(String s, int width) {
+        int totalSpaces = width - s.length();
+        int leftSide = totalSpaces / 2;
+        int rightside = totalSpaces - leftSide;
+        String out = "";
+        for (int i = 0; i < leftSide; i++)
+            out += " ";
+        for (int i = 0; i < rightside; i++)
+            out += " ";
+
+        return out;
+    }
+
+
 }
