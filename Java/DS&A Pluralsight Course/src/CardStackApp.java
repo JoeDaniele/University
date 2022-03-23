@@ -18,6 +18,8 @@ public class CardStackApp {
             app.goToCard("King of Diamonds");
             //now how many cards are on the deck
             app.deckSize();
+
+
         }
 
         public void stackCards() {
