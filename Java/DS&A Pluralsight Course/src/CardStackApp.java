@@ -8,19 +8,14 @@ public class CardStackApp {
 
             //restack cards
             app.stackCards();
-
             //how many cards are on the deck
             app.deckSize();
-
             //do we have queen of hearts in the deck
             app.containsCard("Queen of Hearts");
-
             //do we have a joker
             app.containsCard("Joker");
-
             //go to the king of diamonds
             app.goToCard("King of Diamonds");
-
             //now how many cards are on the deck
             app.deckSize();
         }
