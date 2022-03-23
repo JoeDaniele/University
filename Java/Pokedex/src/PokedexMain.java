@@ -25,11 +25,8 @@ public class PokedexMain {
         File f = new File("C:\\Misc\\GithubMain\\Java\\Pokedex\\Starters.txt");
 
         System.out.println("File Location:"+ f.getAbsoluteFile());
-        System.out.println("This will print the length of the file: " + f.length());
-        //System.out.println("This will print the path: ");
-        //System.out.println(f.toString() +"\n" + f.getPath() +"\n" + f.getAbsolutePath() );
+        System.out.println("File Length: " + f.length());
 
-        System.out.println("Lets convert the imported file to an ArrayList:");
         ArrayList<String> original = new ArrayList<String>();
         while (s.hasNext()){
             original.add(s.next());
