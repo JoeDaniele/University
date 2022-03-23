@@ -1,25 +1,25 @@
-Bulbasaur	#001	Grass	Poison
-Ivysaur		#002	Grass	Poison
-Venusaur	#003	Grass	Poison
+Bulbasaur	#001	Grass-Poison
+Ivysaur		#002	Grass-Poison
+Venusaur	#003	Grass-Poison
 Charmander	#004	Fire	 
 Charmeleon	#005	Fire	 
-Charizard	#006	Fire	Flying
+Charizard	#006	Fire-Flying
 Squirtle	#007	Water	 
 Wartortle	#008	Water	 
 Blastoise	#009	Water	 
 Caterpie	#010	Bug	 
 Metapod		#011	Bug	 
-Butterfree	#012	Bug 	Flying
-Weedle		#013	Bug 	Poison
-Kakuna		#014	Bug 	Poison
-Beedrill	#015	Bug 	Poison
-Pidgey		#016	Normal	Flying
-Pidgeotto	#017	Normal	Flying
-Pidgeot		#018	Normal	Flying
+Butterfree	#012	Bug-Flying
+Weedle		#013	Bug-Poison
+Kakuna		#014	Bug-Poison
+Beedrill	#015	Bug-Poison
+Pidgey		#016	Normal-Flying
+Pidgeotto	#017	Normal-Flying
+Pidgeot		#018	Normal-Flying
 Rattata		#019	Normal	 
 Raticate	#020	Normal	 
-Spearow		#021	Normal	Flying
-Fearow		#022	Normal	Flying
+Spearow		#021	Normal-Flying
+Fearow		#022	Normal-Flying
 Ekans		#023	Poison	 
 Arbok		#024	Poison	 
 Pikachu		#025	Electric	 
@@ -28,25 +28,25 @@ Sandshrew	#027	Ground
 Sandslash	#028	Ground	 
 Nidoran♀	#029	Poison	 
 Nidorina	#030	Poison	 
-Nidoqueen	#031	Poison	Ground
+Nidoqueen	#031	Poison-Ground
 Nidoran♂	#032	Poison	 
 Nidorino	#033	Poison	 
-Nidoking	#034	Poison	Ground
+Nidoking	#034	Poison-Ground
 Clefairy	#035	Fairy	 
 Clefable	#036	Fairy	 
 Vulpix		#037	Fire	 
 Ninetales	#038	Fire	 
-Jigglypuff	#039	Normal	Fairy
-Wigglytuff	#040	Normal	Fairy
-Zubat		#041	Poison	Flying
-Golbat		#042	Poison	Flying
-Oddish		#043	Grass	Poison
-Gloom		#044	Grass	Poison
-Vileplume	#045	Grass	Poison
-Paras		#046	Bug     Grass
-Parasect	#047	Bug	    Grass
-Venonat		#048	Bug	    Poison
-Venomoth	#049	Bug	    Poison
+Jigglypuff	#039	Normal-Fairy
+Wigglytuff	#040	Normal-Fairy
+Zubat		#041	Poison-Flying
+Golbat		#042	Poison-Flying
+Oddish		#043	Grass-Poison
+Gloom		#044	Grass-Poison
+Vileplume	#045	Grass-Poison
+Paras		#046	Bug-Grass
+Parasect	#047	Bug-Grass
+Venonat		#048	Bug-Poison
+Venomoth	#049	Bug-Poison
 Diglett		#050	Ground	 
 Dugtrio		#051	Ground	 
 Meowth		#052	Normal	 
@@ -59,48 +59,48 @@ Growlithe	#058	Fire
 Arcanine	#059	Fire	 
 Poliwag		#060	Water	 
 Poliwhirl	#061	Water	 
-Poliwrath	#062	Water	Fighting
+Poliwrath	#062	Water-Fighting
 Abra		#063	Psychic	 
 Kadabra		#064	Psychic	 
 Alakazam	#065	Psychic	 
 Machop		#066	Fighting	 
 Machoke		#067	Fighting	 
 Machamp		#068	Fighting	 
-Bellsprout	#069	Grass	Poison
-Weepinbell	#070	Grass	Poison
-Victreebel	#071	Grass	Poison
-Tentacool	#072	Water	Poison
-Tentacruel	#073	Water	Poison
-Geodude		#074	Rock	Ground
-Graveler	#075	Rock	Ground
-Golem		#076	Rock	Ground
+Bellsprout	#069	Grass-Poison
+Weepinbell	#070	Grass-Poison
+Victreebel	#071	Grass-Poison
+Tentacool	#072	Water-Poison
+Tentacruel	#073	Water-Poison
+Geodude		#074	Rock-Ground
+Graveler	#075	Rock-Ground
+Golem		#076	Rock-Ground
 Ponyta		#077	Fire	 
 Rapidash	#078	Fire	 
-Slowpoke	#079	Water	Psychic
-Slowbro		#080	Water	Psychic
-Magnemite	#081	Electric    Steel
-Magneton	#082	Electric	Steel
-Farfetch'd	#083	Normal	Flying
-Doduo		#084	Normal	Flying
-Dodrio		#085	Normal	Flying
+Slowpoke	#079	Water-Psychic
+Slowbro		#080	Water-Psychic
+Magnemite	#081	Electric-Steel
+Magneton	#082	Electric-Steel
+Farfetch'd	#083	Normal-Flying
+Doduo		#084	Normal-Flying
+Dodrio		#085	Normal-Flying
 Seel		#086	Water	 
-Dewgong		#087	Water	Ice
+Dewgong		#087	Water-Ice
 Grimer		#088	Poison	 
 Muk		    #089	Poison
 Shellder	#090	Water	 
-Cloyster	#091	Water	Ice
-Gastly		#092	Ghost	Poison
-Haunter		#093	Ghost	Poison
-Gengar		#094	Ghost	Poison
-Onix		#095	Rock	Ground
-Drowzee		#096	Psychic	 
-Hypno		#097	Psychic	 
+Cloyster	#091	Water-Ice
+Gastly		#092	Ghost-Poison
+Haunter		#093	Ghost-Poison
+Gengar		#094	Ghost-Poison
+Onix		#095	Rock-Ground
+Drowzee		#096	Psychic
+Hypno		#097	Psychic
 Krabby		#098	Water	 
 Kingler		#099	Water	 
 Voltorb		#100	Electric	 
 Electrode	#101	Electric	 
-Exeggcute	#102	Grass	Psychic
-Exeggutor	#103	Grass	Psychic
+Exeggcute	#102	Grass-Psychic
+Exeggutor	#103	Grass-Psychic
 Cubone		#104	Ground	 
 Marowak		#105	Ground	 
 Hitmonlee	#106	Fighting	 
@@ -108,8 +108,8 @@ Hitmonchan	#107	Fighting
 Lickitung	#108	Normal	 
 Koffing		#109	Poison	 
 Weezing		#110	Poison	 
-Rhyhorn		#111	Ground	Rock
-Rhydon		#112	Ground	Rock
+Rhyhorn		#111	Ground-Rock
+Rhydon		#112	Ground-Rock
 Chansey		#113	Normal	 
 Tangela		#114	Grass	 
 Kangaskhan	#115	Normal	 
@@ -127,25 +127,25 @@ Magmar		#126	Fire
 Pinsir		#127	Bug	 
 Tauros		#128	Normal	 
 Magikarp	#129	Water	 
-Gyarados	#130	Water	Flying
-Lapras		#131	Water	Ice
+Gyarados	#130	Water-Flying
+Lapras		#131	Water-Ice
 Ditto		#132	Normal	 
 Eevee		#133	Normal	 
 Vaporeon	#134	Water	 
 Jolteon		#135	Electric	 
 Flareon		#136	Fire	 
 Porygon		#137	Normal	 
-Omanyte		#138	Rock	Water
-Omastar		#139	Rock	Water
-Kabuto		#140	Rock	Water
-Kabutops	#141	Rock	Water
-Aerodactyl	#142	Rock	Flying
+Omanyte		#138	Rock-Water
+Omastar		#139	Rock-Water
+Kabuto		#140	Rock-Water
+Kabutops	#141	Rock-Water
+Aerodactyl	#142	Rock-Flying
 Snorlax		#143	Normal	 
-Articuno	#144	Ice	    Flying
-Zapdos		#145	Electric	Flying
-Moltres		#146	Fire	Flying
+Articuno	#144	Ice-Flying
+Zapdos		#145	Electric-Flying
+Moltres		#146	Fire-Flying
 Dratini		#147	Dragon	 
 Dragonair	#148	Dragon	 
-Dragonite	#149	Dragon	Flying
+Dragonite	#149	Dragon-Flying
 Mewtwo		#150	Psychic	 
 Mew		    #151	Psychic
