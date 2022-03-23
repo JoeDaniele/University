@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class MyStack {
     NewStackInterface<String> stack = new NewStackInterface<String>();
 
@@ -19,6 +21,8 @@ public class MyStack {
         //now how many cards are on the deck
         hw.deckSize();
 
+
+        ArrayList<String> ListStack = new ArrayList<>();
 
     }
 
@@ -83,26 +87,19 @@ public class MyStack {
         stack.push("Queen of Hearts");
         stack.push("King of Hearts");
     }
-
     public void unstackCards() {
         //now pull the cards off the stack and print them
         while(stack.size() > 0) {
             System.out.println(stack.pop());
         }
     }
-
     public void containsCard(String card) {
         System.out.println(stack.contains(card));
     }
-
     public void goToCard(String card) {
         System.out.println(stack.access(card));
     }
-
     public void deckSize() {
         System.out.println(stack.size());
     }
-
-    }
-
 }
