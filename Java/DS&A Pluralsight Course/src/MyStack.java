@@ -1,7 +1,8 @@
 import java.util.ArrayList;
+import java.util.Collection;
 
 public class MyStack {
-    NewStackInterface<String> stack = new NewStackInterface<String>();
+    static NewStackInterface<String> stack = new NewStackInterface<String>();
 
     public static void main(String[] args) {
         MyStack hw = new MyStack();
@@ -22,7 +23,7 @@ public class MyStack {
         hw.deckSize();
 
 
-        ArrayList<String> ListStack = new ArrayList<>();
+        ArrayList ListStack = new ArrayList((Collection) stack);
 
     }
 
