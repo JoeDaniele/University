@@ -7,13 +7,13 @@ public class testing {
         return "Stack [elements=" + elements + "]";
     }
     private List<String> elements = new ArrayList<>();
+
     public String peek() {
         if (elements.isEmpty()) {
             return null;
         }
         return elements.get(elements.size() - 1);
     }
-
     public String pop() {
         if (elements.isEmpty()) {
             return null;

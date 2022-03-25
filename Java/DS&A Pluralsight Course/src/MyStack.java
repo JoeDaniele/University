@@ -7,24 +7,17 @@ public class MyStack {
 
     public static void main(String[] args) {
         MyStack hw = new MyStack();
+        ArrayList<String> arrayList = new ArrayList<>();
+
         hw.stackCards();
         hw.unstackCards();
 
-        //restack cards
         hw.stackCards();
-        //how many cards are on the deck
         hw.deckSize();
-        //do we have queen of hearts in the deck
         hw.containsCard("Queen of Hearts");
-        //do we have a joker
         hw.containsCard("Joker");
-        //go to the king of diamonds
         hw.goToCard("King of Diamonds");
-        //now how many cards are on the deck
         hw.deckSize();
-
-
-
     }
 
     public void stackCards() {
