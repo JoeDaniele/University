@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 import java.util.stream.*;
 
 /* Homework
@@ -16,9 +17,15 @@ Use methods from NewStackInterface NOT testing example.
 public class MyStack {
     static NewStackInterface<String> stack = new NewStackInterface<String>();
 
+    public String toString() {
+        return "Stack [elements=" + listStack + "]";
+    }
+    private List<String> listStack = new ArrayList<>();
+
     public static void main(String[] args) {
         MyStack hw = new MyStack();
-        ArrayList<String> ListStack = new ArrayList<>();
+
+
 
         hw.stackSomeCards();
         hw.unstackCards();
@@ -28,25 +35,28 @@ public class MyStack {
         hw.containsCard("Joker");
         hw.goToCard("King of Diamonds");
         hw.deckSize();
+
+
     }
 
     public void stackSomeCards() {
-        stack.push("Ace of Spades");    //stack the spade suit
-        stack.push("Jack of Spades");
-        stack.push("Queen of Spades");
-        stack.push("King of Spades");
-        stack.push("Ace of Diamonds"); //stack the diamond suit
-        stack.push("Jack of Diamonds");
-        stack.push("Queen of Diamonds");
-        stack.push("King of Diamonds");
-        stack.push("Ace of Clubs");    //stack the club suit
-        stack.push("Jack of Clubs");
-        stack.push("Queen of Clubs");
-        stack.push("King of Clubs");
-        stack.push("Ace of Hearts");//stack the heart suit
-        stack.push("Jack of Hearts");
-        stack.push("Queen of Hearts");
-        stack.push("King of Hearts");
+        listStack.add("Joker"); //adding joker for testing
+        listStack.add("Ace of Spades");//stack the spade suit
+        listStack.add("Jack of Spades");
+        listStack.add("Queen of Spades");
+        listStack.add("King of Spades");
+        listStack.add("Ace of Diamonds");//stack the diamond suit
+        listStack.add("Jack of Diamonds");
+        listStack.add("Queen of Diamonds");
+        listStack.add("King of Diamonds");
+        listStack.add("Ace of Clubs");//stack the club suit
+        listStack.add("Jack of Clubs");
+        listStack.add("Queen of Clubs");
+        listStack.add("King of Clubs");
+        listStack.add("Ace of Hearts");//stack the heart suit
+        listStack.add("Jack of Hearts");
+        listStack.add("Queen of Hearts");
+        listStack.add("King of Hearts");
     }
     public void unstackCards() {
         //now pull the cards off the stack and print them
