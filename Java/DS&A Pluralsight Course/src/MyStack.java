@@ -57,7 +57,9 @@ public class MyStack {
     public void containsCard() {
         System.out.println(listStack.contains("Joker"));
     }
-    public Object popCards() {
-       
+    public void popCards() {
+        while(listStack.size() > 0) {
+            
+        }
     }
 }
