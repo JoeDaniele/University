@@ -1,7 +1,5 @@
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
-import java.util.stream.*;
 
 /* Homework
 Create a stack interface (done)
@@ -20,26 +18,21 @@ public class MyStack {
     public String toString() {
         return "Stack [elements=" + listStack + "]";
     }
-    private List<String> listStack = new ArrayList<>();
+    private final List<String> listStack = new ArrayList<>();
 
     public static void main(String[] args) {
         MyStack hw = new MyStack();
 
-
-
-        hw.stackSomeCards();
-        hw.unstackCards();
-        hw.stackSomeCards();
+        hw.pushCards();
         hw.deckSize();
-        hw.containsCard("Queen of Hearts");
-        hw.containsCard("Joker");
-        hw.goToCard("King of Diamonds");
+        hw.containsCard();
+        hw.popCards();
         hw.deckSize();
 
 
     }
 
-    public void stackSomeCards() {
+    public void pushCards() {
         listStack.add("Joker"); //adding joker for testing
         listStack.add("Ace of Spades");//stack the spade suit
         listStack.add("Jack of Spades");
@@ -58,19 +51,13 @@ public class MyStack {
         listStack.add("Queen of Hearts");
         listStack.add("King of Hearts");
     }
-    public void unstackCards() {
-        //now pull the cards off the stack and print them
-        while(stack.size() > 0) {
-            System.out.println(stack.pop());
-        }
-    }
-    public void containsCard(String card) {
-        System.out.println(stack.contains(card));
-    }
-    public void goToCard(String card) {
-        System.out.println(stack.access(card));
-    }
     public void deckSize() {
-        System.out.println(stack.size());
+        System.out.println(listStack.size());
+    }
+    public void containsCard() {
+        System.out.println(listStack.contains("Joker"));
+    }
+    public Object popCards() {
+       
     }
 }
