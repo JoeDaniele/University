@@ -2,17 +2,27 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.stream.*;
 
+/* Homework
+Create a stack interface (done)
+Make the BasicStack implement it (done)
+Change the "Card Test" code to use the Stack interface (done)
+Create ArrayList called ListStack
+Change "Card Test" code to use ListStack
+
+Use methods from NewStackInterface NOT testing example.
+(stack/unstack/contains/goToCard/deckSize)
+ */
+
 public class MyStack {
     static NewStackInterface<String> stack = new NewStackInterface<String>();
 
     public static void main(String[] args) {
         MyStack hw = new MyStack();
-        ArrayList<String> arrayList = new ArrayList<>();
+        ArrayList<String> ListStack = new ArrayList<>();
 
-        hw.stackCards();
+        hw.stackSomeCards();
         hw.unstackCards();
-
-        hw.stackCards();
+        hw.stackSomeCards();
         hw.deckSize();
         hw.containsCard("Queen of Hearts");
         hw.containsCard("Joker");
@@ -20,63 +30,20 @@ public class MyStack {
         hw.deckSize();
     }
 
-    public void stackCards() {
-        //stack the spade suit
-        stack.push("Ace of Spades");
-        stack.push("2 of Spades");
-        stack.push("3 of Spades");
-        stack.push("4 of Spades");
-        stack.push("5 of Spades");
-        stack.push("6 of Spades");
-        stack.push("7 of Spades");
-        stack.push("8 of Spades");
-        stack.push("9 of Spades");
-        stack.push("10 of Spades");
+    public void stackSomeCards() {
+        stack.push("Ace of Spades");    //stack the spade suit
         stack.push("Jack of Spades");
         stack.push("Queen of Spades");
         stack.push("King of Spades");
-
-        //stack the diamond suit
-        stack.push("Ace of Diamonds");
-        stack.push("2 of Diamonds");
-        stack.push("3 of Diamonds");
-        stack.push("4 of Diamonds");
-        stack.push("5 of Diamonds");
-        stack.push("6 of Diamonds");
-        stack.push("7 of Diamonds");
-        stack.push("8 of Diamonds");
-        stack.push("9 of Diamonds");
-        stack.push("10 of Diamonds");
+        stack.push("Ace of Diamonds"); //stack the diamond suit
         stack.push("Jack of Diamonds");
         stack.push("Queen of Diamonds");
         stack.push("King of Diamonds");
-
-        //stack the club suit
-        stack.push("Ace of Clubs");
-        stack.push("2 of Clubs");
-        stack.push("3 of Clubs");
-        stack.push("4 of Clubs");
-        stack.push("5 of Clubs");
-        stack.push("6 of Clubs");
-        stack.push("7 of Clubs");
-        stack.push("8 of Clubs");
-        stack.push("9 of Clubs");
-        stack.push("10 of Clubs");
+        stack.push("Ace of Clubs");    //stack the club suit
         stack.push("Jack of Clubs");
         stack.push("Queen of Clubs");
         stack.push("King of Clubs");
-
-        //stack the heart suit
-        stack.push("Ace of Hearts");
-        stack.push("2 of Hearts");
-        stack.push("3 of Hearts");
-        stack.push("4 of Hearts");
-        stack.push("5 of Hearts");
-        stack.push("6 of Hearts");
-        stack.push("7 of Hearts");
-        stack.push("8 of Hearts");
-        stack.push("9 of Hearts");
-        stack.push("10 of Hearts");
+        stack.push("Ace of Hearts");//stack the heart suit
         stack.push("Jack of Hearts");
         stack.push("Queen of Hearts");
         stack.push("King of Hearts");
