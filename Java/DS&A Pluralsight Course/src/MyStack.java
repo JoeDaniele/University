@@ -1,17 +1,14 @@
 import java.util.ArrayList;
 import java.util.List;
-
 /* Homework
-Create a stack interface (done)
-Make the BasicStack implement it (done)
-Change the "Card Test" code to use the Stack interface (done)
+Create a stack interface
+Make the BasicStack implement it
+Change the "Card Test" code to use the Stack interface
 Create ArrayList called ListStack
 Change "Card Test" code to use ListStack
-
 Use methods from NewStackInterface NOT testing example.
 (stack/unstack/contains/goToCard/deckSize)
  */
-
 public class MyStack {
     static NewStackInterface<String> stack = new NewStackInterface<String>();
 
@@ -24,12 +21,11 @@ public class MyStack {
         MyStack hw = new MyStack();
 
         hw.pushCards();
+        hw.cardList();
         hw.deckSize();
         hw.containsCard();
         hw.popCards();
-        hw.deckSize();
-
-
+        hw.popAllCards();
     }
 
     public void pushCards() {
@@ -51,6 +47,9 @@ public class MyStack {
         listStack.add("Queen of Hearts");
         listStack.add("King of Hearts");
     }
+    public void cardList(){
+        System.out.print(listStack);
+    }
     public void deckSize() {
         System.out.println(listStack.size());
     }
@@ -58,8 +57,15 @@ public class MyStack {
         System.out.println(listStack.contains("Joker"));
     }
     public void popCards() {
-        while (listStack.size() > 1){
-            listStack.clear();
+        if (listStack.size() > 0) {
+            System.out.println(listStack.size()-1);
         }
     }
+    public void popAllCards() {
+        while (listStack.size() > 0){
+            listStack.clear();
+        }
+        System.out.println(listStack.size());
+    }
+
 }
