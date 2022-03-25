@@ -58,8 +58,8 @@ public class MyStack {
         System.out.println(listStack.contains("Joker"));
     }
     public void popCards() {
-        while(listStack.size() > 0) {
-            
+        while (listStack.size() > 1){
+            listStack.clear();
         }
     }
 }
