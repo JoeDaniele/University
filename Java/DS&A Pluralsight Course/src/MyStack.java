@@ -62,7 +62,7 @@ public class MyStack {
         }
     }
     public void popAllCards() {
-        while (listStack.size() > 0){
+        while (listStack.size() > 1){
             listStack.clear();
         }
         System.out.println(listStack.size());
