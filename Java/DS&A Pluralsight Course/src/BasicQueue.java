@@ -44,6 +44,22 @@ public class BasicQueue<T> { //create generic
         }
     }
     public T deQueue(){
-        return null;
+        T item = null; //local variable placeholder for the item were returning
+
+        //if the queue is empty we can't dequeue anything
+        if (size() == 0){
+            throw new IllegalStateException("Can't dequeue because the queue is empty");
+        }
+        //otherwise if this is the last item on the queue, the queue needs to get reset to empty
+        else if (front == end){
+            item = data[front];
+            front = -1;
+            end = -1;
+        }
+        else {
+            item = data[front];
+            front++;
+        }
+        return item;
     }
 }
