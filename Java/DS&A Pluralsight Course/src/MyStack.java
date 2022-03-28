@@ -15,7 +15,7 @@ public class MyStack {
     public String toString() {
         return "Stack [elements=" + listStack + "]";
     }
-    private final List<String> listStack = new ArrayList<>();
+    private List<String> listStack = new ArrayList<>();
 
     public static void main(String[] args) {
         MyStack hw = new MyStack();
@@ -24,8 +24,9 @@ public class MyStack {
         hw.cardList();
         hw.deckSize();
         hw.containsCard();
-        hw.popCards();
-        hw.popAllCards();
+        hw.popCard();
+        hw.deckSize();
+
     }
 
     public void pushCards() {
@@ -56,8 +57,8 @@ public class MyStack {
     public void containsCard() {
         System.out.println(listStack.contains("Joker"));
     }
-    public void popCards() {
-        if (listStack.size() > 0) {
+    public void popCard() {
+        if (listStack.size() > 1) {
             System.out.println(listStack.size()-1);
         }
     }
@@ -65,7 +66,6 @@ public class MyStack {
         while (listStack.size() > 1){
             listStack.clear();
         }
-        System.out.println(listStack.size());
     }
 
 }
