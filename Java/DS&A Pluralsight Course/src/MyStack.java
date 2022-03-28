@@ -12,9 +12,7 @@ Use methods from NewStackInterface NOT testing example.
 public class MyStack {
     static NewStackInterface<String> stack = new NewStackInterface<String>();
 
-    public String toString() {
-        return "Stack [elements=" + listStack + "]";
-    }
+   // public String toString() {return "Stack [elements=" + listStack + "]";}
     private List<String> listStack = new ArrayList<>();
 
     public static void main(String[] args) {

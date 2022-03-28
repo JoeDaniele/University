@@ -1,11 +1,12 @@
 import java.util.ArrayList;
 import java.util.List;
-public class testing {
+public class testingStackToList {
     @Override
 
     public String toString() {
         return "Stack [elements=" + elements + "]";
     }
+
     private List<String> elements = new ArrayList<>();
 
     public String peek() {
@@ -25,16 +26,19 @@ public class testing {
     public void push(String element) {
         elements.add(element);
     }
+
     public int size() {
         return elements.size();
     }
+
     public boolean isEmpty() {
         return elements.isEmpty();
     }
 
     public static void main(String[] args) {
 
-        testing stack = new testing();
+        testingStackToList stack = new testingStackToList();
+
         System.out.println("Is Stack Empty:"+stack.isEmpty());
         stack.push("Gyan");
         stack.push("Vivek");
