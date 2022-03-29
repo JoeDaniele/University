@@ -1,10 +1,7 @@
-import javax.xml.crypto.Data;
-
 public class BasicQueue<T> { //create generic
     private T[]data; //private primitive array ds
     private int front;
     private int end;
-
 
     public BasicQueue(){ //calls other constructor using THIS and sets queue size to 1000
         this(1000);
