@@ -84,12 +84,18 @@ public class BasicQueue<T> { //create generic
     }
 
     public T access(int position) {
-        if (size() == 0 || position > size()){
-            throw new IllegalArgumentException("No items in the queue OR the position is greater ")
+        if (size() == 0 || position > size()){ //Check for size issues to start
+            throw new IllegalArgumentException("No items in queue OR the position is greater than the queue size.");
         }
 
+        int trueIndex = 0; //Setting a variable to zero -- front of the queue isn't always at 0
+        for (int i = front; i < end ; i++) {
+            if (trueIndex == position){
+                return data[i];
+            }
+            trueIndex++;
+        }
+        //Didn't find item? throw exception.
+        throw new IllegalArgumentException("Could not get queue item at position: " + position);
     }
-
-
-
 }
