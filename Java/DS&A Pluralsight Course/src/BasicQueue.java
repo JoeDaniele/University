@@ -1,3 +1,4 @@
+import javax.xml.crypto.Data;
 
 public class BasicQueue<T> { //create generic
     private T[]data; //private primitive array ds
@@ -54,14 +55,41 @@ public class BasicQueue<T> { //create generic
         //Otherwise if this is the last item on the queue, the queue needs to get reset to empty
         else if (front == end){
             item = data[front]; //front == end checks to see if we are down to the last queue item
+            data[front] = null; //claims "data collection purposes" setting the pointer to null?
             front = -1;         // if we are at the last queue item, we set front & end to -1, reinitializing the queue
             end = -1;
         }
-        //Otherwise, grab the front of the queue, return it and adjust the front pointer. 
+        //Otherwise, grab the front of the queue, return it and adjust the front pointer.
         else {
             item = data[front];
+            data[front] = null;
             front++;
         }
         return item;
     }
+
+    public boolean contains(T item) { //Similar to contains method in stack
+        boolean found = false;  //declare a false boolean to be returned true at the end, if found
+
+        if (size() == 0){ // check to see size of queue, if empty return false found -- contains nothing
+            return found;
+        }
+        for (int i = front; i < end; i++){ //loop from FRONT of queue, to END of queue and check each item
+            if (data[i].equals(item)){
+                found = true;
+                break;
+            }
+        }
+        return found;
+    }
+
+    public T access(int position) {
+        if (size() == 0 || position > size()){
+            throw new IllegalArgumentException("No items in the queue OR the position is greater ")
+        }
+
+    }
+
+
+
 }
