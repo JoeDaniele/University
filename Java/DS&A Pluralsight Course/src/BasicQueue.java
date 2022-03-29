@@ -89,13 +89,18 @@ public class BasicQueue<T> { //create generic
         }
 
         int trueIndex = 0; //Setting a variable to zero -- front of the queue isn't always at 0
-        for (int i = front; i < end ; i++) {
-            if (trueIndex == position){
-                return data[i];
-            }
+        for (int i = front; i < end ; i++) { //again loop thru each item in the queue
+            if (trueIndex == position){ //once the trueIndex reaches the position passed in
+                return data[i]; //return the data from the loop
+            }   //return is like break;
             trueIndex++;
         }
         //Didn't find item? throw exception.
         throw new IllegalArgumentException("Could not get queue item at position: " + position);
+
+        /*  Check size issues to begin, if issues throw exception, if none then proceed.
+            Cycle thru For Loop -- goal is to return the position requested
+            If unable to return the position, throw exception
+         */
     }
 }
