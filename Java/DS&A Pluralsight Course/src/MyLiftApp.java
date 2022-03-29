@@ -1,8 +1,8 @@
-public class SnowbirdLiftApp {
-    BasicQueue<Gad2Chair> gad2Lift = new BasicQueue<Gad2Chair>();
+public class MyLiftApp {
+    MyQueue<Gad2Chair> gad2Lift = new MyQueue<Gad2Chair>();
 
     public static void main(String[] args) {
-        SnowbirdLiftApp app = new SnowbirdLiftApp();
+        MyLiftApp app = new MyLiftApp();
         app.runLift();
     }
 
@@ -13,7 +13,7 @@ public class SnowbirdLiftApp {
         System.out.println(gad2Lift.size());
 
         //does the lift contain skiers Mary and Anna
-        System.out.println("Lift has Mary and Anna on it: " + gad2Lift.contains(new Gad2Chair("Mary", "Anna")));
+        System.out.println("Lift has Mary and Anna on it: " + gad2Lift.contains(new Gad2Chair("Joe", "Domino")));
 
         //who's at the 2nd position - remember 0 based index
         System.out.println("2nd chair has: " + gad2Lift.access(1).listChairRiders());
@@ -32,7 +32,7 @@ public class SnowbirdLiftApp {
         //skiers in line to get on lift
         Gad2Chair chair1 = new Gad2Chair("John", "Dave");
         Gad2Chair chair2 = new Gad2Chair("Samantha", "Kelly");
-        Gad2Chair chair3 = new Gad2Chair("Mary", "Anna");
+        Gad2Chair chair3 = new Gad2Chair("Joe", "Domino");
         Gad2Chair chair4 = new Gad2Chair("Robert", "Chad");
         Gad2Chair chair5 = new Gad2Chair("Sarah", "Bill");
 
@@ -118,8 +118,8 @@ public class SnowbirdLiftApp {
             return this.seat1Name + ", " + this.seat2Name;
         }
 
-        private SnowbirdLiftApp getOuterType() {
-            return SnowbirdLiftApp.this;
+        private MyLiftApp getOuterType() {
+            return MyLiftApp.this;
         }
     }
 }
