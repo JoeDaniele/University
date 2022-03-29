@@ -30,7 +30,7 @@ public class SnowbirdLiftApp {
 
     private void loadLift() {
         //skiers in line to get on lift
-        Gad2Chair chair1 = new Gad2Chair("John", "Dave");
+        Gad2Chair chair1 = new Gad2Chair("Joe", "Dave");
         Gad2Chair chair2 = new Gad2Chair("Samantha", "Kelly");
         Gad2Chair chair3 = new Gad2Chair("Mary", "Anna");
         Gad2Chair chair4 = new Gad2Chair("Robert", "Chad");
