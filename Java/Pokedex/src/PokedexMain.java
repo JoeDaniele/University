@@ -34,7 +34,7 @@ public class PokedexMain {
         System.out.println("Size of ArrayList: " + original.size());
         System.out.print(original +"\n");
 
-        System.out.println("Printing 151: " + original.get(151));
+        System.out.println("Printing 151: " + original.get(150));
 
     }
 }
