@@ -53,10 +53,11 @@ public class BasicQueue<T> { //create generic
         }   //could change this to return null -- depending on how you want the queue to work
         //Otherwise if this is the last item on the queue, the queue needs to get reset to empty
         else if (front == end){
-            item = data[front];
-            front = -1;
+            item = data[front]; //front == end checks to see if we are down to the last queue item
+            front = -1;         // if we are at the last queue item, we set front & end to -1, reinitializing the queue
             end = -1;
         }
+        //Otherwise, grab the front of the queue, return it and adjust the front pointer. 
         else {
             item = data[front];
             front++;
