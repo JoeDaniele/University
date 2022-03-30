@@ -29,12 +29,15 @@ public class MyLiftApp {
         System.out.println("List has Lennox Lewis and Arturo Gatti in it: " +
                 ListQueue.containsAll(Arrays.asList("Lennox Lewis", "Arturo Gatti")));
 
+        /*System.out.println(ListQueue.contains(new Seats("Lennox Lewis", "Arturo Gatti")));
+            thinking I could create something 
+         */
         System.out.println("2nd chair has: " + ListQueue.get(1));
 
         unloadList();
         System.out.println("List after removing: " + ListQueue.size());
 
-     
+
     }
 
     private void unloadList() {
@@ -79,6 +82,16 @@ public class MyLiftApp {
         gad2Lift.enQueue(chair3);
         gad2Lift.enQueue(chair4);
         gad2Lift.enQueue(chair5);
+    }
+
+    class Seats {
+        private final String seated1Name;
+        private final String seated2Name;
+
+        public Seats(String firstBoxer, String secondBoxer) {
+            this.seated1Name = firstBoxer;
+            this.seated2Name = secondBoxer;
+        }
     }
 
     private void unloadLift() {
