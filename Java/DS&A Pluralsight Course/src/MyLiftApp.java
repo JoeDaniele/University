@@ -30,7 +30,7 @@ public class MyLiftApp {
                 ListQueue.containsAll(Arrays.asList("Lennox Lewis", "Arturo Gatti")));
 
         /*System.out.println(ListQueue.contains(new Seats("Lennox Lewis", "Arturo Gatti")));
-            thinking I could create something 
+            thinking I could create something
          */
         System.out.println("2nd chair has: " + ListQueue.get(1));
 
