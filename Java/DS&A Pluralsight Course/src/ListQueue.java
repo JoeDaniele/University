@@ -15,7 +15,7 @@ public class ListQueue<T> { //create generic
         data = (T[]) new Object[size];
     }
 
-    public boolean containsAll(String @NotNull ... args) {
+    public boolean containsAll(String... args) { // imported/unused
         for (String arg : args) {
             if (!this.contains((T) arg))
                 return false;

@@ -1,3 +1,5 @@
+import org.codehaus.groovy.ast.stmt.WhileStatement;
+
 import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -29,6 +31,15 @@ public class MyLiftApp {
 
         System.out.println("2nd chair has: " + ListQueue.get(1));
 
+        System.out.println("test");
+        unloadList();
+        System.out.println("List size after removing: " + ListQueue.size());
+    }
+
+    private void unloadList() {
+        while (ListQueue.size() > 1) {
+            ListQueue.size() - 1;
+        }
 
     }
 
