@@ -1,5 +1,5 @@
 public class MyLiftApp {
-    MyQueue<Gad2Chair> gad2Lift = new MyQueue<Gad2Chair>();
+    ListQueue<Gad2Chair> gad2Lift = new ListQueue<Gad2Chair>();
 
     public static void main(String[] args) {
         MyLiftApp app = new MyLiftApp();
@@ -72,8 +72,8 @@ public class MyLiftApp {
     }
 
     class Gad2Chair {
-        private String seat1Name;
-        private String seat2Name;
+        private final String seat1Name;
+        private final String seat2Name;
 
         public Gad2Chair(String skierInFirstSeat, String skierInSecondSeat) {
             this.seat1Name = skierInFirstSeat;
@@ -107,11 +107,8 @@ public class MyLiftApp {
             } else if (!seat1Name.equals(other.seat1Name))
                 return false;
             if (seat2Name == null) {
-                if (other.seat2Name != null)
-                    return false;
-            } else if (!seat2Name.equals(other.seat2Name))
-                return false;
-            return true;
+                return other.seat2Name == null;
+            } else return seat2Name.equals(other.seat2Name);
         }
 
         public String listChairRiders() {
