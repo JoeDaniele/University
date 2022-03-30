@@ -31,16 +31,17 @@ public class MyLiftApp {
 
         System.out.println("2nd chair has: " + ListQueue.get(1));
 
-        System.out.println("test");
         unloadList();
-        System.out.println("List size after removing: " + ListQueue.size());
+        System.out.println("List after removing: " + ListQueue.size());
+
+     
     }
 
     private void unloadList() {
-        while (ListQueue.size() > 1) {
-            ListQueue.size() - 1;
-        }
-
+        ListQueue.remove(3);
+        ListQueue.remove(2);
+        ListQueue.remove(1);
+        ListQueue.remove(0);
     }
 
     public void runLift() {
