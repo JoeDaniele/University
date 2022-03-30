@@ -1,3 +1,5 @@
+import org.jetbrains.annotations.NotNull;
+
 public class ListQueue<T> { //create generic
     private final T[] data; //private primitive array ds
     private int front;
@@ -11,6 +13,14 @@ public class ListQueue<T> { //create generic
         this.front = -1;
         this.end = -1;
         data = (T[]) new Object[size];
+    }
+
+    public boolean containsAll(String @NotNull ... args) {
+        for (String arg : args) {
+            if (!this.contains((T) arg))
+                return false;
+        }
+        return true;
     }
 
     public int size() {

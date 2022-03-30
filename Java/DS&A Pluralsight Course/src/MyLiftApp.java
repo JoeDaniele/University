@@ -1,14 +1,39 @@
+import java.sql.SQLOutput;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class MyLiftApp {
+    ArrayList<String> ListQueue = new ArrayList<>();
+
     ListQueue<Gad2Chair> gad2Lift = new ListQueue<Gad2Chair>();
 
     public static void main(String[] args) {
         MyLiftApp app = new MyLiftApp();
-        app.runLift();
+        //app.runLift();
+        app.listLift();
+
+    }
+
+    public void listLift() {
+        ListQueue.add("Lennox Lewis");
+        ListQueue.add("Manny Pacquiao");
+        ListQueue.add("Mike Tyson");
+        ListQueue.add("Arturo Gatti");
+
+        System.out.println(ListQueue.size());
+        System.out.println(ListQueue);
+
+        System.out.println("List has Lennox Lewis and Arturo Gatti in it: " +
+                ListQueue.containsAll(Arrays.asList("Lennox Lewis", "Arturo Gatti")));
+
+        System.out.println("2nd chair has: " + ListQueue.get(1));
+
+
     }
 
     public void runLift() {
         loadLift();
-
         //print out the lift size
         System.out.println(gad2Lift.size());
 
@@ -30,8 +55,8 @@ public class MyLiftApp {
 
     private void loadLift() {
         //skiers in line to get on lift
-        Gad2Chair chair1 = new Gad2Chair("John", "Dave");
-        Gad2Chair chair2 = new Gad2Chair("Samantha", "Kelly");
+        Gad2Chair chair1 = new Gad2Chair("Lennox Claudius Lewis", "Myself");
+        Gad2Chair chair2 = new Gad2Chair("Joe Daniele", "Alias");
         Gad2Chair chair3 = new Gad2Chair("Joe", "Domino");
         Gad2Chair chair4 = new Gad2Chair("Robert", "Chad");
         Gad2Chair chair5 = new Gad2Chair("Sarah", "Bill");
@@ -46,27 +71,22 @@ public class MyLiftApp {
 
     private void unloadLift() {
         Gad2Chair chair = gad2Lift.deQueue();
-
         //should be John and Dave
         System.out.println(chair.listChairRiders());
 
         chair = gad2Lift.deQueue();
-
         //should be Samantha and Kelly
         System.out.println(chair.listChairRiders());
 
         chair = gad2Lift.deQueue();
-
         //should be Mary and Anna
         System.out.println(chair.listChairRiders());
 
         chair = gad2Lift.deQueue();
-
         //should be Robert and Chad
         System.out.println(chair.listChairRiders());
 
         chair = gad2Lift.deQueue();
-
         //should be Sarah and Bill
         System.out.println(chair.listChairRiders());
     }
