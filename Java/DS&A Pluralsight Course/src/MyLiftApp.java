@@ -13,7 +13,7 @@ public class MyLiftApp {
         System.out.println(gad2Lift.size());
 
         //does the lift contain skiers Mary and Anna
-        System.out.println("Lift has Mary and Anna on it: " + gad2Lift.contains(new Gad2Chair("Joe", "Domino")));
+        System.out.println("Lift has Joe and Domino on it: " + gad2Lift.contains(new Gad2Chair("Joe", "Domino")));
 
         //who's at the 2nd position - remember 0 based index
         System.out.println("2nd chair has: " + gad2Lift.access(1).listChairRiders());
