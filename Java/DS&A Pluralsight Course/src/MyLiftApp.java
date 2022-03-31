@@ -12,9 +12,9 @@ public class MyLiftApp {
 
     public static void main(String[] args) {
         MyLiftApp app = new MyLiftApp();
-        //app.runLift();
+        app.runLift();
+        System.out.println("\n\n\n");
         app.listLift();
-
     }
 
     public void listLift() {
@@ -43,9 +43,8 @@ public class MyLiftApp {
 
     private void unloadList() {
         int index = ListQueue.size() - 1;
-        System.out.println(index);
+        // System.out.println(index);
         // ^ Calculate the index of the last element in the arraylist
-        System.out.println(ListQueue);
         ListQueue.remove(index);
         System.out.println(ListQueue);
 
