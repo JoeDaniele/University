@@ -7,6 +7,37 @@ public class BasicLinkedList<T> { //GENERIC
     public BasicLinkedList() { //Constructor
         first = null;
         last = null;
+        nodeCount = 0;
+    }
+
+    public void add(T item) {
+        //this condition means we are adding something for the first time
+        if (first == null) {
+            first = new Node(item);
+            last = first;
+        }
+        //IF we already have a front node, we want to grab the last node and update its value
+        else {
+            Node newLastNode = new Node(item);
+            last.setNextNode(newLastNode);
+            last = newLastNode;
+            //add a new node onto the end of the existing list,
+            //link them together,
+            //and update the pointer to the last node
+        }
+        nodeCount++; //update list tracker
+    }
+
+    public T remove() {
+        if (first == null) {
+            throw new IllegalStateException("LinkedList is empty and there are not items to be removed.");
+        }
+        T nodeItem = first.getNodeItem();
+
+        //now update the first pointer and throw away the OLD first.
+        first = first.getNextNode();
+        nodeCount--;
+        return nodeItem;
     }
 
     public int size() {
@@ -38,7 +69,7 @@ public class BasicLinkedList<T> { //GENERIC
 
         public T getNodeItem() {
             return nodeItem;
-            //inspect what kind of node it is (see line 8)
+            //inspect what kind of node it is (see line 18)
         }
     }
 
