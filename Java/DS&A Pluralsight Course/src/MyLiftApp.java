@@ -23,7 +23,7 @@ public class MyLiftApp {
         ListQueue.add("Mike Tyson");
         ListQueue.add("Arturo Gatti");
 
-        System.out.println(ListQueue.size());
+        System.out.println("Strings in ArrayList: " + ListQueue.size());
         System.out.println(ListQueue);
 
         System.out.println("List has Lennox Lewis and Arturo Gatti in it: " +
@@ -35,16 +35,20 @@ public class MyLiftApp {
         System.out.println("2nd chair has: " + ListQueue.get(1));
 
         unloadList();
+
         System.out.println("List after removing: " + ListQueue.size());
 
 
     }
 
     private void unloadList() {
-        ListQueue.remove(3);
-        ListQueue.remove(2);
-        ListQueue.remove(1);
-        ListQueue.remove(0);
+        int index = ListQueue.size() - 1;
+        System.out.println(index);
+        // ^ Calculate the index of the last element in the arraylist
+        System.out.println(ListQueue);
+        ListQueue.remove(index);
+        System.out.println(ListQueue);
+
     }
 
     public void runLift() {

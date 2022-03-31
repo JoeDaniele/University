@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="389b6b02-1892-43ae-b07b-5c3a8e34eecf" name="Changes" comment="" />
+    <list default="true" id="389b6b02-1892-43ae-b07b-5c3a8e34eecf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../DS&amp;A Pluralsight Course/out/production/DS&amp;A Pluralsight Course/MyLiftApp$Gad2Chair.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DS&amp;A Pluralsight Course/out/production/DS&amp;A Pluralsight Course/MyLiftApp$Gad2Chair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DS&amp;A Pluralsight Course/out/production/DS&amp;A Pluralsight Course/MyLiftApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DS&amp;A Pluralsight Course/out/production/DS&amp;A Pluralsight Course/MyLiftApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DS&amp;A Pluralsight Course/src/MyLiftApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DS&amp;A Pluralsight Course/src/MyLiftApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
