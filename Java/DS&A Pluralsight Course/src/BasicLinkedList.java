@@ -1,6 +1,6 @@
 public class BasicLinkedList<T> { //GENERIC
-    private Node first; // front of list
-    private Node last;  //back of list
+    private Node first; //front pointer of list
+    private Node last;  //back pointer of list
     private int nodeCount; //tracks size, can ++/-- as we change nodes
 
 
@@ -30,9 +30,10 @@ public class BasicLinkedList<T> { //GENERIC
 
     public T remove() {
         if (first == null) {
-            throw new IllegalStateException("LinkedList is empty and there are not items to be removed.");
+            throw new IllegalStateException("LinkedList is empty and there are not items to remove.");
         }
         T nodeItem = first.getNodeItem();
+        //get the first node by looking at the FIRST pointer
 
         //now update the first pointer and throw away the OLD first.
         first = first.getNextNode();
