@@ -67,7 +67,7 @@ public class MyLiftApp {
         try {
             unloadLift();
         } catch (IllegalStateException t) {
-            System.out.println("Can't unload any more skiers because the lift is empty: " + t.getMessage());
+            System.out.println("Can't unload any more skiers because the lift is empty: " + "\n" + t.getMessage());
         }
     }
 
