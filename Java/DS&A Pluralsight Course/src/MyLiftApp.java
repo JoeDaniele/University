@@ -87,16 +87,6 @@ public class MyLiftApp {
         gad2Lift.enQueue(chair5);
     }
 
-    class Seats {
-        private final String seated1Name;
-        private final String seated2Name;
-
-        public Seats(String firstBoxer, String secondBoxer) {
-            this.seated1Name = firstBoxer;
-            this.seated2Name = secondBoxer;
-        }
-    }
-
     private void unloadLift() {
         Gad2Chair chair = gad2Lift.deQueue();
         //should be John and Dave
@@ -117,6 +107,16 @@ public class MyLiftApp {
         chair = gad2Lift.deQueue();
         //should be Sarah and Bill
         System.out.println(chair.listChairRiders());
+    }
+
+    class Seats {
+        private final String seated1Name;
+        private final String seated2Name;
+
+        public Seats(String firstBoxer, String secondBoxer) {
+            this.seated1Name = firstBoxer;
+            this.seated2Name = secondBoxer;
+        }
     }
 
     class Gad2Chair {

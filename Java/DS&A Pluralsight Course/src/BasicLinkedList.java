@@ -11,7 +11,6 @@ public class BasicLinkedList<T> { //GENERIC
     }
 
     public void add(T item) {
-        //this condition means we are adding something for the first time
         if (first == null) {
             first = new Node(item);
             last = first;
@@ -65,7 +64,7 @@ public class BasicLinkedList<T> { //GENERIC
 
         public void setNextNode(Node nextNode) {
             this.nextNode = nextNode;
-            //can link the next node, to the current node
+            //can link the next node to the current node
         }
 
         public T getNodeItem() {
