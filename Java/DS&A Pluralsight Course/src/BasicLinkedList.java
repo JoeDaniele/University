@@ -27,12 +27,30 @@ public class BasicLinkedList<T> { //GENERIC
         nodeCount++; //update list tracker
     }
 
+    public void insert(T item, int position) {
+        if (size() < position) {
+            throw new IllegalStateException("LinkedList is smaller than the position.");
+        }
+        Node currentNode = first;
+
+        //Start at 1 because we are already on the first node. loop thru the node list.
+        for (int i = 1; i < position && (currentNode != null); i++) {
+            currentNode = currentNode.getNextNode();
+        }
+        //Severs the link chain and reconnects with the new node.
+        Node newNode = new Node(item);
+        Node nextNode = currentNode.getNextNode();
+        currentNode.setNextNode(newNode);
+        newNode.setNextNode(nextNode);
+        nodeCount++;
+    }
+
     public T remove() {
         if (first == null) {
             throw new IllegalStateException("LinkedList is empty and there are not items to remove.");
         }
         T nodeItem = first.getNodeItem();
-        //get the first node by looking at the FIRST pointer
+        //get the first node by looking at the first pointer
 
         //now update the first pointer and throw away the OLD first.
         first = first.getNextNode();
