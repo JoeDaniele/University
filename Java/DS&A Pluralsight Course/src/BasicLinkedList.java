@@ -15,7 +15,7 @@ public class BasicLinkedList<T> { //GENERIC
             first = new Node(item);
             last = first;
         }
-        //IF we already have a front node, we want to grab the last node and update its value
+        //If we already have a front node, we grab the last node and update its value
         else {
             Node newLastNode = new Node(item);
             last.setNextNode(newLastNode);
