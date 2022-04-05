@@ -96,7 +96,7 @@ public class BasicLinkedList<T> { //GENERIC
 
         public Node getNextNode() {
             return nextNode;
-            //get the next node -- allowing for iteration later
+            //get the next node -- allowing for iteration later (remove, removeAt, insert methods)
         }
 
         public void setNextNode(Node nextNode) {
