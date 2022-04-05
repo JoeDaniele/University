@@ -64,6 +64,22 @@ public class BasicLinkedList<T> { //GENERIC
         return nodeItem;
     }
 
+    public T get(int position) {
+        if (first == null) {
+            throw new IllegalStateException("LinkedList is empty and there are no items to get.");
+        }
+
+        Node currentNode = first; //"get the first node and set it equal to the current node."
+        for (int i = 1; i < size() && currentNode != null; i++) {
+            if (i == position) {
+                return currentNode.getNodeItem();
+            }
+            currentNode = currentNode.getNextNode();
+        }
+        //if not found then return null;
+        return null;
+    }
+
     public T remove() {
         if (first == null) {
             throw new IllegalStateException("LinkedList is empty and there are not items to remove.");
