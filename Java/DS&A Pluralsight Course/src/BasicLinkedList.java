@@ -45,6 +45,25 @@ public class BasicLinkedList<T> { //GENERIC
         nodeCount++;
     }
 
+    public T removeAt(int position) {
+        if (first == null) {
+            throw new IllegalStateException("LinkedList is empty, there are no items to remove.");
+        }
+        Node currentNode = first;
+        Node prevNode = first;
+
+        //start at 1 because we are already on the first node
+        for (int i = 1; i < position && currentNode != null; i++) {
+            prevNode = currentNode;
+            currentNode = currentNode.getNextNode();
+        }
+        //now update pointers arnd throw away the OLD FIRST
+        T nodeItem = currentNode.getNodeItem();
+        prevNode.setNextNode(currentNode.getNextNode());
+        nodeCount--;
+        return nodeItem;
+    }
+
     public T remove() {
         if (first == null) {
             throw new IllegalStateException("LinkedList is empty and there are not items to remove.");
