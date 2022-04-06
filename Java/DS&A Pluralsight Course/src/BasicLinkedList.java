@@ -134,7 +134,7 @@ public class BasicLinkedList<T> { //GENERIC
 
     private class Node { //Node Structure
         private Node nextNode; //link to the adjacent node
-        private T nodeItem; //nodeItem set to generic type -- specifies what the node is e.g. boxcar/tanker car
+        private T nodeItem; //nodeItem set to the generic type
 
         public Node(T item) { //Node Constructor that initializes the above attributes
             this.nextNode = null;
