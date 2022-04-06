@@ -69,7 +69,7 @@ public class BasicLinkedList<T> { //GENERIC
             throw new IllegalStateException("LinkedList is empty and there are no items to get.");
         }
 
-        Node currentNode = first; //"get the first node and set it equal to the current node."
+        Node currentNode = first; //get the first node and set it equal to the current node
         for (int i = 1; i < size() && currentNode != null; i++) {
             if (i == position) {
                 return currentNode.getNodeItem();
@@ -111,7 +111,7 @@ public class BasicLinkedList<T> { //GENERIC
     }
 
     @Override
-    public String toString() { // review this
+    public String toString() { //A way to print out the list
         StringBuffer contents = new StringBuffer();
         Node curNode = first;
 

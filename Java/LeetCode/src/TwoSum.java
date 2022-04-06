@@ -3,7 +3,7 @@ public class TwoSum {
 
         int[] nums ={2,7,11,15};
 
-        twoSum(nums, 9);
+        twoSum(nums,18 );
 
     }
 
