@@ -111,7 +111,7 @@ public class BasicLinkedList<T> { //GENERIC
     }
 
     @Override
-    public String toString() {
+    public String toString() { // review this
         StringBuffer contents = new StringBuffer();
         Node curNode = first;
 
