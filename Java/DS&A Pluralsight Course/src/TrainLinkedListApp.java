@@ -110,7 +110,7 @@ public class TrainLinkedListApp {
 
         try {
             while (true) {
-                TrainCar car = train.();
+                TrainCar car = train.;
                 System.out.println("Last Stop: Removed - " + car);
             }
         } catch (IllegalStateException ise) {
