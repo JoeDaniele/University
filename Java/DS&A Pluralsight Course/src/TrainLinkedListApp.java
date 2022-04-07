@@ -32,7 +32,7 @@ public class TrainLinkedListApp {
         System.out.println("After Second Stop train size: " + app.trainSize());
 
         //at the last stop we remove all the train cars, and we're done
-        // app.lastStop();
+        app.lastStop();
 
         //print out the train size
         System.out.println("After Last Stop train size: " + app.trainSize());
@@ -105,24 +105,23 @@ public class TrainLinkedListApp {
         System.out.println(train);
     }
 
-    /* private void lastStop() {
-         //at this stop we simply pull the remaining cars off of the train until we have no more train.
+    private void lastStop() {
+        //at this stop we simply pull the remaining cars off of the train until we have no more train.
 
-         try {
-             while (true) {
-                 TrainCar car = train.remove();
-                 System.out.println("Last Stop: Removed - " + car);
-             }
-         } catch (IllegalStateException ise) {
-             //when we get an ise that means we don't have any more cars to remove and the train is now empty
-         }
+        try {
+            while (true) {
+                TrainCar car = train.();
+                System.out.println("Last Stop: Removed - " + car);
+            }
+        } catch (IllegalStateException ise) {
+            //when we get an ise that means we don't have any more cars to remove and the train is now empty
+        }
 
-         //print out the train cars
-         System.out.println(train);
-     }
+        //print out the train cars
+        System.out.println(train);
+    }
 
 
-     */
     enum CarType {
         BOXCAR, TANKER, FLATBED, HOPPER
     }
