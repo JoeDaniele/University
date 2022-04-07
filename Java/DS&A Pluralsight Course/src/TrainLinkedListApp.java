@@ -32,7 +32,7 @@ public class TrainLinkedListApp {
         System.out.println("After Second Stop train size: " + app.trainSize());
 
         //at the last stop we remove all the train cars, and we're done
-        app.lastStop();
+        // app.lastStop();
 
         //print out the train size
         System.out.println("After Last Stop train size: " + app.trainSize());
@@ -69,7 +69,7 @@ public class TrainLinkedListApp {
 
         //test out the find and get
         //see if we can find the position of the paper box car and then get it
-        int position = train.find(car3);
+        int position = train.indexOf(car3);
         TrainCar paperCar = train.get(position);
         System.out.println("Train is built correctly. found and retrieved the paper car at position: " + paperCar + " - " + position);
 
@@ -79,12 +79,12 @@ public class TrainLinkedListApp {
 
     private void firstStop() {
         //at this stop we need to pull off the first box car and insert a new BoxCar after the farm machinery
-        TrainCar boxcar = train.remove();
+        TrainCar boxcar = train.remove(1);
 
         System.out.println("First Stop: Removed - " + boxcar);
 
         TrainCar newBoxcar = new TrainCar(CarType.BOXCAR, "Farm Fence Posts and Barbwire");
-        train.insert(newBoxcar, 1);
+        train.add(1, newBoxcar);
 
         //print out the train cars
         System.out.println(train);
@@ -92,35 +92,37 @@ public class TrainLinkedListApp {
 
     private void secondStop() {
         //at this stop we need to pull off all of the tanker cars.  They should start at position 5 and there's 3 of them
-        TrainCar car = train.removeAt(5);
+        TrainCar car = train.remove(5);
         System.out.println("Second Stop: Removed - " + car);
 
-        car = train.removeAt(5);
+        car = train.remove(5);
         System.out.println("Second Stop: Removed - " + car);
 
-        car = train.removeAt(5);
+        car = train.remove(5);
         System.out.println("Second Stop: Removed - " + car);
 
         //print out the train cars
         System.out.println(train);
     }
 
-    private void lastStop() {
-        //at this stop we simply pull the remaining cars off of the train until we have no more train.
+    /* private void lastStop() {
+         //at this stop we simply pull the remaining cars off of the train until we have no more train.
 
-        try {
-            while (true) {
-                TrainCar car = train.remove();
-                System.out.println("Last Stop: Removed - " + car);
-            }
-        } catch (IllegalStateException ise) {
-            //when we get an ise that means we don't have any more cars to remove and the train is now empty
-        }
+         try {
+             while (true) {
+                 TrainCar car = train.remove();
+                 System.out.println("Last Stop: Removed - " + car);
+             }
+         } catch (IllegalStateException ise) {
+             //when we get an ise that means we don't have any more cars to remove and the train is now empty
+         }
 
-        //print out the train cars
-        System.out.println(train);
-    }
+         //print out the train cars
+         System.out.println(train);
+     }
 
+
+     */
     enum CarType {
         BOXCAR, TANKER, FLATBED, HOPPER
     }
