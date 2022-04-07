@@ -1,14 +1,17 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class TrainLinkedListApp {
-    BasicLinkedList<TrainCar> train = new BasicLinkedList<TrainCar>();
+    List<TrainCar> train = new ArrayList<TrainCar>();
 
     /*
         hw: time measurements to measure how long it takes to load/unload the train.
 
-        replace linkedlist with core array list -- List<TrainCar>Train = new ArrayList<TrainCar>();
-
-
+        replace linked list with core array list -- List<TrainCar>Train = new ArrayList<TrainCar>();
      */
     public static void main(String[] args) {
+        long start = System.currentTimeMillis();
+
         TrainLinkedListApp app = new TrainLinkedListApp();
         app.buildInitialTrain();
 
@@ -23,7 +26,8 @@ public class TrainLinkedListApp {
 
         //second stop, we need to remove all the tankers
         app.secondStop();
-
+        Long end = System.currentTimeMillis();
+        System.out.println("Time from build to end of 2nd stop: " + (end - start) + "ms");
         //print out the train size
         System.out.println("After Second Stop train size: " + app.trainSize());
 
