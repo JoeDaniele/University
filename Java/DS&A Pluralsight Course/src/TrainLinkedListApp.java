@@ -1,6 +1,13 @@
 public class TrainLinkedListApp {
     BasicLinkedList<TrainCar> train = new BasicLinkedList<TrainCar>();
 
+    /*
+        hw: time measurements to measure how long it takes to load/unload the train.
+
+        replace linkedlist with core array list -- List<TrainCar>Train = new ArrayList<TrainCar>();
+
+
+     */
     public static void main(String[] args) {
         TrainLinkedListApp app = new TrainLinkedListApp();
         app.buildInitialTrain();
