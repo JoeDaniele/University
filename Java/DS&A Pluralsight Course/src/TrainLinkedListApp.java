@@ -26,8 +26,7 @@ public class TrainLinkedListApp {
 
         //second stop, we need to remove all the tankers
         app.secondStop();
-        Long end = System.currentTimeMillis();
-        System.out.println("Time from build to end of 2nd stop: " + (end - start) + "ms");
+
         //print out the train size
         System.out.println("After Second Stop train size: " + app.trainSize());
 
@@ -36,6 +35,9 @@ public class TrainLinkedListApp {
 
         //print out the train size
         System.out.println("After Last Stop train size: " + app.trainSize());
+        Long end = System.currentTimeMillis();
+        System.out.println("Time from build to end of 2nd stop: " + (end - start) + "ms");
+
     }
 
     private int trainSize() {
@@ -108,14 +110,18 @@ public class TrainLinkedListApp {
     private void lastStop() {
         //at this stop we simply pull the remaining cars off of the train until we have no more train.
 
-        try {
+      /*  try {
             while (true) {
-                TrainCar car = train.;
+                TrainCar car = train.remove();
                 System.out.println("Last Stop: Removed - " + car);
             }
         } catch (IllegalStateException ise) {
             //when we get an ise that means we don't have any more cars to remove and the train is now empty
         }
+
+       */
+        System.out.println("Last stop removes all train cars: ");
+        train.clear();
 
         //print out the train cars
         System.out.println(train);
@@ -127,8 +133,8 @@ public class TrainLinkedListApp {
     }
 
     class TrainCar {
-        private CarType type;
-        private String contents;
+        private final CarType type;
+        private final String contents;
 
         public TrainCar(CarType carType, String carContents) { //Constructor
             this.type = carType;
