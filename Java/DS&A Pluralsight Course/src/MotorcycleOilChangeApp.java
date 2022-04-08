@@ -22,7 +22,7 @@ public class MotorcycleOilChangeApp {
         emptyToolset();
     }
 
-    /**
+    /*
      * This loads the toolbox with all the needed tools
      */
     private void buildToolset() {
