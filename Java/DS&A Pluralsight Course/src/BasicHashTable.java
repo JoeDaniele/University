@@ -28,8 +28,27 @@ public class BasicHashTable<X, Y> { //X is for Key, Y is for Item/value
         size++;
     }
 
-    public X delete(Y key) {
-        //First get the value
+    public Y delete(X key) {
+        //First get the value for this key so it can be returned
+        Y value = get(key);
+        //clear out the hashtable slot for the key and return the removed value
+        if (value != null) {
+            int hash = calculateHash(key);
+            data[hash] = null;
+            size--;
+            hash = (hash + 1) % this.capacity;
+
+            //If the next slow isn't empty we should re-add it, so we can keep the hash algorithms clean
+            while (data[hash] != null) {
+                HashEntry he = data[hash];
+                data[hash] = null;
+                put((X) he.getKey(), (Y) he.getValue());
+                //repositioned the hash item and didn't add a new one so back off the size
+                size--;
+                hash = (hash + 1) % this.capacity;
+            }
+        }
+        return value;
     }
 
     public int size() {
