@@ -39,7 +39,7 @@ public class BasicHashTable<X, Y> { //X is for Key, Y is for Item/value
             hash = (hash + 1) % this.capacity;
 
             //If the next slow isn't empty we should re-add it, so we can keep the hash algorithms clean
-            while (data[hash] != null) {
+            while (data[hash] != null) { //found a collision or possible collision
                 HashEntry he = data[hash];
                 data[hash] = null;
                 put((X) he.getKey(), (Y) he.getValue());
@@ -49,6 +49,22 @@ public class BasicHashTable<X, Y> { //X is for Key, Y is for Item/value
             }
         }
         return value;
+    }
+
+    public boolean hasKey(X key) {
+        int hash = calculateHash(key);
+        //if we don't have anything for the given key, we can just return false
+        if (data[hash] == null) {
+            return false;
+        }
+        //Otherwise, get the hashentry for the key and see if it matches the given key
+        else {
+            return data[hash].getKey().equals(key); //get key out of the hash entry, and see if it equals key passed in
+        }
+    }
+
+    public boolean hasValue(Y value) {
+        return false;
     }
 
     public int size() {
