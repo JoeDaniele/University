@@ -1,5 +1,5 @@
 public class MotorcycleOilChangeApp {
-    //we will use a 12 piece socket set for this job
+    //we will use a 12-piece socket set for this job
     private BasicHashTable<String, String> toolset = new BasicHashTable<>(12);
 
     public static void main(String[] args) {

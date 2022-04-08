@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="389b6b02-1892-43ae-b07b-5c3a8e34eecf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/PokedexStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DS&amp;A Pluralsight Course/out/production/DS&amp;A Pluralsight Course/TrainLinkedListApp$TrainCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DS&amp;A Pluralsight Course/out/production/DS&amp;A Pluralsight Course/TrainLinkedListApp$TrainCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DS&amp;A Pluralsight Course/out/production/DS&amp;A Pluralsight Course/TrainLinkedListApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DS&amp;A Pluralsight Course/out/production/DS&amp;A Pluralsight Course/TrainLinkedListApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DS&amp;A Pluralsight Course/src/MotorcycleOilChangeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DS&amp;A Pluralsight Course/src/MotorcycleOilChangeApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokedex Data Structures/PokedexMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pokedex Data Structures/PokedexMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PokedexMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokedexMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +45,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PokedexMain">
     <configuration name="PokedexMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PokedexMain" />
+      <module name="Pokedex Data Structures" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PokedexStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PokedexStack" />
       <module name="Pokedex Data Structures" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -50,6 +63,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.PokedexMain" />
+        <item itemvalue="Application.PokedexStack" />
       </list>
     </recent_temporary>
   </component>
