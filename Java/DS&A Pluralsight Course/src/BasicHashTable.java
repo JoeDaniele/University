@@ -60,10 +60,18 @@ public class BasicHashTable<X, Y> { //X is for Key, Y is for Item/value
         //Otherwise, get the hashentry for the key and see if it matches the given key
         else {
             return data[hash].getKey().equals(key); //get key out of the hash entry, and see if it equals key passed in
-        }
+        }   //returns true or false if it exists or doesn't
     }
 
     public boolean hasValue(Y value) {
+        //loop through all hash entries.
+        for (int i = 0; i < this.capacity; i++) {
+            HashEntry entry = data[i];
+            //if this hash entry isnt null, and the value equals the one passed in, the hashtable has this value
+            if (entry != null && entry.getValue().equals(value)) {
+                return true;
+            }
+        }
         return false;
     }
 
