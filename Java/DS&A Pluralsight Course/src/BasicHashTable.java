@@ -1,4 +1,4 @@
-public class BasicHashTable<T, V> { //T is for Key, V is for Item/value
+public class BasicHashTable<X, Y> { //X is for Key, Y is for Item/value
     private HashEntry[] data;
     private int capacity; // differs from size
     private int size;
@@ -9,7 +9,7 @@ public class BasicHashTable<T, V> { //T is for Key, V is for Item/value
         this.size = 0;
     }
 
-    public V get(T key) { //takes in key and returns a value
+    public Y get(X key) { //takes in key and returns a value
         int hash = calculateHash(key);
         //nothing for given key? return null
         if (data[hash] == null) {
@@ -17,22 +17,26 @@ public class BasicHashTable<T, V> { //T is for Key, V is for Item/value
         }
         //Otherwise, get Hash Entry for key and return value
         else {
-            return (V) data[hash].getValue();
+            return (Y) data[hash].getValue();
         }
     }
 
-    public void put(T key, V value) {
+    public void put(X key, Y value) {
         int hash = calculateHash(key);
 
-        data[hash] = new HashEntry<T, V>(key, value);
+        data[hash] = new HashEntry<X, Y>(key, value);
         size++;
+    }
+
+    public X delete(Y key) {
+        //First get the value
     }
 
     public int size() {
         return this.size;
     }
 
-    private int calculateHash(T key) {
+    private int calculateHash(X key) {
         int hash = (key.hashCode() % this.capacity);
         //this is necessary to deal with collisions
         while (data[hash] != null && !data[hash].getKey().equals(key)) {
