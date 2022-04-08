@@ -21,6 +21,13 @@ public class BasicHashTable<T, V> { //T is for Key, V is for Item/value
         }
     }
 
+    public void put(T key, V value) {
+        int hash = calculateHash(key);
+
+        data[hash] = new HashEntry<T, V>(key, value);
+        size++;
+    }
+
     public int size() {
         return this.size;
     }
