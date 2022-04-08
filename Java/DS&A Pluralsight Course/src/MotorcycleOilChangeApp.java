@@ -38,7 +38,7 @@ public class MotorcycleOilChangeApp {
         toolset.put("3/4sae", "3/4sae Socket");
         toolset.put("1/4d", "1/4 socket wrench");
         toolset.put("2de", "2 inch Drive extension");
-        System.out.println("Toolset size: " + toolset.size());
+        System.out.println("Toolset size: " + toolset.size() + "--gg.");
     }
 
     private void emptyToolset() {
@@ -61,14 +61,14 @@ public class MotorcycleOilChangeApp {
         //get the 10mm socket and wrench
         String socket = toolset.get("10mm");
         String wrench = toolset.get("1/4d");
-        System.out.println("Removed 4 skid plate nuts with the " + socket + " and " + wrench);
+        System.out.println("Removed 4 skid plate nuts with the " + socket + " and " + wrench + "--gg.");
     }
 
     private void replaceSkidPlate() {
         //get the 10mm socket and wrench
         String socket = toolset.get("10mm");
         String wrench = toolset.get("1/4d");
-        System.out.println("Replaced 4 skid plate nuts with the " + socket + " and " + wrench);
+        System.out.println("Replaced 4 skid plate nuts with the " + socket + " and " + wrench + "--gg.");
     }
 
     private void drainAndReplaceOil() {
@@ -77,6 +77,7 @@ public class MotorcycleOilChangeApp {
 
         String socket = toolset.get("17mm");
         String wrench = toolset.get("1/4d");
+
         System.out.println("Removed oil drain plug with " + socket + " and " + wrench);
         System.out.println("Drained 1.7 quarts of oil");
         System.out.println("Replaced oil drain plug with " + socket + " and " + wrench);
