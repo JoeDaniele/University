@@ -2,6 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.sql.SQLOutput;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Scanner;
 /*Goal is to allow the user to enter a Pokémon by name or number
 and return its type(s) like a Pokédex would. Experimenting with data structures.
@@ -26,6 +27,8 @@ public class PokedexMain {
 
         System.out.println("File Location:"+ f.getAbsoluteFile());
         System.out.println("File Length: " + f.length());
+
+
 
         ArrayList<String> original = new ArrayList<String>();
         while (s.hasNext()){

@@ -1,4 +1,4 @@
-public class BasicHashTable<X, Y> { //X is for Key, Y is for Item/value
+public class BasicHashTable<T> { //X is for Key, Y is for Item/value
     private HashEntry[] data;
     private int capacity; // differs from size
     private int size;
@@ -9,7 +9,7 @@ public class BasicHashTable<X, Y> { //X is for Key, Y is for Item/value
         this.size = 0;
     }
 
-    public Y get(X key) { //takes in key and returns a value
+    public T get(String key) { //takes in key and returns a value
         int hash = calculateHash(key);
         //nothing for given key? return null
         if (data[hash] == null) {
@@ -17,20 +17,20 @@ public class BasicHashTable<X, Y> { //X is for Key, Y is for Item/value
         }
         //Otherwise, get Hash Entry for key and return value
         else {
-            return (Y) data[hash].getValue();
+            return (T) data[hash].getValue();
         }
     }
 
-    public void put(X key, Y value) {
+    public void put(String key, T value) {
         int hash = calculateHash(key);
 
-        data[hash] = new HashEntry<X, Y>(key, value);
+        data[hash] = new HashEntry<T>(key, value);
         size++;
     }
 
-    public Y delete(X key) {
+    public T delete(String key) {
         //First get the value for this key so it can be returned
-        Y value = get(key);
+        T value = get(key);
         //clear out the hashtable slot for the key and return the removed value
         if (value != null) {
             int hash = calculateHash(key);
@@ -42,7 +42,7 @@ public class BasicHashTable<X, Y> { //X is for Key, Y is for Item/value
             while (data[hash] != null) { //found a collision or possible collision
                 HashEntry he = data[hash];
                 data[hash] = null;
-                put((X) he.getKey(), (Y) he.getValue());
+                put((String) he.getKey(), (T) he.getValue());
                 //repositioned the hash item and didn't add a new one so back off the size
                 size--;
                 hash = (hash + 1) % this.capacity;
@@ -51,7 +51,7 @@ public class BasicHashTable<X, Y> { //X is for Key, Y is for Item/value
         return value;
     }
 
-    public boolean hasKey(X key) {
+    public boolean hasKey(String key) {
         int hash = calculateHash(key);
         //if we don't have anything for the given key, we can just return false
         if (data[hash] == null) {
@@ -63,7 +63,7 @@ public class BasicHashTable<X, Y> { //X is for Key, Y is for Item/value
         }   //returns true or false if it exists or doesn't
     }
 
-    public boolean hasValue(Y value) {
+    public boolean hasValue(T value) {
         //loop through all hash entries.
         for (int i = 0; i < this.capacity; i++) {
             HashEntry entry = data[i];
@@ -79,7 +79,7 @@ public class BasicHashTable<X, Y> { //X is for Key, Y is for Item/value
         return this.size;
     }
 
-    private int calculateHash(X key) {
+    private int calculateHash(String key) {
         int hash = (key.hashCode() % this.capacity);
         //this is necessary to deal with collisions
         while (data[hash] != null && !data[hash].getKey().equals(key)) {
@@ -88,28 +88,28 @@ public class BasicHashTable<X, Y> { //X is for Key, Y is for Item/value
         return hash;
     }
 
-    private class HashEntry<T, V> { //Create HashEntry structure
-        private T key;
-        private V value;
+    private class HashEntry<T> { //Create HashEntry structure
+        private String key;
+        private T value;
 
-        public HashEntry(T key, V value) { //initialize HashEntry
+        public HashEntry(String key, T value) { //initialize HashEntry
             this.key = key;
             this.value = value;
         }
 
-        public T getKey() {
+        public String getKey() {
             return key;
         }
 
-        public void setKey(T key) {
+        public void setKey(String key) {
             this.key = key;
         }
 
-        public V getValue() {
+        public T getValue() {
             return value;
         }
 
-        public void setValue(V value) {
+        public void setValue(T value) {
             this.value = value;
         }
     }
