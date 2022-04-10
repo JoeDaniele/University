@@ -36,7 +36,7 @@ public class TrainLinkedListApp {
         //print out the train size
         System.out.println("After Last Stop train size: " + app.trainSize());
         Long end = System.currentTimeMillis();
-        System.out.println("Time from build to end of 2nd stop: " + (end - start) + "ms");
+        System.out.println("Time from build to last stop: " + (end - start) + "ms");
 
     }
 

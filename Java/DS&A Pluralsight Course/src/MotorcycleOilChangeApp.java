@@ -8,6 +8,7 @@ public class MotorcycleOilChangeApp {
     }
 
     public void changeOil() {
+        long start = System.currentTimeMillis();
         buildToolset();
 
         //remove skid plate to get at the oil pan
@@ -20,6 +21,8 @@ public class MotorcycleOilChangeApp {
         replaceSkidPlate();
 
         emptyToolset();
+        long end = System.currentTimeMillis();
+        System.out.println("Time from start to emptying toolset: " + (end - start));
     }
 
     /*
