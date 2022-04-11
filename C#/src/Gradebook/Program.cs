@@ -6,7 +6,9 @@ namespace Gradebook
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Claudius!");
+
+            Console.WriteLine($"Hello, {args[0]} !"); // string interpolation $
+
         }
     }
 }
