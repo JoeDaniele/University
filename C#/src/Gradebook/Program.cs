@@ -18,9 +18,9 @@ namespace Gradebook
             {
                 result += number;
             }
+            Console.WriteLine("Total: " + result);
+            System.Console.WriteLine("Average of scores: " + result / grades.Count);
 
-
-            Console.WriteLine(result);
 
             if (args.Length > 0)
             {
