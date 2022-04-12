@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Misc\\GithubMain\\C#\\src\\Gradebook\\Gradebook.csproj",
+      "projectUniqueName": "c:\\Misc\\GithubMain\\C#\\src\\Gradebook\\Gradebook.csproj",
       "projectName": "Gradebook",
-      "projectPath": "C:\\Misc\\GithubMain\\C#\\src\\Gradebook\\Gradebook.csproj",
+      "projectPath": "c:\\Misc\\GithubMain\\C#\\src\\Gradebook\\Gradebook.csproj",
       "packagesPath": "C:\\Users\\joefd\\.nuget\\packages\\",
-      "outputPath": "C:\\Misc\\GithubMain\\C#\\src\\Gradebook\\obj\\",
+      "outputPath": "c:\\Misc\\GithubMain\\C#\\src\\Gradebook\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joefd\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
       }
     }
   }
