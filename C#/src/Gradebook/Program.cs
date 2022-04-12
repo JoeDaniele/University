@@ -7,8 +7,6 @@ namespace Gradebook
     {
         static void Main(string[] args)
         {
-
-            var numbers = new[] { 12.7, 10.1, 6.11, 4.1 }; //array of double
             List<double> grades = new List<double>() { 12.7, 10.3, 6.11, 4.1 };
             grades.Add(56.1);
 
@@ -18,8 +16,12 @@ namespace Gradebook
             {
                 result += number;
             }
+            result /= grades.Count;
+
             Console.WriteLine("Total: " + result);
             System.Console.WriteLine("Average of scores: " + result / grades.Count);
+            System.Console.WriteLine(grades.Contains(10.3));
+
 
 
             if (args.Length > 0)
