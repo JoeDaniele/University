@@ -8,6 +8,7 @@ namespace Gradebook
         {
 
             var numbers = new[] { 12.7, 10.1, 6.11, 4.1 };
+            List grades; 
 
             var result = 0.0;
             foreach (var number in numbers)
