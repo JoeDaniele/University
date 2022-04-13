@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Misc\\GithubMain\\C#\\Testing\\Testing.csproj": {}
+    "C:\\Misc\\GithubMain\\C#\\Testing\\Testing.csproj": {}
   },
   "projects": {
-    "c:\\Misc\\GithubMain\\C#\\Testing\\Testing.csproj": {
+    "C:\\Misc\\GithubMain\\C#\\Testing\\Testing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Misc\\GithubMain\\C#\\Testing\\Testing.csproj",
+        "projectUniqueName": "C:\\Misc\\GithubMain\\C#\\Testing\\Testing.csproj",
         "projectName": "Testing",
-        "projectPath": "c:\\Misc\\GithubMain\\C#\\Testing\\Testing.csproj",
+        "projectPath": "C:\\Misc\\GithubMain\\C#\\Testing\\Testing.csproj",
         "packagesPath": "C:\\Users\\joefd\\.nuget\\packages\\",
-        "outputPath": "c:\\Misc\\GithubMain\\C#\\Testing\\obj\\",
+        "outputPath": "C:\\Misc\\GithubMain\\C#\\Testing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joefd\\AppData\\Roaming\\NuGet\\NuGet.Config",
