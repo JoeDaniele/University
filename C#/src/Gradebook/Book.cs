@@ -5,7 +5,7 @@ namespace Gradebook
 {
     class Book
     {
-        public Book()
+        public Book() //Constructor
         {
             grades = new List<double>();
         }
