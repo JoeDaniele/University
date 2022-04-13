@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace Gradebook
 {
+
+
+
     class Program
     {
         static void Main(string[] args)
@@ -18,13 +21,12 @@ namespace Gradebook
             {
                 result += number;
             }
-            result /= grades.Count;
+            result /= grades.Count; //COUNT is a PROPERTY not a method. Methods require parameters
 
             Console.WriteLine($"Total: {result:N3}"); //Formatting specifiers to limit decimals
             Console.WriteLine($"Average of scores: {(int)result}");
             Console.WriteLine($"Arraylist contains a value of 10.3? {grades.Contains(10.3)}");
         }
 
-        
     }
 }
