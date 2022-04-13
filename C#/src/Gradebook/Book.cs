@@ -5,7 +5,6 @@ namespace Gradebook
 {
     class Book
     {
-
         public Book()
         {
             grades = new List<double>();
@@ -14,7 +13,6 @@ namespace Gradebook
         {
             grades.Add(grade);
         }
-
         List<double> grades;
     }
 }
