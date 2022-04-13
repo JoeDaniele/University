@@ -18,13 +18,13 @@ namespace Gradebook
             }
             result /= grades.Count;
 
-            Console.WriteLine($"Total: {result}");
+            Console.WriteLine($"Total: {result:N3}"); //Formatting specifiers to limit decimals
             System.Console.WriteLine($"Average of scores: {(int)result}");
             System.Console.WriteLine($"Arraylist contains a value of 10.3? {grades.Contains(10.3)}");
 
             if (args.Length > 0)
             {
-                Console.WriteLine($"Hello {args[0]} {args[1]}!"); // string interpolation $
+                Console.WriteLine($"Hello {args[0]} {args[1]}!"); //STRING INTERPOLATION $
             }
             else
             {
