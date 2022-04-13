@@ -18,11 +18,9 @@ namespace Gradebook
             }
             result /= grades.Count;
 
-            Console.WriteLine("Total: " + result);
-            System.Console.WriteLine("Average of scores: " + result / grades.Count);
-            System.Console.WriteLine(grades.Contains(10.3));
-
-
+            Console.WriteLine($"Total: {result}");
+            System.Console.WriteLine($"Average of scores: {(int)result}");
+            System.Console.WriteLine($"Arraylist contains a value of 10.3? {grades.Contains(10.3)}");
 
             if (args.Length > 0)
             {
