@@ -1,4 +1,4 @@
-﻿using System; //using system namespace == java.lang.* to remove explicit typing
+﻿using System; //System namespace == java.lang.* to remove explicit typing
 using System.Collections.Generic;
 
 namespace Gradebook
@@ -7,6 +7,8 @@ namespace Gradebook
     {
         static void Main(string[] args)
         {
+            var book = new Book();
+
             List<double> grades = new List<double>() { 12.7, 10.3, 6.11, 4.1 };
             grades.Add(56.1);
 
@@ -19,8 +21,10 @@ namespace Gradebook
             result /= grades.Count;
 
             Console.WriteLine($"Total: {result:N3}"); //Formatting specifiers to limit decimals
-            System.Console.WriteLine($"Average of scores: {(int)result}");
-            System.Console.WriteLine($"Arraylist contains a value of 10.3? {grades.Contains(10.3)}");
+            Console.WriteLine($"Average of scores: {(int)result}");
+            Console.WriteLine($"Arraylist contains a value of 10.3? {grades.Contains(10.3)}");
         }
+
+        
     }
 }
