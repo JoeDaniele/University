@@ -8,13 +8,14 @@ namespace Gradebook
         public Book(string name) //Constructor
         {
             grades = new List<double>();
-            this.name = name;
-        }
+            this.name = name; //this.  implicit variable refers to the object that is being operated on, "Book", 
+        }                     //available in methods/constructors
+
         public void AddGrade(double grade)
         {
-            this.grades.Add(grade);
+            this.grades.Add(grade); //on THIS object, go to the grades FIELD and add a new grade
         }
-        private List<double> grades;
-        private string name;
+        public List<double> grades;
+        public string name;
     }
 }
