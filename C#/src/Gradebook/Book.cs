@@ -15,7 +15,7 @@ namespace Gradebook
         {
             this.grades.Add(grade); //on THIS object, go to the grades FIELD and add a new grade
         }
-        public List<double> grades;
-        public string name;
+        private List<double> grades;
+        private string name;
     }
 }

@@ -1,4 +1,4 @@
-public class BasicHashTable<T> { //X is for Key, Y is for Item/value
+public class BasicHashTable<T> {
     private HashEntry[] data;
     private int capacity; // differs from size
     private int size;

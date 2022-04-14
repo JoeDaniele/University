@@ -2,7 +2,6 @@ public class FibTest {
 
     static void Fibonacci(int N) {
         int num1 = 0, num2 = 1;
-
         int counter = 0;
 
         while (counter < N) {
