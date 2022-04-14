@@ -5,14 +5,14 @@ namespace Gradebook
 {
     class Book
     {
-        public Book() //Constructor
+        public Book(string name) //Constructor
         {
             grades = new List<double>();
             this.name = name;
         }
         public void AddGrade(double grade)
         {
-            grades.Add(grade);
+            this.grades.Add(grade);
         }
         private List<double> grades;
         private string name;
