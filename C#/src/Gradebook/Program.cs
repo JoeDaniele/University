@@ -12,6 +12,11 @@ namespace Gradebook
             book.AddGrade(90.5);
             book.AddGrade(77.5); //B = class name : b = variable name
             book.ShowStats();
+
+
+            int a = 2357;
+            int b = 1738;
+            System.Console.WriteLine(a + b);
         }
     }
 }
