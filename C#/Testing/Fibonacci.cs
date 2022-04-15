@@ -1,16 +1,28 @@
-﻿namespace Gradebook
+﻿namespace Fib
 {
     public class fibbonacci
     {
-        public static int fib(int i)
+        static void Main(string[] args)
         {
-            if (i <= 2) return 1;
-            return fib(i - 2) + fib(i - 1);
+            int N = 10;
+            Fibonacci(N);
         }
 
-        static void main(string[] args)
+        static void Fibonacci(int N)
         {
-            System.Console.WriteLine(fib(10));
+            int num1 = 0, num2 = 1;
+            int counter = 0;
+
+            while (counter < N)
+            {
+
+                System.Console.WriteLine(num1);
+
+                int num3 = num2 + num1;
+                num1 = num2;
+                num2 = num3;
+                counter = counter + 1;
+            }
         }
     }
 }
