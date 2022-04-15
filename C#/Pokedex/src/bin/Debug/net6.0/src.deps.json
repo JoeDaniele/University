@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Pokedex/1.0.0": {
+      "src/1.0.0": {
         "runtime": {
-          "Pokedex.dll": {}
+          "src.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Pokedex/1.0.0": {
+    "src/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

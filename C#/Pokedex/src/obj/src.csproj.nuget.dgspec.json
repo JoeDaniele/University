@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Misc\\GithubMain\\C#\\Pokedex\\src\\Pokedex\\Pokedex.csproj": {}
+    "C:\\Misc\\GithubMain\\C#\\Pokedex\\src\\src.csproj": {}
   },
   "projects": {
-    "c:\\Misc\\GithubMain\\C#\\Pokedex\\src\\Pokedex\\Pokedex.csproj": {
+    "C:\\Misc\\GithubMain\\C#\\Pokedex\\src\\src.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Misc\\GithubMain\\C#\\Pokedex\\src\\Pokedex\\Pokedex.csproj",
-        "projectName": "Pokedex",
-        "projectPath": "c:\\Misc\\GithubMain\\C#\\Pokedex\\src\\Pokedex\\Pokedex.csproj",
+        "projectUniqueName": "C:\\Misc\\GithubMain\\C#\\Pokedex\\src\\src.csproj",
+        "projectName": "src",
+        "projectPath": "C:\\Misc\\GithubMain\\C#\\Pokedex\\src\\src.csproj",
         "packagesPath": "C:\\Users\\joefd\\.nuget\\packages\\",
-        "outputPath": "c:\\Misc\\GithubMain\\C#\\Pokedex\\src\\Pokedex\\obj\\",
+        "outputPath": "C:\\Misc\\GithubMain\\C#\\Pokedex\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joefd\\AppData\\Roaming\\NuGet\\NuGet.Config",
