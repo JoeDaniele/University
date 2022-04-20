@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Misc\\GithubMain\\C#\\Gradebook Project\\src\\Gradebook\\Gradebook.csproj": {}
+    "c:\\Misc\\GithubMain\\C#\\src\\Gradebook\\Gradebook.csproj": {}
   },
   "projects": {
-    "C:\\Misc\\GithubMain\\C#\\Gradebook Project\\src\\Gradebook\\Gradebook.csproj": {
+    "c:\\Misc\\GithubMain\\C#\\src\\Gradebook\\Gradebook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Misc\\GithubMain\\C#\\Gradebook Project\\src\\Gradebook\\Gradebook.csproj",
+        "projectUniqueName": "c:\\Misc\\GithubMain\\C#\\src\\Gradebook\\Gradebook.csproj",
         "projectName": "Gradebook",
-        "projectPath": "C:\\Misc\\GithubMain\\C#\\Gradebook Project\\src\\Gradebook\\Gradebook.csproj",
+        "projectPath": "c:\\Misc\\GithubMain\\C#\\src\\Gradebook\\Gradebook.csproj",
         "packagesPath": "C:\\Users\\joefd\\.nuget\\packages\\",
-        "outputPath": "C:\\Misc\\GithubMain\\C#\\Gradebook Project\\src\\Gradebook\\obj\\",
+        "outputPath": "c:\\Misc\\GithubMain\\C#\\src\\Gradebook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joefd\\AppData\\Roaming\\NuGet\\NuGet.Config",

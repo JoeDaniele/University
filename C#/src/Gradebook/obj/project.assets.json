@@ -5983,11 +5983,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Misc\\GithubMain\\C#\\Gradebook Project\\src\\Gradebook\\Gradebook.csproj",
+      "projectUniqueName": "c:\\Misc\\GithubMain\\C#\\src\\Gradebook\\Gradebook.csproj",
       "projectName": "Gradebook",
-      "projectPath": "c:\\Misc\\GithubMain\\C#\\Gradebook Project\\src\\Gradebook\\Gradebook.csproj",
+      "projectPath": "c:\\Misc\\GithubMain\\C#\\src\\Gradebook\\Gradebook.csproj",
       "packagesPath": "C:\\Users\\joefd\\.nuget\\packages\\",
-      "outputPath": "c:\\Misc\\GithubMain\\C#\\Gradebook Project\\src\\Gradebook\\obj\\",
+      "outputPath": "c:\\Misc\\GithubMain\\C#\\src\\Gradebook\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joefd\\AppData\\Roaming\\NuGet\\NuGet.Config",
