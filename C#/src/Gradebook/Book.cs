@@ -15,6 +15,8 @@ namespace Gradebook
         {
             this.grades.Add(grade); //on THIS object, go to the grades FIELD and add a new grade
         }
+        private List<double> grades; //instance field
+        private string name; //instance field
 
         public void ShowStats()
         {
@@ -36,8 +38,5 @@ namespace Gradebook
             Console.WriteLine($"The highest grade is: {highGrade}");
             Console.WriteLine($"Arraylist contains a value of 10.3? {grades.Contains(10.3)}");
         }
-
-        private List<double> grades; //instance field
-        private string name; //instance field
     }
 }

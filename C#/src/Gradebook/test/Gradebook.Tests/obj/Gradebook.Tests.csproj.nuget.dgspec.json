@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Misc\\GithubMain\\C#\\src\\Gradebook\\test\\Gradebook.Tests\\Gradebook.Tests.csproj": {}
+    "C:\\Misc\\GithubMain\\C#\\src\\Gradebook\\test\\Gradebook.Tests\\Gradebook.Tests.csproj": {}
   },
   "projects": {
-    "c:\\Misc\\GithubMain\\C#\\src\\Gradebook\\test\\Gradebook.Tests\\Gradebook.Tests.csproj": {
+    "C:\\Misc\\GithubMain\\C#\\src\\Gradebook\\test\\Gradebook.Tests\\Gradebook.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Misc\\GithubMain\\C#\\src\\Gradebook\\test\\Gradebook.Tests\\Gradebook.Tests.csproj",
+        "projectUniqueName": "C:\\Misc\\GithubMain\\C#\\src\\Gradebook\\test\\Gradebook.Tests\\Gradebook.Tests.csproj",
         "projectName": "Gradebook.Tests",
-        "projectPath": "c:\\Misc\\GithubMain\\C#\\src\\Gradebook\\test\\Gradebook.Tests\\Gradebook.Tests.csproj",
+        "projectPath": "C:\\Misc\\GithubMain\\C#\\src\\Gradebook\\test\\Gradebook.Tests\\Gradebook.Tests.csproj",
         "packagesPath": "C:\\Users\\joefd\\.nuget\\packages\\",
-        "outputPath": "c:\\Misc\\GithubMain\\C#\\src\\Gradebook\\test\\Gradebook.Tests\\obj\\",
+        "outputPath": "C:\\Misc\\GithubMain\\C#\\src\\Gradebook\\test\\Gradebook.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joefd\\AppData\\Roaming\\NuGet\\NuGet.Config",
