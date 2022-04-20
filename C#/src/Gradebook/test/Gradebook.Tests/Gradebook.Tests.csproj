@@ -5,6 +5,10 @@
     <Nullable>enable</Nullable>
 
     <IsPackable>false</IsPackable>
+
+    <GenerateProgramFile>false</GenerateProgramFile>
+
+
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,6 +24,8 @@
     </PackageReference>
   </ItemGroup>
 
+
+  
   <ItemGroup>
     <ProjectReference Include="Gradebook.Tests.csproj" />
   </ItemGroup>
