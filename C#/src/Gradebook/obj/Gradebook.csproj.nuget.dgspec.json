@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Misc\\GithubMain\\C#\\src\\Gradebook\\Gradebook.csproj": {}
+    "C:\\Misc\\GithubMain\\C#\\src\\Gradebook\\Gradebook.csproj": {}
   },
   "projects": {
-    "c:\\Misc\\GithubMain\\C#\\src\\Gradebook\\Gradebook.csproj": {
+    "C:\\Misc\\GithubMain\\C#\\src\\Gradebook\\Gradebook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Misc\\GithubMain\\C#\\src\\Gradebook\\Gradebook.csproj",
+        "projectUniqueName": "C:\\Misc\\GithubMain\\C#\\src\\Gradebook\\Gradebook.csproj",
         "projectName": "Gradebook",
-        "projectPath": "c:\\Misc\\GithubMain\\C#\\src\\Gradebook\\Gradebook.csproj",
+        "projectPath": "C:\\Misc\\GithubMain\\C#\\src\\Gradebook\\Gradebook.csproj",
         "packagesPath": "C:\\Users\\joefd\\.nuget\\packages\\",
-        "outputPath": "c:\\Misc\\GithubMain\\C#\\src\\Gradebook\\obj\\",
+        "outputPath": "C:\\Misc\\GithubMain\\C#\\src\\Gradebook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joefd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,30 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2-pre.12, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

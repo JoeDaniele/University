@@ -1,0 +1,5 @@
+C:\Misc\GithubMain\C#\src\Gradebook\obj\Debug\net6.0\Gradebook.csproj.AssemblyReference.cache
+C:\Misc\GithubMain\C#\src\Gradebook\obj\Debug\net6.0\Gradebook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Misc\GithubMain\C#\src\Gradebook\obj\Debug\net6.0\Gradebook.AssemblyInfoInputs.cache
+C:\Misc\GithubMain\C#\src\Gradebook\obj\Debug\net6.0\Gradebook.AssemblyInfo.cs
+C:\Misc\GithubMain\C#\src\Gradebook\obj\Debug\net6.0\Gradebook.csproj.CoreCompileInputs.cache
