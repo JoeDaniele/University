@@ -3,3 +3,8 @@ C:\Misc\GithubMain\C#\src\Gradebook\obj\Debug\net6.0\Gradebook.GeneratedMSBuildE
 C:\Misc\GithubMain\C#\src\Gradebook\obj\Debug\net6.0\Gradebook.AssemblyInfoInputs.cache
 C:\Misc\GithubMain\C#\src\Gradebook\obj\Debug\net6.0\Gradebook.AssemblyInfo.cs
 C:\Misc\GithubMain\C#\src\Gradebook\obj\Debug\net6.0\Gradebook.csproj.CoreCompileInputs.cache
+c:\Misc\GithubMain\C#\Gradebook Project\src\Gradebook\obj\Debug\net6.0\Gradebook.csproj.AssemblyReference.cache
+c:\Misc\GithubMain\C#\Gradebook Project\src\Gradebook\obj\Debug\net6.0\Gradebook.GeneratedMSBuildEditorConfig.editorconfig
+c:\Misc\GithubMain\C#\Gradebook Project\src\Gradebook\obj\Debug\net6.0\Gradebook.AssemblyInfoInputs.cache
+c:\Misc\GithubMain\C#\Gradebook Project\src\Gradebook\obj\Debug\net6.0\Gradebook.AssemblyInfo.cs
+c:\Misc\GithubMain\C#\Gradebook Project\src\Gradebook\obj\Debug\net6.0\Gradebook.csproj.CoreCompileInputs.cache
