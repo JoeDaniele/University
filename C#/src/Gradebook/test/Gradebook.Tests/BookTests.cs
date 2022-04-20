@@ -3,7 +3,7 @@ using Xunit;
 
 namespace Gradebook.Tests;
 
-public class UnitTest1
+public class BookTests
 {
     [Fact] //attribute
     public void Test1()
