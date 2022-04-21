@@ -28,6 +28,7 @@
   
   <ItemGroup>
     <ProjectReference Include="Gradebook.Tests.csproj" />
+    <ProjectReference Include="..\..\Gradebook.csproj" />
   </ItemGroup>
 
 </Project>
