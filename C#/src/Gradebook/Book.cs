@@ -18,7 +18,7 @@ namespace Gradebook
         private List<double> grades; //instance field
         private string name; //instance field
 
-        public void ShowStats()
+        public void GetStats()
         {
             var result = 0.0;
             var lowGrade = double.MaxValue;

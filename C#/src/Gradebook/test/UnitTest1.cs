@@ -14,11 +14,12 @@ public class BookTests
         book.AddGrade(90.5);
         book.AddGrade(77.3);
         //act
-        var result = book.ShowStats();
+        var result = book.GetStats();
 
         //assert
         Assert.Equal(85.6, result.Average);
-
+        Assert.Equal(90.5, result.High);
+        Assert.Equal(77.3, result.Low);
 
     }
 }
