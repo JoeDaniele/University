@@ -15,28 +15,27 @@ namespace Gradebook
         {
             this.grades.Add(grade); //on THIS object, go to the grades FIELD and add a new grade
         }
+
         private List<double> grades; //instance field
         private string name; //instance field
 
         public Stats GetStats() //This method returns a type of object Stats
         {
-            var result = 0.0;
+            var result = new Stats();
+            result.Average = 0.0;
             var lowGrade = double.MaxValue;
             var highGrade = double.MinValue;
 
-            foreach (var number in grades)
+            foreach (var grade in grades)
             {
-                lowGrade = Math.Min(number, highGrade);
-                highGrade = Math.Max(number, highGrade);
-                result += number;
+                result.Low = Math.Min(grade, result.Low);
+                result.High = Math.Max(grade, result.High);
+                result.Average += grade;
             }
-            result /= grades.Count; //COUNT is a PROPERTY not a method. Methods require parameters
+            result.Average /= grades.Count; //COUNT is a PROPERTY not a method. Methods require parameters
 
-            Console.WriteLine($"Total: {result:N3}"); //Formatting specifiers to limit decimals
-            Console.WriteLine($"Average of scores: {(int)result}");
-            Console.WriteLine($"The lowest grade is: {lowGrade}");
-            Console.WriteLine($"The highest grade is: {highGrade}");
-            Console.WriteLine($"Arraylist contains a value of 10.3? {grades.Contains(10.3)}");
+            return result;
+
         }
     }
 }
