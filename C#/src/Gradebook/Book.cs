@@ -23,8 +23,8 @@ namespace Gradebook
         {
             var result = new Stats();
             result.Average = 0.0;
-            var lowGrade = double.MaxValue;
-            var highGrade = double.MinValue;
+            result.Low = double.MaxValue;
+            result.High = double.MinValue;
 
             foreach (var grade in grades)
             {
@@ -33,7 +33,7 @@ namespace Gradebook
                 result.Average += grade;
             }
             result.Average /= grades.Count; //COUNT is a PROPERTY not a method. Methods require parameters
-
+            
             return result;
 
         }
