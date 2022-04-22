@@ -24,3 +24,6 @@
     <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\joefd\.nuget\packages\newtonsoft.json\9.0.1</PkgNewtonsoft_Json>
   </PropertyGroup>
 </Project>
+
+<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+

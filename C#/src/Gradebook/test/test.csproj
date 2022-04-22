@@ -4,6 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
 
+<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
@@ -26,3 +27,4 @@
   </ItemGroup>
 
 </Project>
+
