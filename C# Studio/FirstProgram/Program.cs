@@ -1,13 +1,12 @@
-﻿using System;
+﻿using MyUtilities;
 
 namespace FirstProgram
 {
-    class Program
+    class CheckComfort
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine(FahreinheitToCelsius(100)); W
+            WeatherUtilities.Report("OKC", 75, 30); //city/temp/humid
         }
 
         static float FahreinheitToCelsius(float temperatureFahrenheit)
