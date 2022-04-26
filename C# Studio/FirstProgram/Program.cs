@@ -1,4 +1,5 @@
 ﻿using MyUtilities;
+using System;
 
 namespace FirstProgram
 {
@@ -7,6 +8,7 @@ namespace FirstProgram
         static void Main(string[] args)
         {
             WeatherUtilities.Report("OKC", 75, 30); //city/temp/humid
+            Console.WriteLine();
         }
 
         static float FahreinheitToCelsius(float temperatureFahrenheit)
