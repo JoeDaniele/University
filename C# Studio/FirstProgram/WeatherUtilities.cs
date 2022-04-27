@@ -14,7 +14,7 @@ namespace MyUtilities
             return (float)(temperatureCelsius * 1.8f + 32);
         }
 
-        static public float ComfortIndex(float temperatureFahrenheit, float humidityPercent)
+        static float ComfortIndex(float temperatureFahrenheit, float humidityPercent)
         {
             //formula needs to be edited later 
             var comfortIndex = (temperatureFahrenheit + humidityPercent) / 4;
