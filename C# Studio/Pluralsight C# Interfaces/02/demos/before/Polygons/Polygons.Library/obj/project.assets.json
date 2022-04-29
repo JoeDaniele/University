@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joefd\\OneDrive\\Desktop\\Coding+School\\Pluralsight & Udemy\\Pluralsight C# Interfaces\\02\\demos\\before\\Polygons\\Polygons.Library\\Polygons.Library.csproj",
+      "projectUniqueName": "C:\\Misc\\GithubMain\\C# Studio\\Pluralsight C# Interfaces\\02\\demos\\before\\Polygons\\Polygons.Library\\Polygons.Library.csproj",
       "projectName": "Polygons.Library",
-      "projectPath": "C:\\Users\\joefd\\OneDrive\\Desktop\\Coding+School\\Pluralsight & Udemy\\Pluralsight C# Interfaces\\02\\demos\\before\\Polygons\\Polygons.Library\\Polygons.Library.csproj",
+      "projectPath": "C:\\Misc\\GithubMain\\C# Studio\\Pluralsight C# Interfaces\\02\\demos\\before\\Polygons\\Polygons.Library\\Polygons.Library.csproj",
       "packagesPath": "C:\\Users\\joefd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joefd\\OneDrive\\Desktop\\Coding+School\\Pluralsight & Udemy\\Pluralsight C# Interfaces\\02\\demos\\before\\Polygons\\Polygons.Library\\obj\\",
+      "outputPath": "C:\\Misc\\GithubMain\\C# Studio\\Pluralsight C# Interfaces\\02\\demos\\before\\Polygons\\Polygons.Library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joefd\\AppData\\Roaming\\NuGet\\NuGet.Config",
