@@ -2,13 +2,13 @@
 
 namespace Masterclass_Udemy
 {
-    internal class Program
+    internal class ForEach
     {
         static void Main(string[] args)
         {
-            string[] names = { "Lennox Lewis", "Joe Daniele", "Manny Pacquiao", "Roberto Duran", "Ray Leonard" };
+            string[] friends = { "Lennox Lewis", "Joe Daniele", "Manny Pacquiao", "Roberto Duran", "Ray Leonard" };
 
-            foreach (string name in names)
+            foreach (string name in friends)
             {
                 Console.WriteLine($"{name}! Welcome to the program.");
             }
