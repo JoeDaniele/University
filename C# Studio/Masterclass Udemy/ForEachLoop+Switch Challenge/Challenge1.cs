@@ -2,7 +2,7 @@
 
 namespace ForEachLoop_Switch_Challenge
 {
-    internal class Program
+    internal class Challenge1
     {
         static void Main(string[] args)
         {
@@ -42,9 +42,21 @@ namespace ForEachLoop_Switch_Challenge
                     inputValueType = "Boolean";
                     break;
                 default:
+                    inputValueType = "Unknown.";
                     Console.WriteLine("Not able to detect input type.");
                     break;
             }
+
+            Console.WriteLine($"You have entered a value: {0}", inputValue);
+            if (valid)
+            {
+                Console.WriteLine($"It is valid : {0}", inputValueType);
+            }
+            else
+            {
+                Console.WriteLine($"It is invalid : {0}", inputValueType);
+            }
+
         }
 
         static bool IsAllAlphabetic(string value)
