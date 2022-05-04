@@ -7,10 +7,15 @@ namespace ForEachLoop_Switch_Challenge
     {
         static void Main(string[] args)
         {
+            challenge();
+        }
+
+        static void challenge()
+        {
             Boolean valid = false;
             string inputValueType;
 
-            Console.WriteLine("Enter a value: ");
+            Console.WriteLine("Enter a data type: ");
             string inputValue = Console.ReadLine();
 
             Console.WriteLine("Select the data type of the input you have entered: ");
@@ -57,7 +62,6 @@ namespace ForEachLoop_Switch_Challenge
             {
                 Console.WriteLine($"It is invalid : {0}", inputValueType);
             }
-
         }
 
         static bool IsAllAlphabetic(string value)

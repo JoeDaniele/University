@@ -1,0 +1,16 @@
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ForEachLoop+Switch Challenge\bin\Debug\net5.0\ForEachLoop+Switch Challenge.exe
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ForEachLoop+Switch Challenge\bin\Debug\net5.0\ForEachLoop+Switch Challenge.deps.json
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ForEachLoop+Switch Challenge\bin\Debug\net5.0\ForEachLoop+Switch Challenge.runtimeconfig.json
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ForEachLoop+Switch Challenge\bin\Debug\net5.0\ForEachLoop+Switch Challenge.runtimeconfig.dev.json
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ForEachLoop+Switch Challenge\bin\Debug\net5.0\ForEachLoop+Switch Challenge.dll
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ForEachLoop+Switch Challenge\bin\Debug\net5.0\ForEachLoop+Switch Challenge.pdb
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ForEachLoop+Switch Challenge\obj\Debug\net5.0\ForEachLoop+Switch Challenge.csproj.AssemblyReference.cache
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ForEachLoop+Switch Challenge\obj\Debug\net5.0\ForEachLoop+Switch Challenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ForEachLoop+Switch Challenge\obj\Debug\net5.0\ForEachLoop+Switch Challenge.AssemblyInfoInputs.cache
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ForEachLoop+Switch Challenge\obj\Debug\net5.0\ForEachLoop+Switch Challenge.AssemblyInfo.cs
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ForEachLoop+Switch Challenge\obj\Debug\net5.0\ForEachLoop+Switch Challenge.csproj.CoreCompileInputs.cache
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ForEachLoop+Switch Challenge\obj\Debug\net5.0\ForEachLoop+Switch Challenge.dll
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ForEachLoop+Switch Challenge\obj\Debug\net5.0\refint\ForEachLoop+Switch Challenge.dll
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ForEachLoop+Switch Challenge\obj\Debug\net5.0\ForEachLoop+Switch Challenge.pdb
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ForEachLoop+Switch Challenge\obj\Debug\net5.0\ForEachLoop+Switch Challenge.genruntimeconfig.cache
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ForEachLoop+Switch Challenge\obj\Debug\net5.0\ref\ForEachLoop+Switch Challenge.dll
