@@ -1,5 +1,6 @@
 ﻿using System;
-
+using System.Collections.Generic;
+//above are "using directives" 
 namespace ForEachLoop_Switch_Challenge
 {
     internal class Challenge1
@@ -67,6 +68,13 @@ namespace ForEachLoop_Switch_Challenge
                     return false;
             }
             return true;
+        }
+
+        static void DynamicList()
+        {
+            Console.WriteLine("Testing array lists in c# real quick.");
+
+            List<string> list = new List<string>();
         }
     }
 }
