@@ -8,6 +8,7 @@ namespace ForEachLoop_Switch_Challenge
         static void Main(string[] args)
         {
             challenge();
+            DynamicList();
         }
 
         static void challenge()
@@ -76,9 +77,26 @@ namespace ForEachLoop_Switch_Challenge
 
         static void DynamicList()
         {
-            Console.WriteLine("Testing array lists in c# real quick.");
+            Console.WriteLine("\n\nTesting lists in c# real quick.");
 
-            List<string> list = new List<string>();
+            List<Boxer> Boxers = new List<Boxer>();
+
+            Boxers.Add("Lennox");
+            Console.WriteLine($"List contains: {Boxers.Contains(Boxers[0])} ");
+
+            Console.WriteLine($"List cannot be directly printed, must be looped thru like so: ");
+            Boxers.ForEach(x => Console.WriteLine(x));
+            if (Boxers.Count > 0)
+            { Console.WriteLine("The list is greater than 0."); }
+        }
+
+        public class Boxer
+        {
+            private string Name;
+            private string FirstName;
+
+            public Boxer(string name, string firstname) => (Name, FirstName) = (name, firstname);
+
         }
     }
 }
