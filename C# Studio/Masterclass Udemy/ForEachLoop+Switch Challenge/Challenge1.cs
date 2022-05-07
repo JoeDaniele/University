@@ -79,7 +79,7 @@ namespace ForEachLoop_Switch_Challenge
         {
             Console.WriteLine("\n\nTesting lists in c# real quick.");
 
-            List<Boxer> Boxers = new List<Boxer>();
+            List<String> Boxers = new List<String>();
 
             Boxers.Add("Lennox");
             Console.WriteLine($"List contains: {Boxers.Contains(Boxers[0])} ");
@@ -88,15 +88,6 @@ namespace ForEachLoop_Switch_Challenge
             Boxers.ForEach(x => Console.WriteLine(x));
             if (Boxers.Count > 0)
             { Console.WriteLine("The list is greater than 0."); }
-        }
-
-        public class Boxer
-        {
-            private string Name;
-            private string FirstName;
-
-            public Boxer(string name, string firstname) => (Name, FirstName) = (name, firstname);
-
         }
     }
 }
