@@ -81,11 +81,15 @@ namespace ForEachLoop_Switch_Challenge
 
             List<String> Boxers = new List<String>();
 
-            Boxers.Add("Lennox");
-            Console.WriteLine($"List contains: {Boxers.Contains(Boxers[0])} ");
+            Boxers.Add("Lennox Lewis");
+            Boxers.Add("Marvin Hagler");
+            Boxers.Add("Earnie Shavers");
+
+            Console.WriteLine($"Does the list contain Lennox Lewis?  {Boxers.Contains("Lennox Lewis")}");
 
             Console.WriteLine($"List cannot be directly printed, must be looped thru like so: ");
             Boxers.ForEach(x => Console.WriteLine(x));
+
             if (Boxers.Count > 0)
             { Console.WriteLine("The list is greater than 0."); }
         }
