@@ -32,14 +32,12 @@ namespace ListTests
 
             while (Boxers.Count > 0)
             {
-                Console.WriteLine(Boxers.Count);
+                Console.WriteLine($"The list has {Boxers.Count} values total.");
                 if (Boxers.Count == 3)
                 {
                     break;
                 }
             }
-
-
         }
     }
 }
