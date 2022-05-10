@@ -7,19 +7,19 @@ namespace ListTests
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
             DynamicList();
         }
 
         static void DynamicList()
         {
-            Console.WriteLine("\n\nTesting lists in c# real quick.");
+            Console.WriteLine("\n\tTesting lists in c# real quick.");
 
             List<String> Boxers = new List<String>();
 
-            Boxers.Add("Lennox Lewis");
-            Boxers.Add("Marvin Hagler");
-            Boxers.Add("Earnie Shavers");
+            Boxers.Add("\tLennox Lewis");
+            Boxers.Add("\tMarvin Hagler");
+            Boxers.Add("\tEarnie Shavers");
 
             Console.WriteLine($"Does the list contain Lennox Lewis?  {Boxers.Contains("Lennox Lewis")}");
 
@@ -29,6 +29,17 @@ namespace ListTests
 
             if (Boxers.Count > 0)
             { Console.WriteLine("The list is greater than 0."); }
+
+            while (Boxers.Count > 0)
+            {
+                Console.WriteLine(Boxers.Count);
+                if (Boxers.Count == 3)
+                {
+                    break;
+                }
+            }
+
+
         }
     }
 }

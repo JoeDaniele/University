@@ -1,0 +1,16 @@
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ListTests\bin\Debug\net5.0\ListTests.exe
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ListTests\bin\Debug\net5.0\ListTests.deps.json
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ListTests\bin\Debug\net5.0\ListTests.runtimeconfig.json
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ListTests\bin\Debug\net5.0\ListTests.runtimeconfig.dev.json
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ListTests\bin\Debug\net5.0\ListTests.dll
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ListTests\bin\Debug\net5.0\ListTests.pdb
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ListTests\obj\Debug\net5.0\ListTests.csproj.AssemblyReference.cache
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ListTests\obj\Debug\net5.0\ListTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ListTests\obj\Debug\net5.0\ListTests.AssemblyInfoInputs.cache
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ListTests\obj\Debug\net5.0\ListTests.AssemblyInfo.cs
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ListTests\obj\Debug\net5.0\ListTests.csproj.CoreCompileInputs.cache
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ListTests\obj\Debug\net5.0\ListTests.dll
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ListTests\obj\Debug\net5.0\refint\ListTests.dll
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ListTests\obj\Debug\net5.0\ListTests.pdb
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ListTests\obj\Debug\net5.0\ListTests.genruntimeconfig.cache
+C:\Misc\GithubMain\C# Studio\Masterclass Udemy\ListTests\obj\Debug\net5.0\ref\ListTests.dll
