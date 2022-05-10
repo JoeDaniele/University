@@ -90,6 +90,7 @@ namespace ForEachLoop_Switch_Challenge
             Console.WriteLine($"List cannot be directly printed, must be looped thru like so: ");
             Boxers.ForEach(x => Console.WriteLine(x));
 
+
             if (Boxers.Count > 0)
             { Console.WriteLine("The list is greater than 0."); }
         }
