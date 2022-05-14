@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Masterclass Udemy"
+    "\\Masterclass Udemy",
+    "\\Masterclass Udemy\\ListTests"
   ],
-  "SelectedNode": "\\Masterclass Udemy\\ListTests",
+  "SelectedNode": "\\Masterclass Udemy\\ListTests\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
