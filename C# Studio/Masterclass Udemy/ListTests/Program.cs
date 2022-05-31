@@ -26,9 +26,6 @@ namespace ListTests
             Console.WriteLine($"List cannot be directly printed, must be looped thru like so: ");
             Boxers.ForEach(x => Console.WriteLine(x));
 
-
-            //Console.WriteLineBoxers(Boxers.GetRange());
-
             if (Boxers.Count > 0)
             { Console.WriteLine("The list is greater than 0."); }
 
