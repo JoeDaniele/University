@@ -27,7 +27,7 @@ namespace ListTests
             Boxers.ForEach(x => Console.WriteLine(x));
 
 
-            Console.WriteLineBoxers(Boxers.GetRange());
+            //Console.WriteLineBoxers(Boxers.GetRange());
 
             if (Boxers.Count > 0)
             { Console.WriteLine("The list is greater than 0."); }
