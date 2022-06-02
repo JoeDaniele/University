@@ -36,8 +36,6 @@ The following resources can help you better understand the concepts, elements, a
 - [How cascading works](https://developer.mozilla.org/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
 - [Selectors](https://developer.mozilla.org/docs/Learn/CSS/Building_blocks/Selectors)
   - [Cheat sheet](https://frontend30.com/css-selectors-cheatsheet/)
-- [Box model](https://developer.mozilla.org/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
-- [`float` property](https://developer.mozilla.org/docs/Web/CSS/float)
 - [Layout techniques](https://developer.mozilla.org/docs/Learn/CSS/CSS_layout/Introduction)
 - [Beginner's guide to media queries](https://developer.mozilla.org/docs/Learn/CSS/CSS_layout/Media_queries)
 
@@ -46,7 +44,6 @@ The following resources can help you better understand the concepts, elements, a
 - [Overview](https://developer.mozilla.org/docs/Web/javascript)
 - [`script` element](https://developer.mozilla.org/docs/Web/HTML/Element/script)
 - [Client-side APIs](https://developer.mozilla.org/docs/Learn/JavaScript/Client-side_web_APIs/Introduction)
-- [List of event targets](https://developer.mozilla.org/docs/Web/Events)
 - [`DOMContentLoaded` event](https://developer.mozilla.org/docs/Web/API/Document/DOMContentLoaded_event)
 - [List of Web APIs](https://developer.mozilla.org/docs/Web/API)
 - [Web Storage](https://developer.mozilla.org/docs/Web/API/Web_Storage_API)
