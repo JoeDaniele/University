@@ -1,0 +1,16 @@
+C:\Misc\GithubMain\C# Studio\Design Analysis\Divide and Conquer Algorithms\bin\Debug\net5.0\Divide and Conquer Algorithms.exe
+C:\Misc\GithubMain\C# Studio\Design Analysis\Divide and Conquer Algorithms\bin\Debug\net5.0\Divide and Conquer Algorithms.deps.json
+C:\Misc\GithubMain\C# Studio\Design Analysis\Divide and Conquer Algorithms\bin\Debug\net5.0\Divide and Conquer Algorithms.runtimeconfig.json
+C:\Misc\GithubMain\C# Studio\Design Analysis\Divide and Conquer Algorithms\bin\Debug\net5.0\Divide and Conquer Algorithms.runtimeconfig.dev.json
+C:\Misc\GithubMain\C# Studio\Design Analysis\Divide and Conquer Algorithms\bin\Debug\net5.0\Divide and Conquer Algorithms.dll
+C:\Misc\GithubMain\C# Studio\Design Analysis\Divide and Conquer Algorithms\bin\Debug\net5.0\Divide and Conquer Algorithms.pdb
+C:\Misc\GithubMain\C# Studio\Design Analysis\Divide and Conquer Algorithms\obj\Debug\net5.0\Divide and Conquer Algorithms.csproj.AssemblyReference.cache
+C:\Misc\GithubMain\C# Studio\Design Analysis\Divide and Conquer Algorithms\obj\Debug\net5.0\Divide and Conquer Algorithms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Misc\GithubMain\C# Studio\Design Analysis\Divide and Conquer Algorithms\obj\Debug\net5.0\Divide and Conquer Algorithms.AssemblyInfoInputs.cache
+C:\Misc\GithubMain\C# Studio\Design Analysis\Divide and Conquer Algorithms\obj\Debug\net5.0\Divide and Conquer Algorithms.AssemblyInfo.cs
+C:\Misc\GithubMain\C# Studio\Design Analysis\Divide and Conquer Algorithms\obj\Debug\net5.0\Divide and Conquer Algorithms.csproj.CoreCompileInputs.cache
+C:\Misc\GithubMain\C# Studio\Design Analysis\Divide and Conquer Algorithms\obj\Debug\net5.0\Divide and Conquer Algorithms.dll
+C:\Misc\GithubMain\C# Studio\Design Analysis\Divide and Conquer Algorithms\obj\Debug\net5.0\refint\Divide and Conquer Algorithms.dll
+C:\Misc\GithubMain\C# Studio\Design Analysis\Divide and Conquer Algorithms\obj\Debug\net5.0\Divide and Conquer Algorithms.pdb
+C:\Misc\GithubMain\C# Studio\Design Analysis\Divide and Conquer Algorithms\obj\Debug\net5.0\Divide and Conquer Algorithms.genruntimeconfig.cache
+C:\Misc\GithubMain\C# Studio\Design Analysis\Divide and Conquer Algorithms\obj\Debug\net5.0\ref\Divide and Conquer Algorithms.dll
