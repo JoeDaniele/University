@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Misc\\GithubMain\\C#\\Pokedex\\src\\src.csproj": {}
+    "C:\\Misc\\GithubMain\\C# VSCode\\Pokedex\\src\\src.csproj": {}
   },
   "projects": {
-    "C:\\Misc\\GithubMain\\C#\\Pokedex\\src\\src.csproj": {
+    "C:\\Misc\\GithubMain\\C# VSCode\\Pokedex\\src\\src.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Misc\\GithubMain\\C#\\Pokedex\\src\\src.csproj",
+        "projectUniqueName": "C:\\Misc\\GithubMain\\C# VSCode\\Pokedex\\src\\src.csproj",
         "projectName": "src",
-        "projectPath": "C:\\Misc\\GithubMain\\C#\\Pokedex\\src\\src.csproj",
+        "projectPath": "C:\\Misc\\GithubMain\\C# VSCode\\Pokedex\\src\\src.csproj",
         "packagesPath": "C:\\Users\\joefd\\.nuget\\packages\\",
-        "outputPath": "C:\\Misc\\GithubMain\\C#\\Pokedex\\src\\obj\\",
+        "outputPath": "C:\\Misc\\GithubMain\\C# VSCode\\Pokedex\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joefd\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

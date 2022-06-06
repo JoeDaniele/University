@@ -14,22 +14,48 @@
  * Make a video where you explain the two algorithms, share your research, and present your data.
  */
 
+/* Create to arraylists that sort both ways. 
+ * 
+ * Import a list of numbers and loop through it to assign an idex to each element. 
+ * 
+ * Time one and time the other. 
+ * 
+ * 
+ * 
+ * 
+ */
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+
 namespace Divide_and_Conquer_Algorithms
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            string FilePath = (@"C:\Misc\GithubMain\C# Studio\Design Analysis\Divide and Conquer Algorithms\1-1000.txt");
             var stopwatch = new System.Diagnostics.Stopwatch();
             stopwatch.Start();
 
-            for (int i = 0; i < 10; i++)
+            List<string> MergeTesting = File.ReadAllLines(FilePath).ToList();
+            foreach (var line in MergeTesting)
             {
-                System.Console.WriteLine("HOW LONG DOES THIS TAKE TO RUN?");
+                System.Console.WriteLine(line);
             }
 
+            System.Console.WriteLine("Testing.");
+            //ArrayList MergeTest = new ArrayList();
+            //ArrayList QuicksortTest = new ArrayList();
+
+
+
+
             stopwatch.Stop();
-            System.Console.WriteLine($"Execution time: {stopwatch.ElapsedMilliseconds}ms");
+
+            System.Console.WriteLine($"\nExecution time: {stopwatch.ElapsedMilliseconds}ms");
+            System.Console.WriteLine("\nQuick test shows debugging program adds additional 10ms.");
+
         }
     }
 }

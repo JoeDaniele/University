@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qPKOJLB9fj+JaToItk5TXzSQet0EqAXImM9QARM0aKgGYe1GuXvwKmZDxzDxB1Q3ixLV+UC8osmuS8U8/otrKQ==",
+  "dgSpecHash": "A6XtuHu0VdHOn3NySuwH6YZGfl5oNC95x/H+Cl+2vbyU64oWzXvdB6hX+A8lgwCm4KR42GzUPzYYZCAde6iApg==",
   "success": true,
-  "projectFilePath": "C:\\Misc\\GithubMain\\C#\\Pokedex\\src\\src.csproj",
+  "projectFilePath": "C:\\Misc\\GithubMain\\C# VSCode\\Pokedex\\src\\src.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
