@@ -33,23 +33,20 @@ namespace Divide_and_Conquer_Algorithms
             stopwatch.Start();
 
             Random rand = new Random();
-            int[] numbers = new int[100];
-
+            int[] numbers = new int[1000];
             for (int i = 0; i < numbers.Length; i++)
             {
-                numbers[i] = rand.Next(100);
+                numbers[i] = rand.Next(1000);
             }
 
-            Console.WriteLine("Before:");
-            printArray(numbers);
+
+            //printArray(numbers);
 
             mergeSort(numbers);
-
-            Console.WriteLine("\nAfter:");
             printArray(numbers);
 
             stopwatch.Stop();
-            System.Console.WriteLine($"\nExecution time when Merge Sorting {numbers.Length} elements: {stopwatch.ElapsedMilliseconds}ms");
+            System.Console.WriteLine($"\nExecution time when Merge Sorting {numbers.Length} elements: {stopwatch.Elapsed}ms");
             System.Console.WriteLine("\nUnrelated but a quick test shows debugging program adds additional 10ms.");
         }
 
@@ -127,13 +124,22 @@ namespace Divide_and_Conquer_Algorithms
             }
         }
 
+
+
+
+
+
+
+
+
+
+
+
+        //considered passing in a text file and converting that to an array but that is literally stupid because you 
+        //can just create a static array with as many values as you so dumb idea lol
         public static void NumbersFile()
         {
             string FilePath = (@"C:\Misc\GithubMain\C# Studio\Design Analysis\Divide and Conquer Algorithms\1-10.txt");
-            //considered passing in a text file and converting that to an array but that is literally stupid because you 
-            //can just create a static array with as many values as you want
-            //dumb idea lol
-
 
             List<string> NumbersFile = File.ReadAllLines(FilePath).ToList();
             foreach (var line in NumbersFile)
