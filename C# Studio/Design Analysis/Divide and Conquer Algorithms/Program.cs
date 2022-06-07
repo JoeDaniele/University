@@ -22,6 +22,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading;
 
 namespace Divide_and_Conquer_Algorithms
 {
@@ -29,6 +30,7 @@ namespace Divide_and_Conquer_Algorithms
     {
         public static void Main(String[] args)
         {
+
             var stopwatch = new System.Diagnostics.Stopwatch();
             stopwatch.Start();
 
@@ -36,7 +38,7 @@ namespace Divide_and_Conquer_Algorithms
             int[] numbers = new int[10000];
             for (int i = 0; i < numbers.Length; i++)
             {
-                numbers[i] = rand.Next(1000);
+                numbers[i] = rand.Next(10000);
             }
 
 
@@ -44,9 +46,28 @@ namespace Divide_and_Conquer_Algorithms
             mergeSort(numbers);
             printArray(numbers);
 
+
             stopwatch.Stop();
             System.Console.WriteLine($"\nExecution time when Merge Sorting {numbers.Length} elements: {stopwatch.Elapsed}ms");
-            System.Console.WriteLine("\nUnrelated but a quick test shows debugging program adds additional 10ms.\n\n");
+
+            Console.WriteLine("The first half of this program was a Merge Sort, the second half will demonstrate Quick Sorting. " +
+                "\nPress ENTER to continue. ");
+
+            var userInput = Console.ReadKey();
+            if (userInput.Key == ConsoleKey.Enter)
+            {
+                Console.WriteLine("Program is Quick Sorting...");
+                Thread.Sleep(2000);
+                stopwatch.Start();
+
+                int n = numbers.Length;
+                quickSort(numbers, 0, n - 1);
+                Console.Write("Sorted array: ");
+                quickSortPrint(numbers, n);
+
+                stopwatch.Stop();
+                System.Console.WriteLine($"\nExecution time when Quick Sorting {numbers.Length} elements: {stopwatch.Elapsed}ms");
+            }
         }
 
 
@@ -76,7 +97,6 @@ namespace Divide_and_Conquer_Algorithms
             mergeSort(rightHalf);
             merge(inputArray, leftHalf, rightHalf);
         }
-
         private static void merge(int[] inputArray, int[] leftHalf, int[] rightHalf)
         {
             int leftSize = leftHalf.Length;
@@ -114,7 +134,6 @@ namespace Divide_and_Conquer_Algorithms
             }
 
         }
-
         private static void printArray(int[] numbers)
         {
             for (int i = 0; i < numbers.Length; i++)
@@ -122,6 +141,68 @@ namespace Divide_and_Conquer_Algorithms
                 Console.WriteLine(numbers[i]);
             }
         }
+
+
+
+        static void GfgSwap(int[] arr, int i, int j)
+        {
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
+        static int partition(int[] arr, int low, int high)
+        {
+            int pivot = arr[high]; //pivot is the momentary focal element in the array 
+            int i = (low - 1);
+
+            for (int j = low; j <= high - 1; j++)
+            {
+                if (arr[j] < pivot)
+                {
+                    i++;
+                    GfgSwap(arr, i, j);
+                }
+            }
+            GfgSwap(arr, i + 1, high);
+            return (i + 1);
+        }
+        static void quickSort(int[] arr, int low, int high)
+        {
+            if (low < high)
+            {
+                int pi = partition(arr, low, high);
+                quickSort(arr, low, pi - 1);
+                quickSort(arr, pi + 1, high);
+            }
+        }
+        static void quickSortPrint(int[] arr, int size)
+        {
+            for (int i = 0; i < size; i++)
+                Console.Write(arr[i] + " ");
+
+            Console.WriteLine();
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
