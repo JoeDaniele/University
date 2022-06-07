@@ -19,10 +19,6 @@
  * Import a list of numbers and loop through it to assign an idex to each element. 
  * 
  * Time one and time the other. 
- * 
- * 
- * 
- * 
  */
 using System.Collections.Generic;
 using System.IO;
@@ -34,28 +30,29 @@ namespace Divide_and_Conquer_Algorithms
     {
         static void Main(string[] args)
         {
-            string FilePath = (@"C:\Misc\GithubMain\C# Studio\Design Analysis\Divide and Conquer Algorithms\1-1000.txt");
             var stopwatch = new System.Diagnostics.Stopwatch();
             stopwatch.Start();
 
-            List<string> MergeTesting = File.ReadAllLines(FilePath).ToList();
-            foreach (var line in MergeTesting)
-            {
-                System.Console.WriteLine(line);
-            }
+            NumbersFile();
 
-            System.Console.WriteLine("Testing.");
             //ArrayList MergeTest = new ArrayList();
             //ArrayList QuicksortTest = new ArrayList();
-
-
-
-
             stopwatch.Stop();
-
             System.Console.WriteLine($"\nExecution time: {stopwatch.ElapsedMilliseconds}ms");
             System.Console.WriteLine("\nQuick test shows debugging program adds additional 10ms.");
 
+        }
+
+        static void NumbersFile()
+        {
+            string FilePath = (@"C:\Misc\GithubMain\C# Studio\Design Analysis\Divide and Conquer Algorithms\1-50.txt");
+
+
+            List<string> NumbersFile = File.ReadAllLines(FilePath).ToList();
+            foreach (var line in NumbersFile)
+            {
+                System.Console.WriteLine(line);
+            }
         }
     }
 }
