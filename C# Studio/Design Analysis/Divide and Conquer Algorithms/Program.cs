@@ -22,10 +22,10 @@ namespace Divide_and_Conquer_Algorithms
             stopwatch.Start();
 
             Random rand = new Random();
-            int[] numbers = new int[1000000];
+            int[] numbers = new int[100000];
             for (int i = 0; i < numbers.Length; i++)
             {
-                numbers[i] = rand.Next(10000);
+                numbers[i] = rand.Next(100000);
             }
 
 
@@ -46,11 +46,8 @@ namespace Divide_and_Conquer_Algorithms
                 Console.WriteLine("Program is Quick Sorting...");
                 Thread.Sleep(2000);
                 stopwatch.Start();
-
-                int n = numbers.Length;
-                quickSort(numbers, 0, n - 1);
-                Console.Write("Sorted array: ");
-                quickSortPrint(numbers, n);
+                printArray(numbers);
+                quicksort(numbers);
 
                 stopwatch.Stop();
                 System.Console.WriteLine($"\nExecution time when Quick Sorting {numbers.Length} elements: {stopwatch.Elapsed}ms");
@@ -131,92 +128,84 @@ namespace Divide_and_Conquer_Algorithms
 
 
 
-        static void GfgSwap(int[] arr, int i, int j)
+        private static void quicksort(int[] array)
         {
-            int temp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = temp;
+            quicksort(array, 0, array.Length - 1);
         }
-        static int partition(int[] arr, int low, int high)
-        {
-            int pivot = arr[high]; //pivot is the momentary focal element in the array 
-            int i = (low - 1);
 
-            for (int j = low; j <= high - 1; j++)
+        private static void quicksort(int[] array, int lowIndex, int highIndex)
+        {
+
+            if (lowIndex >= highIndex)
             {
-                if (arr[j] < pivot)
+                return;
+            }
+
+            int pivotIndex = new Random().Next(highIndex - lowIndex) + lowIndex;
+            int pivot = array[pivotIndex];
+            swap(array, pivotIndex, highIndex);
+
+            int leftPointer = partition(array, lowIndex, highIndex, pivot);
+
+            quicksort(array, lowIndex, leftPointer - 1);
+            quicksort(array, leftPointer + 1, highIndex);
+
+        }
+
+        private static int partition(int[] array, int lowIndex, int highIndex, int pivot)
+        {
+            int leftPointer = lowIndex;
+            int rightPointer = highIndex - 1;
+
+            while (leftPointer < rightPointer)
+            {
+
+                // Walk from the left until we find a number greater than the pivot, or hit the right pointer.
+                while (array[leftPointer] <= pivot && leftPointer < rightPointer)
                 {
-                    i++;
-                    GfgSwap(arr, i, j);
+                    leftPointer++;
                 }
+
+                // Walk from the right until we find a number less than the pivot, or hit the left pointer.
+                while (array[rightPointer] >= pivot && leftPointer < rightPointer)
+                {
+                    rightPointer--;
+                }
+
+                swap(array, leftPointer, rightPointer);
             }
-            GfgSwap(arr, i + 1, high);
-            return (i + 1);
-        }
-        static void quickSort(int[] arr, int low, int high)
-        {
-            if (low < high)
+
+            // This is different from what the video has, and fixes an issue where the last value could potentially be out of order. 
+            // Thanks to viewer Wilson Barbosa for suggesting the fix!
+            if (array[leftPointer] > array[highIndex])
             {
-                int pi = partition(arr, low, high);
-                quickSort(arr, low, pi - 1);
-                quickSort(arr, pi + 1, high);
+                swap(array, leftPointer, highIndex);
             }
-        }
-        static void quickSortPrint(int[] arr, int size)
-        {
-            for (int i = 0; i < size; i++)
-                Console.Write(arr[i] + " ");
-
-            Console.WriteLine();
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        //had a bad idea
-        public static void NumbersFile()
-        {
-            string FilePath = (@"C:\Misc\GithubMain\C# Studio\Design Analysis\Divide and Conquer Algorithms\1-10.txt");
-
-            List<string> NumbersFile = File.ReadAllLines(FilePath).ToList();
-            foreach (var line in NumbersFile)
+            else
             {
-                System.Console.WriteLine(line);
+                leftPointer = highIndex;
             }
+
+            return leftPointer;
         }
 
+        private static void swap(int[] array, int index1, int index2)
+        {
+            int temp = array[index1];
+            array[index1] = array[index2];
+            array[index2] = temp;
+        }
 
+        private static void printNewArray(int[] numbers)
+        {
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                Console.WriteLine(numbers[i]);
+            }
+        }
     }
 }
+
 
 /*Mergesort uses more memory depending on the number of elements in the array. 
  *Requires an addittional array for hosting n elements, potentially a drawback.
