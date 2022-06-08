@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Design Analysis",
+    "\\Design Analysis\\Divide and Conquer Algorithms",
     "\\FirstProgram"
   ],
-  "SelectedNode": "\\FirstProgram\\FirstProgram.sln",
+  "SelectedNode": "\\Design Analysis\\Divide and Conquer Algorithms\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

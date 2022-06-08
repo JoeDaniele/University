@@ -4,19 +4,6 @@
  * Research memory requirements, 
  * time complexitry,
  * algorithm complexity (difficulty). 
- * 
- * Create a fixture to use both algorithms on the same data set multiple times. 
- * Time how long it takes for each algorithm to complete the sorting task on average.
- * Please use an input set large enough to provide data suggesting a clear winner. 
- * Make a video where you explain the two algorithms, share your research, and present your data.
- *
- *
- *
-* Create to arraylists that sort both ways. 
- * 
- * Import a list of numbers and loop through it to assign an idex to each element. 
- * 
- * Time one and time the other. 
  */
 using System;
 using System.Collections.Generic;
@@ -35,7 +22,7 @@ namespace Divide_and_Conquer_Algorithms
             stopwatch.Start();
 
             Random rand = new Random();
-            int[] numbers = new int[10000];
+            int[] numbers = new int[1000000];
             for (int i = 0; i < numbers.Length; i++)
             {
                 numbers[i] = rand.Next(10000);
