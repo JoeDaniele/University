@@ -160,13 +160,11 @@ namespace Divide_and_Conquer_Algorithms
             while (leftPointer < rightPointer)
             {
 
-                // Walk from the left until we find a number greater than the pivot, or hit the right pointer.
                 while (array[leftPointer] <= pivot && leftPointer < rightPointer)
                 {
                     leftPointer++;
                 }
 
-                // Walk from the right until we find a number less than the pivot, or hit the left pointer.
                 while (array[rightPointer] >= pivot && leftPointer < rightPointer)
                 {
                     rightPointer--;
@@ -174,9 +172,6 @@ namespace Divide_and_Conquer_Algorithms
 
                 swap(array, leftPointer, rightPointer);
             }
-
-            // This is different from what the video has, and fixes an issue where the last value could potentially be out of order. 
-            // Thanks to viewer Wilson Barbosa for suggesting the fix!
             if (array[leftPointer] > array[highIndex])
             {
                 swap(array, leftPointer, highIndex);
