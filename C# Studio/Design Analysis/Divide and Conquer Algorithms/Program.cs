@@ -22,7 +22,7 @@ namespace Divide_and_Conquer_Algorithms
             stopwatch.Start();
 
             Random rand = new Random();
-            int[] numbers = new int[100000];
+            int[] numbers = new int[10000000];
             for (int i = 0; i < numbers.Length; i++)
             {
                 numbers[i] = rand.Next(100000);
