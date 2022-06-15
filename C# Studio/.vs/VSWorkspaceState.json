@@ -1,10 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Design Analysis",
-    "\\Design Analysis\\Divide and Conquer Algorithms",
-    "\\FirstProgram"
+    "\\Design Analysis Class",
+    "\\Design Analysis Class\\Divide and Conquer Algorithms",
+    "\\Design Analysis Class\\Dynamic Programming Algo",
+    "\\Design Analysis Class\\Dynamic Programming Algo\\Binomial Coefficient",
+    "\\Design Analysis Class\\Dynamic Programming Algo\\Binomial Coefficient\\Binomial Coefficient",
+    "\\Design Analysis Class\\Dynamic Programming Algo\\Binomial Coefficient\\Binomial Coefficient\\obj"
   ],
-  "SelectedNode": "\\Design Analysis\\Divide and Conquer Algorithms\\Divide and Conquer Algorithms.sln",
+  "SelectedNode": "\\Design Analysis Class\\Dynamic Programming Algo\\Binomial Coefficient\\Binomial Coefficient\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

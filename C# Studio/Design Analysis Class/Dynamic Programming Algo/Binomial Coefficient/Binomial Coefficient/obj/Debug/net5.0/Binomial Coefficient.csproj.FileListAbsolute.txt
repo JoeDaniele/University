@@ -1,0 +1,16 @@
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Dynamic Programming Algo\Binomial Coefficient\Binomial Coefficient\bin\Debug\net5.0\Binomial Coefficient.exe
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Dynamic Programming Algo\Binomial Coefficient\Binomial Coefficient\bin\Debug\net5.0\Binomial Coefficient.deps.json
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Dynamic Programming Algo\Binomial Coefficient\Binomial Coefficient\bin\Debug\net5.0\Binomial Coefficient.runtimeconfig.json
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Dynamic Programming Algo\Binomial Coefficient\Binomial Coefficient\bin\Debug\net5.0\Binomial Coefficient.runtimeconfig.dev.json
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Dynamic Programming Algo\Binomial Coefficient\Binomial Coefficient\bin\Debug\net5.0\Binomial Coefficient.dll
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Dynamic Programming Algo\Binomial Coefficient\Binomial Coefficient\bin\Debug\net5.0\Binomial Coefficient.pdb
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Dynamic Programming Algo\Binomial Coefficient\Binomial Coefficient\obj\Debug\net5.0\Binomial Coefficient.csproj.AssemblyReference.cache
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Dynamic Programming Algo\Binomial Coefficient\Binomial Coefficient\obj\Debug\net5.0\Binomial Coefficient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Dynamic Programming Algo\Binomial Coefficient\Binomial Coefficient\obj\Debug\net5.0\Binomial Coefficient.AssemblyInfoInputs.cache
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Dynamic Programming Algo\Binomial Coefficient\Binomial Coefficient\obj\Debug\net5.0\Binomial Coefficient.AssemblyInfo.cs
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Dynamic Programming Algo\Binomial Coefficient\Binomial Coefficient\obj\Debug\net5.0\Binomial Coefficient.csproj.CoreCompileInputs.cache
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Dynamic Programming Algo\Binomial Coefficient\Binomial Coefficient\obj\Debug\net5.0\Binomial Coefficient.dll
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Dynamic Programming Algo\Binomial Coefficient\Binomial Coefficient\obj\Debug\net5.0\refint\Binomial Coefficient.dll
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Dynamic Programming Algo\Binomial Coefficient\Binomial Coefficient\obj\Debug\net5.0\Binomial Coefficient.pdb
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Dynamic Programming Algo\Binomial Coefficient\Binomial Coefficient\obj\Debug\net5.0\Binomial Coefficient.genruntimeconfig.cache
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Dynamic Programming Algo\Binomial Coefficient\Binomial Coefficient\obj\Debug\net5.0\ref\Binomial Coefficient.dll
