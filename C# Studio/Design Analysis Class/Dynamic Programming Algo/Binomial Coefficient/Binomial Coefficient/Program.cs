@@ -47,7 +47,7 @@ namespace Binomial_Coefficient
         static int Dynamic(int n, int k)
         {
 
-            // Base Cases (k = 2, n = 5)
+            //Same base cases 
             if (k > n)
                 return 0;
             if (k == 0 || k == n)
