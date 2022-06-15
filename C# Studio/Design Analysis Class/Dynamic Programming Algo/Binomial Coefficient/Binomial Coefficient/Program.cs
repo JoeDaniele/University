@@ -8,9 +8,9 @@ using System.Threading;
  * https://towardsdatascience.com/beginners-guide-to-dynamic-programming-8eff07195667
  * Chose dynamic over divide/conquer because googling Binomial Coefficient only showed Dynamic answers
  * Familiarity with recursions as a concept made sense too 
- * 
- * 
- * 
+ * https://www.geeksforgeeks.org/binomial-coefficient-dp-9/
+ * https://www.geeksforgeeks.org/space-and-time-efficient-binomial-coefficient/
+ * https://stackoverflow.com/questions/4079278/view-more-than-one-project-solution-in-visual-studio
  */
 namespace Binomial_Coefficient
 {
@@ -20,27 +20,31 @@ namespace Binomial_Coefficient
         {
             Console.WriteLine("Press Enter to calcualte the Binomial Coefficient where k = 2 and n = 5, using Dynamic Programming. ");
 
-            ConsoleKey userInput = default;
-            if (userInput == ConsoleKey.Enter)
+            var userInput = Console.ReadKey();
+            if (userInput.Key == ConsoleKey.Enter)
             {
                 int k = 2, n = 5;
                 Console.Write("Value of C(" + n + "," + k + ") is "
-                                      + binomialCoeff(n, k));
+                                      + Dynamic(n, k));
             }
 
 
 
-
-
-
-            //  int n = 5;
-            //int k = 2;
-            //Console.Write("Value of C(" + n + ", " + k + ") "
-            //            + "is"
-            //          + " " + binomialCoeff(n, k));
+            Console.WriteLine("\n\n\nPress 'Z' to calcualte the Binomial Coefficient where k = 2 and n = 5, using Divide and Conquer ");
+            var userInputTwo = Console.ReadKey();
+            if (userInputTwo.Key == ConsoleKey.Z)
+            {
+                int n = 5;
+                int k = 2;
+                Console.Write("Value of C(" + n + ", " + k + ") "
+                            + "is"
+                          + " " + DivConq(n, k));
+                Console.WriteLine("\n\n\n");
+            }
         }
 
-        static int binomialCoeff(int n, int k)
+
+        static int Dynamic(int n, int k)
         {
 
             // Base Cases (k = 2, n = 5)
@@ -50,10 +54,10 @@ namespace Binomial_Coefficient
                 return 1;
 
             // Recursive function call
-            return binomialCoeff(n - 1, k - 1)
-                + binomialCoeff(n - 1, k);
+            return Dynamic(n - 1, k - 1)
+                + Dynamic(n - 1, k);
         }
-        static int binomialCoef(int n, int k)
+        static int DivConq(int n, int k)
         {
             int res = 1;
 
