@@ -29,7 +29,8 @@ namespace TemplateTestProject
 
             Console.WriteLine($"Printing element in arrayTwo at index 3:   {arrayTwo[3]}");
 
-            float[] array = new float { 3, 5, -4, 8, 11, 1, -1, 6 };
+            int[] array = { 3, 5, -4, 8, 11, 1, -1, 6 };
+            int targetSum = 10;
 
 
             List<int> arrayList = new List<int>();
