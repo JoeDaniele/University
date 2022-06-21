@@ -1,0 +1,16 @@
+C:\Misc\GithubMain\C# Studio\TemplateTestProject\bin\Debug\net5.0\TemplateTestProject.exe
+C:\Misc\GithubMain\C# Studio\TemplateTestProject\bin\Debug\net5.0\TemplateTestProject.deps.json
+C:\Misc\GithubMain\C# Studio\TemplateTestProject\bin\Debug\net5.0\TemplateTestProject.runtimeconfig.json
+C:\Misc\GithubMain\C# Studio\TemplateTestProject\bin\Debug\net5.0\TemplateTestProject.runtimeconfig.dev.json
+C:\Misc\GithubMain\C# Studio\TemplateTestProject\bin\Debug\net5.0\TemplateTestProject.dll
+C:\Misc\GithubMain\C# Studio\TemplateTestProject\bin\Debug\net5.0\TemplateTestProject.pdb
+C:\Misc\GithubMain\C# Studio\TemplateTestProject\obj\Debug\net5.0\TemplateTestProject.csproj.AssemblyReference.cache
+C:\Misc\GithubMain\C# Studio\TemplateTestProject\obj\Debug\net5.0\TemplateTestProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Misc\GithubMain\C# Studio\TemplateTestProject\obj\Debug\net5.0\TemplateTestProject.AssemblyInfoInputs.cache
+C:\Misc\GithubMain\C# Studio\TemplateTestProject\obj\Debug\net5.0\TemplateTestProject.AssemblyInfo.cs
+C:\Misc\GithubMain\C# Studio\TemplateTestProject\obj\Debug\net5.0\TemplateTestProject.csproj.CoreCompileInputs.cache
+C:\Misc\GithubMain\C# Studio\TemplateTestProject\obj\Debug\net5.0\TemplateTestProject.dll
+C:\Misc\GithubMain\C# Studio\TemplateTestProject\obj\Debug\net5.0\refint\TemplateTestProject.dll
+C:\Misc\GithubMain\C# Studio\TemplateTestProject\obj\Debug\net5.0\TemplateTestProject.pdb
+C:\Misc\GithubMain\C# Studio\TemplateTestProject\obj\Debug\net5.0\TemplateTestProject.genruntimeconfig.cache
+C:\Misc\GithubMain\C# Studio\TemplateTestProject\obj\Debug\net5.0\ref\TemplateTestProject.dll

@@ -1,13 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Design Analysis Class",
-    "\\Design Analysis Class\\Divide and Conquer Algorithms",
-    "\\Design Analysis Class\\Dynamic Programming Algo",
     "\\Design Analysis Class\\Dynamic Programming Algo\\Binomial Coefficient",
     "\\Design Analysis Class\\Dynamic Programming Algo\\Binomial Coefficient\\Binomial Coefficient",
-    "\\Design Analysis Class\\Dynamic Programming Algo\\Binomial Coefficient\\Binomial Coefficient\\obj"
+    "\\Design Analysis Class\\Dynamic Programming Algo\\Binomial Coefficient\\Binomial Coefficient\\obj",
+    "\\TemplateTestProject"
   ],
-  "SelectedNode": "\\Design Analysis Class\\Dynamic Programming Algo\\Binomial Coefficient\\Binomial Coefficient\\Program.cs",
+  "SelectedNode": "\\TemplateTestProject\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
