@@ -39,12 +39,12 @@ namespace Masterclass
             while (counter <= 3)
             {
                 Console.WriteLine(counter);
-
-                if (counter == 3)
+                counter++;
+                if (counter == 4)
                 {
                     break;
                 }
-                counter++;
+
             }
         }
 
