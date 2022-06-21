@@ -10,17 +10,8 @@ namespace Masterclass
     {
         static void Main(string[] args)
         {
-            for (int i = 1; i < 20; i += 2)
-            {
-                Console.WriteLine(i);
-            }
-
-            Console.WriteLine("\n");
-
-
-
-
-            int counter = 0;
+            //while loop refresher
+            /*int counter = 0;
             string userInput = "";
             while (userInput.Equals(""))
             {
@@ -29,6 +20,42 @@ namespace Masterclass
                 counter++;
                 Console.WriteLine($"Current count is {counter}");
             }
+            */
+
+
+            Run();
         }
+        public static void ForLoop()
+        {
+            for (int i = -3; i <= 3; i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
+
+        public static void WhileLoop()
+        {
+            int counter = -3;
+            while (counter <= 3)
+            {
+                Console.WriteLine(counter);
+
+                if (counter == 3)
+                {
+                    break;
+                }
+                counter++;
+            }
+        }
+
+        public static void Run()
+        {
+            WhileLoop();
+            Console.WriteLine("\n");
+            ForLoop();
+
+        }
+
     }
 }
+
