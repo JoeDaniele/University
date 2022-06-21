@@ -17,20 +17,18 @@ namespace Masterclass
 
             Console.WriteLine("\n");
 
-            int lengthoftext = 0;
-            int counter = 0;
-            string wholeText = "";
-            do
-            {
-                Console.WriteLine("Enter the name of a friend: ");
-                string name = Console.ReadLine();
-                int currentLength = name.Length;
-                lengthoftext += currentLength;
-                wholeText += name;
-            } while (lengthoftext < 10);
-            Console.WriteLine("Thats all folks!" + wholeText);
-            Console.Read();
 
+
+
+            int counter = 0;
+            string userInput = "";
+            while (userInput.Equals(""))
+            {
+                Console.WriteLine("Press enter to increase amt by 1: ");
+                userInput = Console.ReadLine();
+                counter++;
+                Console.WriteLine($"Current count is {counter}");
+            }
         }
     }
 }
