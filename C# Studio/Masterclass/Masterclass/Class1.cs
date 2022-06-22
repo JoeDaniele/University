@@ -10,7 +10,7 @@ public class CourseChallenges
         static void Main(string[] args)
         {
 
-
+            Console.WriteLine();
 
 
 
