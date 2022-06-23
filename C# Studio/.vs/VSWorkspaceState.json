@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Design Analysis Class",
+    "\\Design Analysis Class\\Backtrack Algos",
+    "\\Design Analysis Class\\Divide and Conquer Algorithms",
+    "\\Design Analysis Class\\Dynamic Programming Algo\\Binomial Coefficient"
   ],
-  "SelectedNode": "\\TemplateTestProject",
+  "SelectedNode": "\\Design Analysis Class\\Backtrack Algos",
   "PreviewInSolutionExplorer": false
 }
