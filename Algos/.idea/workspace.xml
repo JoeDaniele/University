@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="770c4ba7-e633-47b7-99ad-86def64c167c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../C# Studio/.vs/C# Studio/FileContentIndex/0ea314cc-4b43-4f02-80b7-94d4cbc9a0d5.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C# Studio/.vs/C# Studio/FileContentIndex/b991663d-bcf0-45a7-bd92-77186d7016a9.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C# Studio/.vs/C# Studio/FileContentIndex/dc659270-3441-4416-a977-2a7431abb470.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C# Studio/.vs/C# Studio/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../C# Studio/.vs/C# Studio/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C# Studio/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/../C# Studio/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C# Studio/Design Analysis Class/Backtrack Algos/BacktrackAlgos/.vs/BacktrackAlgos/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../C# Studio/Design Analysis Class/Backtrack Algos/BacktrackAlgos/.vs/BacktrackAlgos/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C# Studio/Design Analysis Class/Backtrack Algos/BacktrackAlgos/.vs/BacktrackAlgos/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../C# Studio/Design Analysis Class/Backtrack Algos/BacktrackAlgos/.vs/BacktrackAlgos/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C# Studio/Masterclass/Masterclass/.vs/Masterclass/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../C# Studio/Masterclass/Masterclass/.vs/Masterclass/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C# Studio/Masterclass/Masterclass/.vs/Masterclass/FileContentIndex/6f225543-160d-4d70-9e87-4f2161f0d811.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C# Studio/Masterclass/Masterclass/.vs/Masterclass/FileContentIndex/f385b95f-4119-475c-86ab-7bf9b07977a9.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C# Studio/Masterclass/Masterclass/.vs/Masterclass/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../C# Studio/Masterclass/Masterclass/.vs/Masterclass/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C# Studio/Masterclass/Masterclass/.vs/ProjectEvaluation/masterclass.metadata.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../C# Studio/Masterclass/Masterclass/.vs/ProjectEvaluation/masterclass.metadata.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C# Studio/Masterclass/Masterclass/.vs/ProjectEvaluation/masterclass.projects.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../C# Studio/Masterclass/Masterclass/.vs/ProjectEvaluation/masterclass.projects.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C# Studio/Masterclass/Masterclass/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C# Studio/Masterclass/Masterclass/bin/Debug/netcoreapp3.1/Masterclass.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../C# Studio/Masterclass/Masterclass/bin/Debug/netcoreapp3.1/Masterclass.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C# Studio/Masterclass/Masterclass/bin/Debug/netcoreapp3.1/Masterclass.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../C# Studio/Masterclass/Masterclass/bin/Debug/netcoreapp3.1/Masterclass.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C# Studio/Masterclass/Masterclass/obj/Debug/netcoreapp3.1/Masterclass.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../C# Studio/Masterclass/Masterclass/obj/Debug/netcoreapp3.1/Masterclass.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C# Studio/Masterclass/Masterclass/obj/Debug/netcoreapp3.1/Masterclass.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../C# Studio/Masterclass/Masterclass/obj/Debug/netcoreapp3.1/Masterclass.pdb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2AzOLTyI4GigoA5aO02HXqpfBsG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="770c4ba7-e633-47b7-99ad-86def64c167c" name="Changes" comment="" />
+      <created>1656008891424</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656008891424</updated>
+    </task>
+    <servers />
+  </component>
+</project>
