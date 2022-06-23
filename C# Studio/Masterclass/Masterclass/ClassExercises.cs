@@ -120,28 +120,19 @@ namespace Masterclass
                 count++;
             }
         }
-    }
 
-    public static void MyAverage()
-    {
+        public static void MyAverage()
+        {
 
+        }
     }
 }
 
 
-/* avg score for students
- * enter scores
- * final average
- * loop for student scores
- * add it to the sum
- * 
- * 
- * get scores
- * get average
- * 
- * THEN
- * make sure numbers are between 0 and 20
- * 
+/*
+ * Create an arraylist <int>
+ * Have a user input values into list
+ * Compute the average of the values in the list
  * 
  * 
  */
