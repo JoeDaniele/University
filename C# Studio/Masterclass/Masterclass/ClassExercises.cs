@@ -9,9 +9,9 @@ namespace Masterclass
     internal class CourseExercises
     {
         static void Main(string[] args)
-
         {
-            MyAverage();
+            Console.WriteLine("Throw in some values to be averaged: ");
+            NewAverage();
 
         }
         public static void ForLoop()
@@ -121,26 +121,26 @@ namespace Masterclass
             }
         }
 
-        public static void MyAverage()
+        public static void NewAverage()
         {
-            List<int> averageValues = new List<int>();
-            var end = Console.ReadKey();
-            string input = Console.ReadLine();
 
-            Console.WriteLine("Throw in some values between 1-100 to be averaged once " +
-                "you press ENTER, if you press ESCAPE, the program will end.");
+            List<int> numbers = new List<int>();
+            int input, sum = 0;
 
-
-            while (end.Key != ConsoleKey.Escape)
+            while (int.TryParse(Console.ReadLine(), out input))
             {
-                int value;
-                Console.WriteLine("Enter a value: " + averageValues.Add(input) +
-                    int.TryParse(input, out value));
+                sum += input;
+                numbers.Add(input);
+
+
             }
+
+            Console.WriteLine("Average: " + (numbers.Average()));
 
         }
     }
 }
+
 
 
 /*
@@ -148,5 +148,9 @@ namespace Masterclass
  * Have a user input values into list
  * Compute the average of the values in the list
  * Don't allow Strings
+ * 
+ * 
+ * bad code alert 
+ *            
  * 
  */
