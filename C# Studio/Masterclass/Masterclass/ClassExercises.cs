@@ -9,6 +9,7 @@ namespace Masterclass
     internal class CourseExercises
     {
         static void Main(string[] args)
+
         {
             Average();
 
@@ -123,6 +124,11 @@ namespace Masterclass
 
         public static void MyAverage()
         {
+            List<int> averageValues = new List<int>();
+            Console.WriteLine("Throw in some values between 1-100 to be averaged once " +
+                "you press ESCAPE.");
+
+
 
         }
     }
@@ -133,6 +139,6 @@ namespace Masterclass
  * Create an arraylist <int>
  * Have a user input values into list
  * Compute the average of the values in the list
- * 
+ * Don't allow Strings
  * 
  */
