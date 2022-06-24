@@ -11,8 +11,7 @@ namespace Masterclass
         static void Main(string[] args)
 
         {
-            Average();
-
+            MyAverage();
 
         }
         public static void ForLoop()
@@ -125,10 +124,19 @@ namespace Masterclass
         public static void MyAverage()
         {
             List<int> averageValues = new List<int>();
+            var end = Console.ReadKey();
+            string input = Console.ReadLine();
+
             Console.WriteLine("Throw in some values between 1-100 to be averaged once " +
-                "you press ESCAPE.");
+                "you press ENTER, if you press ESCAPE, the program will end.");
 
 
+            while (end.Key != ConsoleKey.Escape)
+            {
+                int value;
+                Console.WriteLine("Enter a value: " + averageValues.Add(input) +
+                    int.TryParse(input, out value));
+            }
 
         }
     }
