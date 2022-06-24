@@ -131,8 +131,6 @@ namespace Masterclass
             {
                 sum += input;
                 numbers.Add(input);
-
-
             }
 
             Console.WriteLine("Average: " + (numbers.Average()));
@@ -140,6 +138,8 @@ namespace Masterclass
         }
     }
 }
+
+//looks like tryparse takes in a variable and outputs the 
 
 
 
@@ -150,7 +150,6 @@ namespace Masterclass
  * Don't allow Strings
  * 
  * 
- * bad code alert 
  *            
  * 
  */
