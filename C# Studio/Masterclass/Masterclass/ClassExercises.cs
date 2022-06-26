@@ -11,7 +11,7 @@ namespace Masterclass
         static void Main(string[] args)
         {
             Console.WriteLine("Throw in some values to be averaged: ");
-            NewAverage();
+            MyAverage();
 
         }
         public static void ForLoop()
@@ -121,7 +121,7 @@ namespace Masterclass
             }
         }
 
-        public static void NewAverage()
+        public static void MyAverage()
         {
 
             List<int> numbers = new List<int>();
@@ -129,18 +129,36 @@ namespace Masterclass
 
             while (int.TryParse(Console.ReadLine(), out input))
             {
-                sum += input;
+                sum = sum + input;
                 numbers.Add(input);
             }
 
             Console.WriteLine("Average: " + (numbers.Average()));
 
         }
+
+
+        public static void BadCode()
+        {
+            List<int> list = new List<int>();
+            var input = Console.ReadLine();
+
+            while (input != "Z")
+            {
+
+                list.Add(Convert.ToInt32(Console.ReadLine()));
+
+                if (input == "Z")
+                {
+                    Console.WriteLine($" The average of the values entered is: " +
+                   $" {list.Average(Convert.ToInt32)}");
+                    break;
+                }
+
+            }
+        }
     }
 }
-
-//looks like tryparse takes in a variable and outputs the 
-
 
 
 /*
@@ -150,6 +168,7 @@ namespace Masterclass
  * Don't allow Strings
  * 
  * 
+ * bad code alert 
  *            
  * 
  */
