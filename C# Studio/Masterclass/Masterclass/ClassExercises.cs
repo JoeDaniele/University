@@ -10,8 +10,12 @@ namespace Masterclass
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Throw in some values to be averaged: ");
-            MyAverage();
+            // Check(247);
+            NestedCheck(49);
+
+
+            // Console.WriteLine("Throw in some values to be averaged: ");
+            // MyAverage();
 
         }
         public static void ForLoop()
@@ -137,23 +141,30 @@ namespace Masterclass
 
         }
 
-
-        public static void BadCode()
+        public static void Check(int number)
         {
-            List<int> list = new List<int>();
-            var input = Console.ReadLine();
-
-            while (input != "Z")
+            if (number % 2 == 0)
             {
+                Console.WriteLine($"{number} is even");
+            }
+            else
+            {
+                Console.WriteLine($"{number} is odd");
+            }
 
-                list.Add(Convert.ToInt32(Console.ReadLine()));
 
-                if (input == "Z")
-                {
-                    Console.WriteLine($" The average of the values entered is: " +
-                   $" {list.Average(Convert.ToInt32)}");
-                    break;
-                }
+
+        }
+
+        public static void NestedCheck(int number)
+        {
+            if (number % 3 == 0)
+            {
+                Console.WriteLine($"{number} Divisible by 3");
+            }
+            if (number % 7 == 0)
+            {
+                Console.WriteLine($"{number} Divisible by 7");
 
             }
         }
@@ -162,13 +173,9 @@ namespace Masterclass
 
 
 /*
- * Create an arraylist <int>
- * Have a user input values into list
- * Compute the average of the values in the list
- * Don't allow Strings
- * 
- * 
- * bad code alert 
- *            
+ *
+ *
+ *
+ *
  * 
  */

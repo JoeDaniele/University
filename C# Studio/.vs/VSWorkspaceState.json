@@ -2,10 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Design Analysis Class",
-    "\\Design Analysis Class\\Backtrack Algos",
-    "\\Design Analysis Class\\Divide and Conquer Algorithms",
-    "\\Design Analysis Class\\Dynamic Programming Algo\\Binomial Coefficient"
+    "\\Design Analysis Class\\Backtrack Algos\\BacktrackAlgos",
+    "\\Masterclass",
+    "\\Masterclass\\Masterclass"
   ],
-  "SelectedNode": "\\Design Analysis Class\\Backtrack Algos",
+  "SelectedNode": "\\Masterclass\\Masterclass\\ClassExercises.cs",
   "PreviewInSolutionExplorer": false
 }
