@@ -11,7 +11,7 @@ namespace Masterclass
         static void Main(string[] args)
         {
             // Check(247);
-            NestedCheck(49);
+            NestedCheck(9);
 
 
             // Console.WriteLine("Throw in some values to be averaged: ");
@@ -151,9 +151,6 @@ namespace Masterclass
             {
                 Console.WriteLine($"{number} is odd");
             }
-
-
-
         }
 
         public static void NestedCheck(int number)
@@ -165,7 +162,6 @@ namespace Masterclass
             if (number % 7 == 0)
             {
                 Console.WriteLine($"{number} Divisible by 7");
-
             }
         }
     }
