@@ -4,11 +4,17 @@ using System.Text;
 
 namespace Masterclass
 {
+    //this class is a blueprint for a data type
     class Human
     {
         //member variable
-        string firstName;
+        public string firstName;
 
+
+        public void Introduction()
+        {
+            Console.WriteLine($"Hi, I am: {firstName}");
+        }
 
     }
 }

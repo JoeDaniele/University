@@ -11,7 +11,36 @@ namespace Masterclass
         static void Main(string[] args)
         {
             // Check(247);
-            NestedCheck(9);
+            //NestedCheck(9);
+
+
+
+            //created object of class
+            //instance of Human
+            Human Claudius = new Human();
+            Human Domino = new Human();
+            Claudius.firstName = "Claudius";
+
+            //calling method in human class
+            Claudius.Introduction();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
             // Console.WriteLine("Throw in some values to be averaged: ");
