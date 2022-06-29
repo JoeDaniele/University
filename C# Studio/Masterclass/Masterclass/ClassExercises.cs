@@ -124,7 +124,6 @@ namespace Masterclass
                 count++;
             }
         }
-
         public static void MyAverage()
         {
 
@@ -140,7 +139,6 @@ namespace Masterclass
             Console.WriteLine("Average: " + (numbers.Average()));
 
         }
-
         public static void Check(int number)
         {
             if (number % 2 == 0)
@@ -152,7 +150,6 @@ namespace Masterclass
                 Console.WriteLine($"{number} is odd");
             }
         }
-
         public static void NestedCheck(int number)
         {
             if (number % 3 == 0)
