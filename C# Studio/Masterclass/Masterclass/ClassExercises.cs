@@ -136,8 +136,8 @@ namespace Masterclass
                 {
                     multiples++;
                 }
-                Console.WriteLine(multiples);
             }
+            Console.WriteLine(multiples); //be sure to not print within the loop like a novice 
 
         }
     }
