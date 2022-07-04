@@ -24,7 +24,7 @@ namespace Masterclass
             //calling method in human class
             Claudius.Introduction();
 
-
+            Euler001();
 
 
 
@@ -47,74 +47,8 @@ namespace Masterclass
             // MyAverage();
 
         }
-        public static void ForLoop()
-        {
-            for (int i = -3; i <= 3; i++)
-            {
-                Console.WriteLine(i);
-            }
-        }
-        public static void WhileLoop()
-        {
-            int counter = -3;
-            while (counter <= 3)
-            {
-                Console.WriteLine(counter);
-                counter++;
-                if (counter == 4)
-                {
-                    break;
-                }
 
-            }
 
-            int countTwo = 0;
-            string userInput = "";
-            while (userInput.Equals(""))
-            {
-                Console.WriteLine("Press enter to increase amt by 1: ");
-                userInput = Console.ReadLine();
-                countTwo++;
-                Console.WriteLine($"Current count is {countTwo}");
-            }
-        }
-        public static void RunForWhile()
-        {
-            WhileLoop();
-            Console.WriteLine("\n");
-            ForLoop();
-
-        }
-        public static void RunBreakCont()
-        {
-
-            for (int i = -10; i <= 10; i++)
-
-                while (i % 3 == 0)
-                {
-                    Console.WriteLine("Skip");
-                    // TODO
-
-                    Console.WriteLine(i++);
-                }
-        }
-        public static void RunBreakContSolutionTwo()
-        {
-            int i = -10;
-
-            while (true)
-            {
-                if (i % 3 == 0)
-                {
-                    i++;
-                    continue;
-                }
-                if (i == 10)
-                    break;
-                Console.WriteLine(i++);
-
-            }
-        }
 
         public static void Average()
         {
@@ -179,7 +113,7 @@ namespace Masterclass
                 Console.WriteLine($"{number} is odd");
             }
         }
-        public static void NestedCheck(int number)
+        public static void FizzBuzz(int number)
         {
             if (number % 3 == 0)
             {
@@ -189,6 +123,22 @@ namespace Masterclass
             {
                 Console.WriteLine($"{number} Divisible by 7");
             }
+        }
+
+        public static void Euler001()
+        {
+            Console.WriteLine("Find the sum of all the multiples of 3 or 5 below 1000.");
+
+            int multiples = 0;
+            for (int i = 0; i < 1000; i++)
+            {
+                if (i % 3 == 0 || i % 5 == 0)
+                {
+                    multiples++;
+                }
+                Console.WriteLine(multiples);
+            }
+
         }
     }
 }
