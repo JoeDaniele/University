@@ -28,21 +28,6 @@ namespace Masterclass
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             // Console.WriteLine("Throw in some values to be averaged: ");
             // MyAverage();
 
