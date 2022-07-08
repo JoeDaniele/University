@@ -9,11 +9,12 @@ namespace Masterclass
     {
         //member variable
         public string firstName;
+        public string lastName;
 
 
         public void Introduction()
         {
-            Console.WriteLine($"Hi, I am: {firstName}");
+            Console.WriteLine($"Hi, I am: {firstName} {lastName}");
         }
 
     }

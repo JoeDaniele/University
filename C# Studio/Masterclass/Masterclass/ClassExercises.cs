@@ -20,11 +20,12 @@ namespace Masterclass
             Human Claudius = new Human();
             Human Domino = new Human();
             Claudius.firstName = "Claudius";
+            Claudius.lastName = "Lewis";
 
             //calling method in human class
             Claudius.Introduction();
 
-            Euler001();
+            //  Euler001();
 
 
 
@@ -32,9 +33,6 @@ namespace Masterclass
             // MyAverage();
 
         }
-
-
-
         public static void Average()
         {
             string input = "0";
@@ -109,7 +107,6 @@ namespace Masterclass
                 Console.WriteLine($"{number} Divisible by 7");
             }
         }
-
         public static void Euler001()
         {
             Console.WriteLine("Find the sum of all the multiples of 3 or 5 below 1000.");
