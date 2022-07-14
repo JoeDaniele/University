@@ -12,32 +12,86 @@
             font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
             margin-left: auto;
             margin-right: auto;
-            background-color: rgba(169, 169, 169, 0.233);
+            background-color: rgb(30, 30, 30);
         }
         
         #mainheader {
-            background-color: seagreen;
+            background-color: rgb(54, 167, 103);
+        }
+        
+        nav {
+            height: 60px;
+            width: 1000px;
+            margin: 0 auto 20px;
+        }
+        
+        #leftmenu {
+            float: left;
+            width: 30%;
+            margin-bottom: 20px;
+        }
+        
+        .searchbox {
+            padding: 5x;
+            margin: 10px 10px;
+            width: 200px;
+        }
+        
+        #main {
+            float: right;
+            width: 70%;
+            margin-bottom: 20px;
+        }
+        
+        #footer {
+            position: absolute;
+            bottom: 0;
+            height: 2.5rem;
         }
     </style>
 </head>
 
 <body>
-    <header id="mainheader"></header>
+    <header id="mainheader">
+        <nav>header goes here</nav>
+    </header>
+
+    <div style="width: 1000px; margin-left: auto; margin-right: auto">
+        <aside id="leftmenu">
+            <header>
+                <h4 style="text-align: center">Browse best shops</h4>
+            </header>
+            <input type="search" class="searchbox" placeholder="Search Yupoo Stores" />
+        </aside>
+
+        <main id="main">
+            <article>
+                <header>
+                    <h1 style="font-size: 40px; color: aliceblue">
+                        Curated China Clothes
+                    </h1>
+                </header>
+                <h2>After this course I'll start making the website I thought up</h2>
+
+                <p>
+                    Yupoo and CSSBuy have been my go to for clothes and shoes from China for the last several years. I created this while learning frontend development, and its intention is to show what vendors I use.
+                </p>
+            </article>
+            <section>
+                <h3>Peep Game</h3>
+                <img src="images/3125tiger.PNG" width="700" height="400" />
+            </section>
+            <footer id="footer">
+                <h6>All rights reserved</h6>
+            </footer>
+        </main>
+    </div>
 </body>
 
 </html>
 
-<!--<h1>Welcome to China Clothes and Shoes by Lennox Claudius Lewis</h1>
-<br />
-<h2>After this course I'll start making the website I thought up</h2>
-<h6>witto baby text size</h6>
-<br />
-<p>
-    here is a paragraph directly beneath the tiny text
-    <br /> unformatted textunformatted textunformatted textunformatted te xtunformatted textunformatted textunformatted textunformatted textunformatted textunformatted textunformatted textunformatted textunformatted textunformatted textunformatted
-    textunformatted textunformatted textunformatted textunformatted textunformatted textunformatted textunformatted textunformatted textunformatted textunform atted textunformatted textunformatted textunformatted text unformatted textunformatted text
-    unformatt ed textunformatted textunformatted text unformatted textunformatted textunformatted textunformatted text unform atted textunfor unformatted textunformatted textunformatted textunformatted textunformatted text unfor matte d textunformatted
-    text unformatted textunformatted textunformatte d unformatted
-</p>
-<h3>Peep Game</h3>
-<img src="images/doom.jpg" width="700" height="400" />-->
+<!--
+
+
+
+-->
