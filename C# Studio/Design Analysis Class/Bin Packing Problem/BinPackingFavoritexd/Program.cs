@@ -10,27 +10,27 @@ namespace BinPackingFavoritexd
             stopwatch.Start();
 
             int[] weight = { 2, 5, 4, 7, 1, 3, 8 };
-            int c = 10; //represents capacity
+            int capacity = 10; //represents capacity
             int n = weight.Length;
             Console.WriteLine("Number of bins required" +
-                    " in Next Fit : " + nextFit(weight, n, c));
+                    " in Next Fit : " + nextFit(weight, n, capacity));
             stopwatch.Stop();
             Console.WriteLine($"Time elapsed: {stopwatch.Elapsed} ");
         }
 
-        static int nextFit(int[] weight, int n, int c)
+        static int nextFit(int[] weight, int n, int capacity)
         {
-            int res = 0, bin_rem = c; //10
+            int res = 0, bin_remaining = capacity; //10
 
             for (int i = 0; i < n; i++)
             {
-                if (weight[i] > bin_rem)
+                if (weight[i] > bin_remaining)
                 {
                     res++;
-                    bin_rem = c - weight[i];
+                    bin_remaining = capacity - weight[i];
                 }
                 else
-                    bin_rem -= weight[i];
+                    bin_remaining -= weight[i];
             }
             return res;
         }
