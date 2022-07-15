@@ -1,0 +1,14 @@
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Bin Packing Problem\BinPackingFavoritexd\bin\Debug\netcoreapp3.1\BinPackingFavoritexd.exe
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Bin Packing Problem\BinPackingFavoritexd\bin\Debug\netcoreapp3.1\BinPackingFavoritexd.deps.json
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Bin Packing Problem\BinPackingFavoritexd\bin\Debug\netcoreapp3.1\BinPackingFavoritexd.runtimeconfig.json
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Bin Packing Problem\BinPackingFavoritexd\bin\Debug\netcoreapp3.1\BinPackingFavoritexd.runtimeconfig.dev.json
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Bin Packing Problem\BinPackingFavoritexd\bin\Debug\netcoreapp3.1\BinPackingFavoritexd.dll
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Bin Packing Problem\BinPackingFavoritexd\bin\Debug\netcoreapp3.1\BinPackingFavoritexd.pdb
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Bin Packing Problem\BinPackingFavoritexd\obj\Debug\netcoreapp3.1\BinPackingFavoritexd.csproj.AssemblyReference.cache
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Bin Packing Problem\BinPackingFavoritexd\obj\Debug\netcoreapp3.1\BinPackingFavoritexd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Bin Packing Problem\BinPackingFavoritexd\obj\Debug\netcoreapp3.1\BinPackingFavoritexd.AssemblyInfoInputs.cache
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Bin Packing Problem\BinPackingFavoritexd\obj\Debug\netcoreapp3.1\BinPackingFavoritexd.AssemblyInfo.cs
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Bin Packing Problem\BinPackingFavoritexd\obj\Debug\netcoreapp3.1\BinPackingFavoritexd.csproj.CoreCompileInputs.cache
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Bin Packing Problem\BinPackingFavoritexd\obj\Debug\netcoreapp3.1\BinPackingFavoritexd.dll
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Bin Packing Problem\BinPackingFavoritexd\obj\Debug\netcoreapp3.1\BinPackingFavoritexd.pdb
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Bin Packing Problem\BinPackingFavoritexd\obj\Debug\netcoreapp3.1\BinPackingFavoritexd.genruntimeconfig.cache
