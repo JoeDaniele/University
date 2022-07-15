@@ -18,23 +18,15 @@ namespace BinPackingFavoritexd
             Console.WriteLine($"Time elapsed: {stopwatch.Elapsed} ");
         }
 
-
-        // Returns number of bins required
-        // using next fit online algorithm
         static int nextFit(int[] weight, int n, int c)
         {
+            int res = 0, bin_rem = c; //10
 
-            // Initialize result (Count of bins) and remaining
-            // capacity in current bin.
-            int res = 0, bin_rem = c;
-
-            // Place items one by one
             for (int i = 0; i < n; i++)
             {
-                // If this item can't fit in current bin
                 if (weight[i] > bin_rem)
                 {
-                    res++; // Use a new bin
+                    res++;
                     bin_rem = c - weight[i];
                 }
                 else
