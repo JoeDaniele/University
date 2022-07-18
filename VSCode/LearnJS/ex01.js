@@ -1,0 +1,6 @@
+console.log("You are writing text to your screen.")
+console.log("This is called stanadard output.")
+console.log("These are strings duh")
+console.log("Start a string with a double-quote")
+console.log("Write what you want")
+console.log("End with quote fool")
