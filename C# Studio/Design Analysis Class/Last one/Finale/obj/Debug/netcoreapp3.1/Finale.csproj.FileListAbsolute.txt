@@ -1,0 +1,5 @@
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Last one\Finale\obj\Debug\netcoreapp3.1\Finale.csproj.AssemblyReference.cache
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Last one\Finale\obj\Debug\netcoreapp3.1\Finale.GeneratedMSBuildEditorConfig.editorconfig
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Last one\Finale\obj\Debug\netcoreapp3.1\Finale.AssemblyInfoInputs.cache
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Last one\Finale\obj\Debug\netcoreapp3.1\Finale.AssemblyInfo.cs
+C:\Misc\GithubMain\C# Studio\Design Analysis Class\Last one\Finale\obj\Debug\netcoreapp3.1\Finale.csproj.CoreCompileInputs.cache
