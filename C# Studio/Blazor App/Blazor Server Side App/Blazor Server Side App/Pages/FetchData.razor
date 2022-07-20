@@ -10,11 +10,13 @@
 
 @if (forecasts == null) // if forecasts is not yet instantiated 
 {
-    <p><em>Loading...</em></p>
+    <p><em>Loading...</em></p> //if null show a loading indicator
+    //could create a gif for loading -- where would it go?
+
 }
 else
 {
-    <table class="table">
+    <table class="table"> //creates a table
         <thead>
             <tr>
                 <th>Date</th>

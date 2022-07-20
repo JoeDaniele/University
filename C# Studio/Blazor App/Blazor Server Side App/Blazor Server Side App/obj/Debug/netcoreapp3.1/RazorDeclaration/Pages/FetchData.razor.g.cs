@@ -91,7 +91,7 @@ using Blazor_Server_Side_App.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 39 "C:\Misc\GithubMain\C# Studio\Blazor App\Blazor Server Side App\Blazor Server Side App\Pages\FetchData.razor"
+#line 42 "C:\Misc\GithubMain\C# Studio\Blazor App\Blazor Server Side App\Blazor Server Side App\Pages\FetchData.razor"
        
     private WeatherForecast[] forecasts;
 

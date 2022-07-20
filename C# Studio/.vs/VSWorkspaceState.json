@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Blazor App",
+    "\\Blazor App\\Blazor Server Side App",
+    "\\Blazor App\\Blazor Server Side App\\Blazor Server Side App",
+    "\\Blazor App\\Blazor Server Side App\\Blazor Server Side App\\Pages",
     "\\Design Analysis Class"
   ],
-  "SelectedNode": "\\Design Analysis Class\\Last one",
+  "SelectedNode": "\\Blazor App\\Blazor Server Side App\\Blazor Server Side App\\Pages\\FetchData.razor",
   "PreviewInSolutionExplorer": false
 }
